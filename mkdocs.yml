@@ -51,6 +51,10 @@ nav:
     - intro_info/index.md
     - Numération binaire: intro_info/numeration_binaire.md
     - Codage ASCII: intro_info/ascii.md
+  - Les réseaux sociaux:
+    - reseaux_sociaux/index.md
+    - Introduction aux réseaux sociaux: reseaux_sociaux/introduction.md
+    - Cours: reseaux_sociaux/cours.md
 
 markdown_extensions:
   - pymdownx.arithmatex:
