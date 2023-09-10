@@ -55,6 +55,10 @@ nav:
     - reseaux_sociaux/index.md
     - Introduction aux réseaux sociaux: reseaux_sociaux/introduction.md
     - Cours: reseaux_sociaux/cours.md
+  - Autre:
+    - autre/index.md
+    - « Dessine ton smartphone »: autre/activite_smartphone/index.md
+  - Rendu des travaux: rendus.md
 
 markdown_extensions:
   - pymdownx.arithmatex:
@@ -63,6 +67,9 @@ markdown_extensions:
       anchor_linenums: true
       line_spans: __span
       pygments_lang_class: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
   - toc:
       title: Sur cette page
       permalink: true
