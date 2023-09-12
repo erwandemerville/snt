@@ -3,6 +3,10 @@
 !!! quote "Source"
     *Adapté d'une activité proposée sur le site de l'[académie de Nantes](https://www.pedagogie.ac-nantes.fr/documentation/enseignement/traam/un-exemple-de-progression-en-sciences-numeriques-et-technologie-1295559.kjsp){ target="_blank" } par Mme. Claire Chignard, professeure documentaliste au Lycée Honoré d'Estienne d'Orves, Carquefou.*
 
+!!! success "À télécharger"
+    - [Document élève](SNT%20Doc%20élève%20S01.pdf) - Modèle à utiliser pour l'activité.  
+    Vous pouvez également travailler sur une **feuille A4** classique si vous le souhaitez.
+
 **Individuellement sur une feuille A4** :
 
 Illustre à l'aide de **textes**, de **schémas**, de **dessins**, d'**icônes**... etc. ce qu'évoque pour toi le **smartphone et son usage** (aussi bien le positif que le négatif) dans la société numérique du XXI<sup>e</sup> siècle.
