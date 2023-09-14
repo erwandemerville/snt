@@ -112,4 +112,4 @@ Voici une petite vidéo récapitulative sur l'histoire des réseaux sociaux :
 ## Caractéristiques des réseaux sociaux
 
 !!! success "Activité faite en classe (*source : Delagrave SNT 2de*)"
-    - [Activité 2 - Catactéristiques](pdf/activite1_historique.pdf){ target="_blank" } - Activité sur les caractéristiques des réseaux sociaux.
+    - [Activité 2 - Catactéristiques](pdf/activite2_caracteristiques.pdf){ target="_blank" } - Activité sur les caractéristiques des réseaux sociaux.
