@@ -106,10 +106,6 @@ Voici une petite vidéo récapitulative sur l'histoire des réseaux sociaux :
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/aA_NZdasOg4?si=FXC4fCQhN0fpcOJY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-!!! success "Activité faite en classe (*source : Delagrave SNT 2de*)"
-    - [Activité 1 - Repères historiques](pdf/activite1_historique.pdf){ target="_blank" } - Activité sur l'histoire et les différents types de réseaux sociaux.
-
 ## Caractéristiques des réseaux sociaux
 
-!!! success "Activité faite en classe (*source : Delagrave SNT 2de*)"
-    - [Activité 2 - Catactéristiques](pdf/activite2_caracteristiques.pdf){ target="_blank" } - Activité sur les caractéristiques des réseaux sociaux.
+(En construction...)
