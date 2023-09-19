@@ -54,6 +54,8 @@ nav:
   - Les réseaux sociaux:
     - reseaux_sociaux/index.md
     - Introduction aux réseaux sociaux: reseaux_sociaux/introduction.md
+    - Activité - Stratégie des réseaux: reseaux_sociaux/dopamine.md
+    - Activité - Modéliser un réseau: reseaux_sociaux/modelisation.md
     - Cours: reseaux_sociaux/cours.md
   - Autre:
     - autre/index.md
