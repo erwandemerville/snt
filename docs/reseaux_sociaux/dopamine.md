@@ -28,3 +28,7 @@ Voici quelques vidéos de l'émission *Dopamine* proposée par la chaîne de té
 ## Youtube
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/v6ucHJb948s?si=dX_dz65D3Lp1aU4V" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+## Linkedin
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/tN1e1jClm8w?si=7uRKKzrAf0zu_gqy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
