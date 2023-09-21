@@ -1,6 +1,7 @@
 ??? quote "Sources"
     - [Pixees](https://pixees.fr/informatiquelycee/n_site/snt_rs_graphe.html){ target="_blank" }
     - [Académie de Nantes](https://www.pedagogie.ac-nantes.fr/enseignements-informatiques/enseignement/snt/modeliser-un-reseau-social-simple-1286909.kjsp?RH=1552662845945){ target="_blank" }
+    - [moussatat.github.io](https://moussatat.github.io/snt/reseauxsociauxB){ target="_blank" }
 
 # Activité - Modéliser un réseau social
 
@@ -65,3 +66,59 @@ Les cercles sont appelés des **sommets** et les segments de droites des **arêt
     En déduire son **rayon** et son **diamètre**.
 
     ![Modélisation d'un graphe](images/exercice3_graphe.png)
+
+---
+
+Un **tableau d'adjacence** est un **tableau à double entrée** où chaque case contient **1** si les sommets sont **liés par une arête**, et **0** sinon.
+
+<u>**Exemple**</u> :
+
+<figure markdown>
+  ![Un exemple de graphe](images/exemple_graphe_tableaux_adjacence.png){ width="60%" }
+</figure>
+
+| Adjacence | A    | B    | C    | D    | E    |
+| --------- | ---- | ---- | ---- | ---- | ---- |
+| A         | 0    | 0    | 1    | 1    | 1    |
+| B         | 0    | 0    | 1    | 1    | 0    |
+| C         | 1    | 1    | 0    | 1    | 1    |
+| D         | 1    | 1    | 1    | 0    | 1    |
+| E         | 1    | 0    | 1    | 1    | 0    |
+
+!!! note "Exercice 4"
+    Voici un graphe :
+
+    ![Un graphe](images/graphe_tableau_adjacence.png){ width="30%" }
+
+    a. Combien y a t-il d'**arêtes** et de **sommets** dans ce **graphe** ?  
+    b. Complétez le tableau d'adjacence de ce graphe :
+
+    | <u>Adjacence</u> | Anna | Charles | Elliot | Louise | Mathilde |
+    | ---------------- | ---- | ------- | ------ | ------ | -------- |
+    | **Anna**         |      |         |        |        |          |
+    | **Charles**      |      |         |        |        |          |
+    | **Elliot**       |      |         |        |        |          |
+    | **Louise**       |      |         |        |        |          |
+    | **Mathilde**     |      |         |        |        |          |
+
+    c. Déterminer le **diamètre** et **le(s) centre(s)** du **graphe**.
+
+---
+
+Visionnez les **12 premières minutes** de la vidéo suivante :
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/UX7YQ6m2r_o?si=guf7l6LRxA4yEOqH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+!!! note "Exercice 5 - *Questions sur la vidéo*"
+    1. Décrire le **premier modèle théorique** introduit par **Paul Erdös** pour simuler un réseau social.  
+    Quelle est la **première propriété** mise en évidence par ce modèle ?
+    2. En vous aidant de la page wikipedia, décrire l'[expérience de Stanley Milgram](https://fr.wikipedia.org/wiki/%C3%89tude_du_petit_monde){ target="_blank" } du « petit monde ».
+    3. Quelle(s) **critique(s) majeure(s)** peux-on émettre sur l'étude menée ?
+    4. Quel est le **réseau social étudié** par **Duncan Watts** ? Quelle est la **longueur moyenne** du **chemin** entre deux acteurs ?
+    5. Quel **effet** a **l’utilisation des plateformes de réseaux sociaux** sur les **degrés de séparation** ?
+    6. Quelle **seconde propriété des réseaux sociaux** a été identifiée par **Duncan Watts** ?
+    7. **Albert Lazlo Barabasi** constate que les réseaux sociaux font aussi apparaitre des **Hubs** faisant le **lien entre différentes sous-communautés** :
+
+        1. Donner **d'autres exemples de réseaux** qui exhibent cette propriété.
+        2. Quelle est la **justification** proposée par **Barabasi** d'une telle organisation ?
+    8. Donner les **caractéristiques** identifiés par l'auteur pour le réseaux social formé des **amateurs de sciences** sur **Twitter** (la valeur du **degré de séparation**, quelques **sous-communautés** et des **hubs**).
