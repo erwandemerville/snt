@@ -5,6 +5,8 @@
 
 # Activité - Modéliser un réseau social
 
+## Exercices
+
 !!! info "Activité notée"
     Cette activité sera **notée** sur **10 points**. Une autre activité sera réalisée plus tard pour obtenir une note sur **20 points**. Répondez aux questions ci-dessous **sur une feuille** que vous me rendrez. N'oubliez pas de mettre votre nom, votre prénom et votre classe !
 
@@ -122,3 +124,34 @@ Visionnez les **12 premières minutes** de la vidéo suivante :
         1. Donner **d'autres exemples de réseaux** qui exhibent cette propriété.
         2. Quelle est la **justification** proposée par **Barabasi** d'une telle organisation ?
     8. Donner les **caractéristiques** identifiés par l'auteur pour le réseaux social formé des **amateurs de sciences** sur **Twitter** (la valeur du **degré de séparation**, quelques **sous-communautés** et des **hubs**).
+
+---
+
+## Aller plus loin avec Python
+
+(Cette partie ne compte pas dans les exercices notés.)
+
+!!! success "À télécharger"
+    Télécharger le fichier suivant : [graphe.py](src/graphes.py){ target="_blank" }
+
+!!! note "À faire 1"
+    1. Ouvrir l'application **Thonny**
+    2. Cliquer sur l'onglet `Fichier` puis `Ouvrir`.
+    3. Choisissez votre fichier `graphe.py` préalablement téléchargé.
+    4. Exécutez le script avec le bouton d'exécution (le bouton vert avec une flèche), ou en appuyant sur le bouton `F5` du clavier. **Observez ce qu'il se passe**.
+
+    **En cas d'erreur** : Assurez-vous que les modules `networkx` et `matplotlib` soient bien installés. Pour cela, cliquez sur `Ouvrir`, puis `Gérer les paquets`, puis recherchez et installez les paquets s'ils ne le sont pas.
+
+!!! note "À faire 2"
+    Tentez de **modifier** le code pour **afficher** le graphe suivant :
+
+    ![Un graphe](images/graphe_tableau_adjacence.png){ width="30%" }
+
+    Vérifiez si **le(s) centre(s)** du **graphe** et son **diamètre affichés** par le programme (dans la **console** en bas à gauche) correspondent bien à ceux obtenus à l'*exercice 4*.
+
+!!! note "À faire 3"
+    **Modifiez** le programme de manière à obtenir le graphe suivant :
+
+    ![Un graphe](images/autre_graphe.png){ width="50%" }
+
+    Quels sont **le(s) centre(s)** du **graphe** et son **diamètre affichés** par le programme ?
