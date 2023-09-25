@@ -3,7 +3,9 @@
 Voici quelques vidéos de l'émission *Dopamine* proposée par la chaîne de télévision **Arte**.
 
 !!! note "Travail à faire"
-    Choisissez un réseau social, et identifiez les **fonctionnalités** de ce réseau et la **stratégie utilisée** pour pousser les utilisateurs à ne pas en décrocher.
+    Choisissez un réseau social, et identifiez les **fonctionnalités** de ce réseau et la **stratégie utilisée** pour pousser les utilisateurs à ne pas en décrocher. **Rédigez cela sur une feuille**.
+
+    Ce travail sera noté **sur 10 points**. Un autre travail sera réalisé plus tard pour obtenir une note sur **20 points**.
 
 ## Facebook
 
