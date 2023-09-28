@@ -1,6 +1,7 @@
 ??? quote "Sources"
     - [Pixees](https://pixees.fr/informatiquelycee/n_site/snt_rs_graphe.html){ target="_blank" }
-    - [Académie de Nantes](https://www.pedagogie.ac-nantes.fr/enseignements-informatiques/enseignement/snt/modeliser-un-reseau-social-simple-1286909.kjsp?RH=1552662845945){ target="_blank" }
+    - [Académie de Nantes - Modéliser un réseau social](https://www.pedagogie.ac-nantes.fr/enseignements-informatiques/enseignement/snt/modeliser-un-reseau-social-simple-1286909.kjsp?RH=1552662845945){ target="_blank" }
+    - [Académie de Nantes - Aspects économiques](https://www.pedagogie.ac-nantes.fr/enseignements-informatiques/enseignement/snt/reseaux-sociaux-aspects-economiques-et-controverses-1294359.kjsp){ target="_blank" }
     - [moussatat.github.io](https://moussatat.github.io/snt/reseauxsociauxB){ target="_blank" }
 
 # Activité - Modéliser un réseau social
@@ -61,7 +62,7 @@ Les cercles sont appelés des **sommets** et les segments de droites des **arêt
     - Edouard est ami avec Albert, Daniel et Flavien
     - Flavien est ami avec Charlotte, Daniel et Edouard
 
-    (Vous pouvez utiliser des **lettres** de **A** à **D** si vous préférez.)
+    (Vous pouvez utiliser des **lettres** de **A** à **F** si vous préférez.)
 
 !!! note "Exercice 3"
     Déterminer **le** (ou **les**) **centre(s)** du **graphe ci-dessous**.  
@@ -95,13 +96,15 @@ Un **tableau d'adjacence** est un **tableau à double entrée** où chaque case 
     a. Combien y a t-il d'**arêtes** et de **sommets** dans ce **graphe** ?  
     b. Complétez le tableau d'adjacence de ce graphe :
 
-    | <u>Adjacence</u> | Anna | Charles | Elliot | Louise | Mathilde |
-    | ---------------- | ---- | ------- | ------ | ------ | -------- |
-    | **Anna**         |      |         |        |        |          |
-    | **Charles**      |      |         |        |        |          |
-    | **Elliot**       |      |         |        |        |          |
-    | **Louise**       |      |         |        |        |          |
-    | **Mathilde**     |      |         |        |        |          |
+    | <u>Adjacence</u> | Anna | Charles | Elliot | Louise | Mathilde | Marc | Tatiana |
+    | ---------------- | ---- | ------- | ------ | ------ | -------- | ---- | ------- |
+    | **Anna**         |      |         |        |        |          |      |         |
+    | **Charles**      |      |         |        |        |          |      |         |
+    | **Elliot**       |      |         |        |        |          |      |         |
+    | **Louise**       |      |         |        |        |          |      |         |
+    | **Mathilde**     |      |         |        |        |          |      |         |
+    | **Marc**         |      |         |        |        |          |      |         |
+    | **Tatiana**      |      |         |        |        |          |      |         |
 
     c. Déterminer le **diamètre** et **le(s) centre(s)** du **graphe**.
 
@@ -119,11 +122,12 @@ Visionnez les **12 premières minutes** de la vidéo suivante :
     4. Quel est le **réseau social étudié** par **Duncan Watts** ? Quelle est la **longueur moyenne** du **chemin** entre deux acteurs ?
     5. Quel **effet** a **l’utilisation des plateformes de réseaux sociaux** sur les **degrés de séparation** ?
     6. Quelle **seconde propriété des réseaux sociaux** a été identifiée par **Duncan Watts** ?
-    7. **Albert Lazlo Barabasi** constate que les réseaux sociaux font aussi apparaitre des **Hubs** faisant le **lien entre différentes sous-communautés** :
+    7. **Albert Lazlo Barabasi** constate que les réseaux sociaux font aussi apparaitre des **Hubs** (également appelés *clusters*) faisant le **lien entre différentes sous-communautés** :
 
         1. Donner **d'autres exemples de réseaux** qui exhibent cette propriété.
         2. Quelle est la **justification** proposée par **Barabasi** d'une telle organisation ?
-    8. Donner les **caractéristiques** identifiés par l'auteur pour le réseaux social formé des **amateurs de sciences** sur **Twitter** (la valeur du **degré de séparation**, quelques **sous-communautés** et des **hubs**).
+    8. Donner les **caractéristiques** identifiés par l'auteur pour le réseau social formé des **amateurs de sciences** sur **Twitter** (la valeur du **degré de séparation**, quelques **sous-communautés** et des **hubs**).
+    9. D'après vous, quels peuvent être les **conséquences** de ces **regroupements** sur les réseaux sociaux ?
 
 ---
 
