@@ -5,22 +5,18 @@ from matplotlib import pyplot
 
 G=nx.Graph()  # créer un nouveau graphe
 
+# Ajout des sommets
 G.add_node("Alice")  # Ajouter un noeud "Alice"
-
-G.add_nodes_from(["Bob", "Caleb"])  # Ajouter deux noeuds "Bob" et "Caleb"
-
-G.remove_node("Alice")  # Supprimer le noeud "Alice"
-
-G.remove_nodes_from(["Bob", "Caleb"])  # Supprimer les noeuds "Bob" et "Caleb"
+G.add_node("Bob")  # Ajouter un noeud "Bob"
+G.add_node("Caleb")  # Ajouter un noeud "Caleb"
 
 # Ajout des arêtes
-G.add_edge("Bob","Dorian")
-G.add_edge("Dorian","Alice")
-G.add_edge("Dorian","Caleb")
+G.add_edge("Bob","Dorian")  # Ajout d'une arête entre "Bob" et "Dorian"
+G.add_edge("Dorian","Alice")  # Ajout d'une arête entre "Dorian" et "Alice"
+G.add_edge("Dorian","Caleb")  # Ajout d'une arête entre "Dorian" et "Caleb"
+G.add_edge("Alice","Bob")  # Ajout d'une arête entre "Alice" et "Bob"
+G.add_edge("Alice","Caleb")  # Ajout d'une arête entre "Alice" et "Caleb"
 # ----------------
-
-# Ajout de deux arêtes :
-G.add_edges_from(([("Alice", "Bob"), ("Alice", "Caleb")]))
 
 # Afficher des informations sur ce graphe :
 print(f"Nombre de sommets : {G.number_of_nodes()}")

@@ -142,9 +142,11 @@ Visionnez les **12 premières minutes** de la vidéo suivante :
     1. Ouvrir l'application **Thonny**
     2. Cliquer sur l'onglet `Fichier` puis `Ouvrir`.
     3. Choisissez votre fichier `graphe.py` préalablement téléchargé.
-    4. Exécutez le script avec le bouton d'exécution (le bouton vert avec une flèche), ou en appuyant sur le bouton `F5` du clavier. **Observez ce qu'il se passe**.
+    4. Vous devez installer le **module Python** nommé ***networkx*** et le module nommé ***matplotlib***. Pour cela, cliquez sur l'onglet `Outils`, puis `Gérer les paquets`, puis **recherchez** et **installez** les deux modules.
+    ![Thonny - Installation de networkx](images/thonny_networkx.png){ width="500" }
+    5. Exécutez le script avec le bouton d'exécution (le bouton vert avec une flèche), ou en appuyant sur le bouton `F5` du clavier. **Observez ce qu'il se passe**.
 
-    **En cas d'erreur** : Assurez-vous que les modules `networkx` et `matplotlib` soient bien installés. Pour cela, cliquez sur `Ouvrir`, puis `Gérer les paquets`, puis **recherchez** et **installez** les paquets s'ils ne le sont pas.
+    N'hésitez pas à jeter un oeil à [cette présentation de Thonny](https://nsi.erwandemerville.fr/premiere/bases_python/thonny/){ target="_blank" } pour en savoir plus sur son fonctionnement.
 
 !!! note "À faire 2"
     Tentez de **modifier** le code pour **afficher** le graphe suivant :
