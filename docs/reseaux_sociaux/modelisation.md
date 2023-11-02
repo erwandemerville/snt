@@ -162,7 +162,7 @@ Un **tableau d'adjacence** est un **tableau à double entrée** où chaque case 
     | **Anna**         |   0  |    1    |    0   |   0    |     0    |  0   |    0    |
     | **Charles**      |   1  |    0    |    0   |   0    |     1    |  0   |    0    |
     | **Elliot**       |   0  |    0    |    0   |   1    |     1    |  1   |    1    |
-    | **Louise**       |   1  |    0    |    0   |   0    |     0    |  0   |    0    |
+    | **Louise**       |   0  |    0    |    1   |   0    |     0    |  0   |    0    |
     | **Mathilde**     |   0  |    1    |    1   |   0    |     0    |  0   |    1    |
     | **Marc**         |   0  |    0    |    1   |   0    |     0    |  0   |    1    |
     | **Tatiana**      |   0  |    0    |    1   |   0    |     1    |  1   |    0    |
