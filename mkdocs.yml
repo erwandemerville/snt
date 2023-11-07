@@ -59,6 +59,10 @@ nav:
     - Activité - Modèle économique des réseaux: reseaux_sociaux/modele_economique.md
     - Activité - Vie privée et cyberharcèlement: reseaux_sociaux/cyberharcelement.md
     - Cours: reseaux_sociaux/cours.md
+  - Le web:
+    - web/index.md
+    - Le web et son histoire: web/histoire.md
+    - Activité - « Ruiner une page web »: web/decouverte_web.md
   - Autre:
     - autre/index.md
     - « Dessine ton smartphone »: autre/activite_smartphone/index.md

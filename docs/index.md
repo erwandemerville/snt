@@ -14,3 +14,4 @@ En cas de questionnements concernant un cours, un exercice, ou quoi que ce soit,
 | [Introduction à l'informatique](intro_info/index.md) | Numération binaire, codage ASCII... |
 | [Activité « Dessine ton smartphone »](autre/activite_smartphone/index.md) | Activité sur vos représentations liées à l'usage du smartphone. |
 | [Les réseaux sociaux](reseaux_sociaux/index.md) | Cours et activités sur les réseaux sociaux. |
+| [Le web](web/index.md) | Le web et son histoire. |
