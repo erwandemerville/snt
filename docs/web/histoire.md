@@ -63,9 +63,3 @@ Visionnez la vidéo suivante :
 
 !!! note "À faire"
     Complétez la **frise chronologique** sur l'**histoire sur web** en indiquant les **dates et évènements clés**.
-
-## Aller plus loin : le langage HTML
-
-Pour les plus rapides, vous pouvez [cliquez ici](https://www.pedagogie.ac-aix-marseille.fr/upload/docs/application/pdf/2022-06/ks_web_connect_el.pdf){ target="_blank" } pour accéder à un document portant sur le **langage de description** nommé ***HTML***, qui constitue **toutes les pages web** que vous utilisez.
-
-Lisez le document, expérimentez et répondez aux questions dans un document (*Word*, *Writer*, comme vous voulez).

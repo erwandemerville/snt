@@ -62,7 +62,7 @@ nav:
   - Le web:
     - web/index.md
     - Le web et son histoire: web/histoire.md
-    - Activité - « Ruiner une page web »: web/decouverte_web.md
+    - Les langages HTML et CSS: web/decouverte_web.md
   - Autre:
     - autre/index.md
     - « Dessine ton smartphone »: autre/activite_smartphone/index.md
