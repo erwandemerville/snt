@@ -13,25 +13,29 @@ Nous allons nous intéresser à un acteur fondamental du **développement web**,
     Lorsque vous **accédez à une page web**, votre **navigateur** (*Firefox*, *Google Chrome*, *Safari*, etc) envoie une **requête à un serveur**, puis ce serveur **répond en renvoyant du code HTML et CSS**, qui est ensuite **interprété par le navigateur**, ce qui permet d'**afficher votre page web**.
     **HTML** n'est **pas un langage de programmation** (contrairement à *Python* par exemple): il n'est pas question de *conditions*, de *boucles*, etc. Il s'agit d'un **langage de description**.
 
-## Activité - Découverte du HTML et du CSS
+## Activité 1 - « Détourner une page web »
 
-Pour apprendre les **bases** du **langage de description HTML** et du **langage de mise en forme CSS**, vous pouvez **télécharger**, **lire** et **compléter** le *document* ci-dessous :
-
-<center>
-[:material-cursor-default-click: Télécharger le document élève](documents/doc_web_eleve.odt){ target="_blank" }
-</center>
-
-## Activité - « Ruiner une page web »
+Voici une première petite activité permettant d'avoir un premier aperçu de la structure d'une page web.
 
 Naviguez vers la **page web** de **votre choix**.  
 En faisant un *clic droit :material-arrow-right: Inspecter* sur un **élément** en particulier de la page, ou en appuyant sur *Ctrl + Maj + c*, ouvrez l'**inspecteur** de **code source**.
 
 !!! note "À faire"
-    Avec l'**inspecteur de code source** de **Firefox**, **modifiez la page web** de manière à :
+    Avec l'**inspecteur de code source** de **Firefox**, essayez de **modifier la page web** de manière à :
 
     - **changer** du **texte**,
-    - **ajouter/modifier** au moins **une image**,
-    - **ajouter/modifier un** ou **plusieurs** **liens**,
+    - **ajouter/modifier** au moins **une image** (pour remplacer une image, il faut remplacer le lien de l'image par le lien d'une nouvelle image),
+    - **ajouter/modifier un** ou **plusieurs** **liens hyptertextes**,
     - créer un **décalage avec le propos initial** de la page, en y apportant éventuellement un aspect humoristique.
 
-    Lorsque vous avez terminé, vous pouvez **enregistrer la page web** en cliquant sur les **trois barres** en *haut* à *droite* de la fenêtre puis sur **"Enregistrer sous"**.
+    Lorsque vous avez terminé, vous pouvez **enregistrer la page web** dans votre `H:\Travail` en cliquant sur les **trois barres** en *haut* à *droite* de la fenêtre puis sur **"Enregistrer sous"**.
+
+    Vous pourrez alors revoir votre page web quand vous voulez !
+
+## Activité 2 - Découverte du HTML et du CSS
+
+Pour apprendre plus en détails les **bases** du **langage de description HTML** et du **langage de mise en forme CSS**, vous pouvez **télécharger**, **lire** et **compléter** le *document* ci-dessous :
+
+<center>
+[:material-cursor-default-click: Télécharger le document élève](documents/doc_web_eleve.odt){ target="_blank" }
+</center>
