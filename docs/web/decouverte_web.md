@@ -39,3 +39,24 @@ Pour apprendre plus en détails les **bases** du **langage de description HTML**
 <center>
 [:material-cursor-default-click: Télécharger le document élève](documents/doc_web_eleve.odt){ target="_blank" }
 </center>
+
+## Activité 3 - Créer un petit site web
+
+!!! note "À réaliser"
+    Maintenant que vous avez des bases en **développement web**, tentez de réaliser un **petit site web** sur le **thème de votre choix** (un artiste, une oeuvre, un thème réel ou fictif...)  
+    Vous utilisez le logiciel ***Notepad++*** (qui a l'avantage d'afficher des couleurs, contrairement au bloc-notes classique).
+
+    Voici un **exemple de site web** pour vous donner quelques idées (*dézippez-le* et ouvrez `index.html` dans votre navigateur préféré) :
+
+    <center>
+    [:material-cursor-default-click: Télécharger `exemple_site.zip`](documents/exemple_site.zip){ target="_blank" }
+    </center>
+
+    Voici les contraintes, votre site doit contenir :
+
+    - au moins **deux pages HTML différentes**,
+    - une **feuille de style** (fichier `.css`),
+    - plusieurs **images**,
+    - au moins **un lien** (ça peut être un lien vers une autre page).
+
+    N'hésitez pas à consulter toutes les ressources sur le **HTML** et le **CSS** que vous souhaitez sur [Google](https://google.fr/){ target="_blank" }, et amusez-vous !
