@@ -63,6 +63,7 @@ nav:
     - web/index.md
     - Le web et son histoire: web/histoire.md
     - Les langages HTML et CSS: web/decouverte_web.md
+    - Les moteurs de recherche: web/moteurs_recherche.md
   - Autre:
     - autre/index.md
     - « Dessine ton smartphone »: autre/activite_smartphone/index.md
