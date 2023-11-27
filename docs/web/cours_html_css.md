@@ -134,6 +134,34 @@ Une nouvelle ligne dans le paragraphe.</p>
 <p>Ceci est un second paragraphe.</p>
 ```
 
+### Mettre du texte en gras
+
+Si l'on souhaite mettre du **texte en gras**, il existe dans l'absolu l'élément `<strong>` permettant d'indiquer du contenu comme étant **important**. Cela aura pour effet d'**afficher ce contenu en gras**.
+
+!!! warning "`<strong>` vs `<b>`"
+    Il existe également l'élément `<b>` permettant de **mettre en gras** du contenu. Il est important de noter que `<strong>` a une signification **logique**, et permet d'indiquer du contenu comme étant **important**, on peut s'en servir pour **indiquer des mots-clé** par exemple.
+
+    L'élément `<b>` quant-à-lui a pour unique but de **mettre en gras** du contenu.
+
+!!! danger ""
+    Toutefois, il est important de noter qu'il est préférable de bien séparer le **contenu**, géré avec le langage *HTML*, de la **mise en forme**, géré avec le langage *CSS*.
+
+    Utiliser la balise `<b>` pour **mettre en gras** un contenu n'est pas forcément une très bonne pratique, bien que cela puisse dépanner.
+
+Si l'on souhaite mettre les mots `"paragraphe"` du **premier paragraphe** en gras :
+
+```html
+<h1>Mon super titre</h1>
+<h2>Mon sous-titre 1</h2>
+<p>Ceci est un premier <b>paragraphe</b>.<br />
+Une nouvelle ligne dans le <b>paragraphe</b>.</p>
+<h2>Mon sous-titre 2</h2>
+<p>Ceci est un second paragraphe.</p>
+```
+
+!!! quote "L'élément `<i>`"
+    Il existe également les balises `<i></i>` permettant de **mettre du contenu en italique**.
+
 ### Un lien hypertexte
 
 Pour créer un **lien hypertexte**, on ici l'**élément** `<a>`. Par exemple, si l'on souhaite créer un lien vers [Google](https://google.fr/){ target="_blank" }, on écrire :
@@ -162,8 +190,8 @@ Si l'on reprend notre code précédent :
 ```html
 <h1>Mon super titre</h1>
 <h2>Mon sous-titre 1</h2>
-<p>Ceci est un premier paragraphe.<br />
-Une nouvelle ligne dans le paragraphe.</p>
+<p>Ceci est un premier <b>paragraphe</b>.<br />
+Une nouvelle ligne dans le <b>paragraphe</b>.</p>
 <h2>Mon sous-titre 2</h2>
 <p>Ceci est un second paragraphe.<br />
 <a href="https://google.fr/">Cliquez ici</a> pour accéder à Google.</p>
@@ -184,12 +212,155 @@ Si l'on reprend notre code précédent en y ajoutant une **image de manchot** :
 ```html
 <h1>Mon super titre</h1>
 <h2>Mon sous-titre 1</h2>
-<p>Ceci est un premier paragraphe.<br />
-Voici un superbe manchot :<br />
+<p>Ceci est un premier <b>paragraphe</b>.<br />
+Voici un superbe image de manchot :<br />
 <img src="https://upload.wikimedia.org/wikipedia/commons/0/07/Emperor_Penguin_Manchot_empereur.jpg" alt="Un manchot" /></p>
 <h2>Mon sous-titre 2</h2>
 <p>Ceci est un second paragraphe.<br />
 <a href="https://google.fr/">Cliquez ici</a> pour accéder à Google.</p>
 ```
 
-### Ajouter du style avec `CSS`
+## Ajouter du style avec `CSS`
+
+Le **CSS** s'utilise en *parallèle* avec le **HTML**.
+
+Reprenons notre code précédent :
+
+```html
+<h1>Mon super titre</h1>
+<h2>Mon sous-titre 1</h2>
+<p>Ceci est un premier <b>paragraphe</b>.<br />
+Voici un superbe image de manchot :<br />
+<img src="https://upload.wikimedia.org/wikipedia/commons/0/07/Emperor_Penguin_Manchot_empereur.jpg" alt="Un manchot" /></p>
+<h2>Mon sous-titre 2</h2>
+<p>Ceci est un second paragraphe.<br />
+<a href="https://google.fr/">Cliquez ici</a> pour accéder à Google.</p>
+```
+
+### Modifier la couleur du texte
+
+On souhaite **mettre en vert** le mot `"paragraphe"` du premier paragraphe.
+
+On constate que ce mot est contenu dans les **balises** `<b></b>`.  
+Ainsi, pour **mettre en vert** ce mot, on va pouvoir ajouter le *CSS* suivant :
+
+```css
+b {
+    color: green;
+}
+```
+
+`color` est l'une des nombreuses **propriétés CSS** qui existent.  
+Vous n'avez bien sûr pas à toutes les connaître.
+
+### Modifier la couleur de fond
+
+On souhaite maintenant mettre le **titre principal** en **blanc sur fond noir**.  
+Ce **titre** est entre les balises `<h1></h1>`, on va donc pouvoir écrire :
+
+```css
+h1 {
+    color: white;
+    background-color: black;
+}
+```
+
+`background-color` permet de définir la **couleur de fond** d'un élément.
+
+### Modifier la police d'écriture
+
+On souhaite définir la **police** du **titre principal** en `Verdana` :
+
+```css
+h1 {
+    color: white;
+    background-color: black;
+    font-family: Verdana;
+}
+```
+
+On a ajouté le **propriété** `font-family` dans notre *CSS*. On pourrait ajouter **autant d'attributs que l'on voudrait** pour une même balise.
+
+### Mettre en gras / en italique
+
+Plutôt que d'utiliser les éléments `<b>` et `<i>` pour mettre en **gras** et en *italique*, on peut utiliser la **propriété CSS** `font-weight`.
+
+Si l'on souhaite mettre **tous nos paragraphes** en **gras** :
+
+```css
+p {
+    font-weight: bold;
+}
+```
+
+ou en *italique* :
+
+```css
+p {
+    font-weight: italic;
+}
+```
+
+### Les classes et identifiants
+
+Il y a un problème : comment faire pour attribuer un **style différent** à nos **deux paragraphes** ?  
+En effet, si l'on définit le style comme ci-dessus, cela s'applique à tous les paragraphes.
+
+Pour définir un style différent sur nos deux paragraphes, on peut leur attribut un **identifiant différent** :
+
+```html
+<h1>Mon super titre</h1>
+<h2>Mon sous-titre 1</h2>
+<p id="par1">Ceci est un premier <b>paragraphe</b>.<br />
+Voici un superbe image de manchot :<br />
+<img src="https://upload.wikimedia.org/wikipedia/commons/0/07/Emperor_Penguin_Manchot_empereur.jpg" alt="Un manchot" /></p>
+<h2>Mon sous-titre 2</h2>
+<p id="par2">Ceci est un second paragraphe.<br />
+<a href="https://google.fr/">Cliquez ici</a> pour accéder à Google.</p>
+```
+
+L'attribut `id` permet d'associer un **identifiant à une balise**.  
+Ainsi, pour mettre **le premier paragraphe en gras** et **souligner le deuxième paragraphe** par exemple, on pourra écrire en *CSS* :
+
+```css
+#par1 {
+    font-weight: bold;
+}
+
+#par2 {
+    text-decoration: underline;
+}
+```
+
+On aurait également pu, au lieu d'utiliser des **identifiants**, associer une **classe** différente à nos deux paragraphes :
+
+```html
+<h1>Mon super titre</h1>
+<h2>Mon sous-titre 1</h2>
+<p class="par1">Ceci est un premier <b>paragraphe</b>.<br />
+Voici un superbe image de manchot :<br />
+<img src="https://upload.wikimedia.org/wikipedia/commons/0/07/Emperor_Penguin_Manchot_empereur.jpg" alt="Un manchot" /></p>
+<h2>Mon sous-titre 2</h2>
+<p class="par2">Ceci est un second paragraphe.<br />
+<a href="https://google.fr/">Cliquez ici</a> pour accéder à Google.</p>
+```
+
+L'attribut `class` permet d'associer une **classe à une balise**.  
+Ainsi, pour mettre **le premier paragraphe en gras** et **souligner le deuxième paragraphe** par exemple, on pourra écrire en *CSS* :
+
+```css
+.par1 {
+    font-weight: bold;
+}
+
+.par2 {
+    text-decoration: underline;
+}
+```
+
+!!! warning "Différence classe et identifiant"
+    La principale différence entre **classe** et **identifiant** est qu'==un même identifiant ne peut pas être associé à plusieurs balises, à l'inverse des classes==.
+
+    Par ailleurs, au niveau du **CSS**, les **classes** seront précédées d'un `.` tandis que les **identifiants** seront précédés d'un `#`.
+
+## Exercice
