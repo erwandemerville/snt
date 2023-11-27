@@ -1,24 +1,14 @@
 # Les langages HTML et CSS
 
-Nous allons nous intéresser à un acteur fondamental du **développement web**, le couple **HTML + CSS** (*Hyper Text Markup Langage* et *Cascading Style Sheets*).
-
-## Qu'est-ce que le HTML ?
-
-!!! abstract ""
-    L’*Hypertext Markup Language*, généralement abrégé **HTML**, est le **format de données** conçu pour représenter les **pages web**.  Il s'agit d'un **langage de balisage** permettant d’écrire de l’**hypertexte**.
-
-    HTML permet de **structurer** sémantiquement et de **mettre en forme le contenu des pages**, d’inclure des **ressources multimédias**, dont des **images**, des **vidéos** (grâce à la dernière version d'**HTML**, **HTML5**), des **formulaires de saisie**...
-    Il permet de créer des **documents interopérables** avec des équipements très variés de manière conforme aux exigences de l’accessibilité du web. Il est souvent utilisé conjointement avec des **langages de programmation** (comme *JavaScript*) et des **formats de présentation** (*feuilles de style en cascade*, ou **CSS** pour *Cascading Style Sheets* en anglais).
-
-    Lorsque vous **accédez à une page web**, votre **navigateur** (*Firefox*, *Google Chrome*, *Safari*, etc) envoie une **requête à un serveur**, puis ce serveur **répond en renvoyant du code HTML et CSS**, qui est ensuite **interprété par le navigateur**, ce qui permet d'**afficher votre page web**.
-    **HTML** n'est **pas un langage de programmation** (contrairement à *Python* par exemple): il n'est pas question de *conditions*, de *boucles*, etc. Il s'agit d'un **langage de description**.
+Voici plusieurs **activités** pour approfondir votre maîtrise des langages HTML et CSS.  
+N'hésitez pas à [lire le cours](cours_html_css.md){ target="_blank" } pour vous aider à réaliser ces activités.
 
 ## Activité 1 - « Détourner une page web »
 
 Voici une première petite activité permettant d'avoir un premier aperçu de la structure d'une page web.
 
 Naviguez vers la **page web** de **votre choix**.  
-En faisant un *clic droit :material-arrow-right: Inspecter* sur un **élément** en particulier de la page, ou en appuyant sur *Ctrl + Maj + c*, ouvrez l'**inspecteur** de **code source**.
+En faisant un *++"clic droit"++ :material-arrow-right: `"Inspecter"`* sur un **élément** en particulier de la page, ou en appuyant **au clavier** sur <span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-shift">Maj</kbd><span>+</span><kbd class="key-c">C</kbd></span>, ouvrez l'**inspecteur** de **code source**.
 
 !!! note "À faire"
     Avec l'**inspecteur de code source** de **Firefox**, essayez de **modifier la page web** de manière à :
@@ -39,6 +29,8 @@ Pour apprendre plus en détails les **bases** du **langage de description HTML**
 <center>
 [:material-cursor-default-click: Télécharger le document élève](documents/doc_web_eleve.odt){ target="_blank" }
 </center>
+
+Vous travaillerez dans un premier temps avec le site [jdfiddle.net](https://jsfiddle.net/){ target="_blank" }, un éditeur de HTML/CSS en ligne permettant d'appréhender facilement ces langages.
 
 ## Activité 3 - Créer un petit site web
 

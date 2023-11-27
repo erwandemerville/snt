@@ -4,7 +4,7 @@ Vous pouvez ici rendre tous les travaux demandés (*documents Word*, *fichiers P
 
 ??? warning "Nommage des fichiers"
     - Assurez-vous de **renommer vos fichiers** en y ajoutant **votre nom**. Par exemple, si vous souhaitez rendre un *document Word* nommé `mon_document.docx`, renommez-le en `<VOTRE_NOM>_mon_document.docx`.
-    - Si votre travail contient **plusieurs fichiers**, créez une **archive ZIP** contenant tous vos fichiers et dont le nom sera de la forme `<VOTRE_NOM>_<NOM_ARCHIVE>.zip`. Pour créer une archive ZIP sur *Windows* : sélectionnez les fichiers à archiver, puis faites un **clic droit** :octicons-arrow-right-16: `Envoyer vers` :octicons-arrow-right-16: `Dossier compressé`.
+    - Si votre travail contient **plusieurs fichiers**, créez une **archive ZIP** contenant tous vos fichiers et dont le nom sera de la forme `<VOTRE_NOM>_<NOM_ARCHIVE>.zip`. Pour créer une archive ZIP sur *Windows* : sélectionnez les fichiers à archiver, puis faites un ++"clic droit"++ :octicons-arrow-right-16: `"Envoyer vers"` :octicons-arrow-right-16: `"Dossier compressé"`.
 
 Cliquez sur le **bouton** correspondant à **votre classe** pour accéder à la page de téléversement.
 

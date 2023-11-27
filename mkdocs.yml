@@ -62,7 +62,8 @@ nav:
   - Le web:
     - web/index.md
     - Le web et son histoire: web/histoire.md
-    - Les langages HTML et CSS: web/decouverte_web.md
+    - Cours - HTML et CSS: web/cours_html_css.md
+    - Activités - HTML et CSS: web/decouverte_web.md
     - Les moteurs de recherche: web/moteurs_recherche.md
   - Autre:
     - autre/index.md
@@ -87,6 +88,11 @@ markdown_extensions:
   - pymdownx.snippets
   - pymdownx.superfences
   - pymdownx.details
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
   - attr_list
   - md_in_html
 
