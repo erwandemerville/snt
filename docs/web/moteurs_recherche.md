@@ -1,5 +1,5 @@
-!!! quote "Source"
-    Cette activité est basée sur :
+??? quote "Source"
+    Cette activité est basée sur celle-ci :
 
     - [http://portail.lyc-la-martiniere-diderot.ac-lyon.fr/srv20/co/AA2_-_Moteur_de_recherche.html](http://portail.lyc-la-martiniere-diderot.ac-lyon.fr/srv20/co/AA2_-_Moteur_de_recherche.html){ target="_blank" }
 
