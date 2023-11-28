@@ -8,12 +8,12 @@
 ## Introduction
 
 !!! abstract ""
-    Il existe actuellement environ **deux milliards de sites web** et des **dizaines de milliards de pages web**. Pour **chercher une information** particulière dans cette "toile d'araignée" géante (toile = *web* en anglais) que constitue le web, des **applications Web** appelés **moteurs de recherche**, qui s'exécutent dans un **navigateur**, sont nécessaires.
+    Il existe actuellement environ **deux milliards de sites web** et des **dizaines de milliards de pages web**. Pour **chercher une information** particulière dans cette "toile d'araignée" géante (toile = *web* en anglais) que constitue le web, des **applications Web** appelés **moteurs de recherche**, qui s'exécutent dans un **navigateur web**, sont nécessaires.
 
     Un **moteur de recherche** est un **service web**, que l'on lance à l'aide d'un **navigateur web**.
 
-!!! success ""
-    Parmi les appelés **moteurs de recherche** les plus répandus, on retrouve :
+!!! success "Les navigateurs"
+    Parmi les **navigateurs** les plus répandus, on retrouve :
 
     - **Mozilla Firefox**, le plus respectueux de votre vie privée, il est open-source et libre,
 
@@ -27,6 +27,8 @@
 
     | ![Logo Firefox](images/logo_firefox.png)   | ![Logo Google Chrome](images/logo_chrome.png)   | ![Logo Edge](images/logo_Microsoft_Edge_1.png)   | ![Logo Safari](images/logo_safari.png)   | ![Logo Opera](images/logo_opera.png)   | ![Logo Brave](images/logo_Brave.png)   |
     | ---- | ---- | ---- | ---- | ---- | ---- |
+
+    **<u>Attention</u>** à bien faire la distinction entre un **navigateur web** (qui vous permet de naviguer sur le web à partir d'*URL*) et un **moteur de recherche** qui est un des nombreux **services** accessibles **sur le web**.
 
 !!! note "Travail à faire"
     Les réponses à l'activité seront à compléter sur le **document LibreOffice Writer** suivant :
