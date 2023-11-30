@@ -164,9 +164,7 @@ Voyons cela dans le détail.
 
     En suivant les explications de la vidéo :
 
-    1. Réaliser une recherche sur *Wikipédia* **sans lancer sa page d'accueil**.
-
-    2. Réaliser une recherche du *Lycée Jean Perrin* dans **Qwant Maps**.
+    1. Réaliser une recherche du *Lycée Jean Perrin* dans **Qwant Maps**.
 
 !!! success "À montrer au professeur"
     Après avoir réalisé les manipulations, appelez le professeur et :
