@@ -131,8 +131,8 @@ Voyons cela dans le détail.
     </center>
     <figcaption>Menu gauche dans les préférences de Firefox</figcaption>
     </figure>
-    
-    **Changer** le **moteur de recherche par défaut** en sélectionnant une des propositions de la liste déroulante (*DuckDuckGo* ou *Qwant* sont de bonnes alternatives). **Tester le bon fonctionnement** en utilisant le **champ** où l'on **tape des adresses web ou URL**.
+
+    Vous constaterez qu'il n'y a qu'**un seul moteur de recherche** (Google) présent sur votre machine. Nous allons donc voir, dans la prochaine manipulation, comment **ajouter de nouveaux moteurs de recherche**.
 
 ### II-2 Ajouter un moteur de recherche dans un navigateur web
 
@@ -153,7 +153,7 @@ Voyons cela dans le détail.
     ![Ajout Firefox Lilo](images/Firefox_Lilo.png)
     </center>
     
-    3. Utiliser le menu *Paramètres* > *Recherche* et **parcourir la liste des moteurs de recherche** en cliquant sur le lien [Découvrir d’autres moteurs de recherche](https://addons.mozilla.org/fr/firefox/search-engines/){ target="_blank" }.
+    3. Utiliser le menu *Paramètres* > *Recherche* et **parcourir la liste des moteurs de recherche** en cliquant sur le lien [Découvrir d’autres moteurs de recherche](https://addons.mozilla.org/fr/firefox/search-engines/){ target="_blank" }, vous allez alors pouvoir **ajouter d'autres moteurs de recherche**.
 
 ### II-3 Utiliser différents moteurs de recherche dans Firefox
 
