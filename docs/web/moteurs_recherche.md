@@ -46,7 +46,7 @@
 
 ---
 
-## Fonctionnement des moteurs de recherche
+## I - Fonctionnement des moteurs de recherche
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/iKMm6SXO0wA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
@@ -106,7 +106,7 @@
         </tbody>
     </table>
 
-## Utiliser les moteurs de recherche dans le navigateur Firefox
+## II - Utiliser les moteurs de recherche dans le navigateur Firefox
 
 On compte de **nombreux moteurs de recherche disponibles** et certains sont disponibles **nativement** dans les navigateurs comme **Mozilla Firefox**.
 
@@ -174,7 +174,7 @@ Voyons cela dans le détail.
     - **montrez** la **liste des moteurs de recherche de votre navigateur**,
     - faites une **recherche** dans *Qwant Maps* (de ce que vous voulez) en utilisant la méthode utilisée précédemment.
 
-## Requêtes et résultats dans les moteurs de recherche
+## III - Requêtes et résultats dans les moteurs de recherche
 
 Avec la domination de **Google**, des **moteurs de recherche alternatifs** essaient de se distinguer par le choix d'un **modèle plus respectueux de la vie privée de ses utilisateurs**. On peut citer l'américain *DuckDuckGo* et le français / européen *Qwant*.
 
