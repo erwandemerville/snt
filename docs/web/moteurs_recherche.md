@@ -114,7 +114,7 @@ Ces manipulations sont à réaliser sur **Firefox** mais sont **quasi identiques
 
 Voyons cela dans le détail.
 
-### Moteur de recherche par défaut
+### II-1 Moteur de recherche par défaut
 
 !!! note "Manipulation à faire"
     **Ouvrir** le **menu d'options** de **Firefox** en cliquant sur l'icône rayée :material-menu: en **haut à droite** de la **barre de menu**, puis sélectionner **Paramètres** dans le menu déroulant :
@@ -134,7 +134,7 @@ Voyons cela dans le détail.
     
     **Changer** le **moteur de recherche par défaut** en sélectionnant une des propositions de la liste déroulante (*DuckDuckGo* ou *Qwant* sont de bonnes alternatives). **Tester le bon fonctionnement** en utilisant le **champ** où l'on **tape des adresses web ou URL**.
 
-### Ajouter un moteur de recherche dans un navigateur web
+### II-2 Ajouter un moteur de recherche dans un navigateur web
 
 !!! note "Manipulations à faire"
 
@@ -155,7 +155,7 @@ Voyons cela dans le détail.
     
     3. Utiliser le menu *Paramètres* > *Recherche* et **parcourir la liste des moteurs de recherche** en cliquant sur le lien [Découvrir d’autres moteurs de recherche](https://addons.mozilla.org/fr/firefox/search-engines/){ target="_blank" }.
 
-### Utiliser différents moteurs de recherche dans Firefox
+### II-3 Utiliser différents moteurs de recherche dans Firefox
 
 !!! note "Manipulation finale à faire"
     Une fois **les moteurs de recherche installés dans Firefox**, on peut les utiliser de manière simple en suivant cette courte vidéo :
@@ -176,7 +176,7 @@ Voyons cela dans le détail.
 
 Avec la domination de **Google**, des **moteurs de recherche alternatifs** essaient de se distinguer par le choix d'un **modèle plus respectueux de la vie privée de ses utilisateurs**. On peut citer l'américain *DuckDuckGo* et le français / européen *Qwant*.
 
-### Premier lancement des moteurs de recherche Google et Qwant
+### III-1 Premier lancement des moteurs de recherche Google et Qwant
 
 Au premier lancement de **Google**, vous devez dire si vous acceptez ou pas l'usage de cookies (nous verrons en détail ce que sont les cookies lors de l'activité suivante).
 
@@ -192,7 +192,7 @@ Au premier lancement de **Google**, vous devez dire si vous acceptez ou pas l'us
 
     Avez-vous du **accepter ou refuser des cookies** ?
 
-### Requête dans 2 moteurs
+### III-2 Requête dans 2 moteurs
 
 !!! note "Question 4"
     Soumettre la requête « achat trotinette électrique » (la faute d'orthographe sur *trotinette* est volontaire, comparez la gestion de la correction automatique par les deux moteurs) aux moteurs de recherche Google et Qwant (en désactivant les éventuels bloqueurs de publicité, mais cela ne doit pas être le cas au lycée).
@@ -208,7 +208,7 @@ Au premier lancement de **Google**, vous devez dire si vous acceptez ou pas l'us
     - Comment sait-il que vous vous situez dans ces environs ? Vous pourrez trouver la solution en fouillant le bas de la page...
     - Avons-nous la même chose avec Qwant ?
 
-### Financement des moteurs de recherche
+### III-3 Financement des moteurs de recherche
 
 Ce n'est un secret pour personne, financer un moteur de recherche coûte cher. Il faut donc trouver des sources de financement. La seule source de revenus actuellement est la publicité mais il y a de grandes différences entre les moteurs de recherches.
 
@@ -248,7 +248,7 @@ Prenons l'exemple de **Google** et **Qwant**.
 
     Quelle est la politique de **Qwant** en matière d'affichage publicitaire ?
 
-### Politique de confidentialité
+### III-4 Politique de confidentialité
 
 !!! note "Question 9"
     À l'aide des manipulations précédentes et en parcourant les politiques de confidentialité de [Google](https://policies.google.com/privacy?utm_source=search-privacy-advisor){ target="_blank" } et de [Qwant](https://about.qwant.com/fr/legal/confidentialite/){ target="_blank" }, cochez, sur votre document LibreOffice, le moteur qui répond aux phrases suivantes :
@@ -258,7 +258,7 @@ Prenons l'exemple de **Google** et **Qwant**.
 !!! quote "Google ne comprend pas ses propres paramètres de confidentialité ?"
     Pour aller plus loin, vous pouvez lire l'article [Google avoue ne rien comprendre à ses propres paramètres de confidentialité](https://www.lesnumeriques.com/vie-du-net/google-avoue-ne-rien-comprendre-a-ses-parametres-de-confidentialite-n153735.html){ target="_blank" }.
 
-## Devenez un hacker avec le "Google Dorking"
+## Bonus - Devenez un hacker avec le "Google Dorking"
 
 On en a déjà parlé en cours, le moteur de recherche **Google** permet de faire des **recherches avancées** à l'aide d'une **syntaxe** bien précise (constituée de mots-clé comme `intext`, `inurl`, `filetype`, etc.)  
 Grâce à **Google Dorks**, on peut donc utiliser **Google** comme un **outil de hack**, on parle donc de "Google Hacking" ou de "Google Dorking". Cette méthode d'investigation sur Internet s'appuie sur le principe de l'*OSINT* (Open Source Intelligence ou renseignement par source ouverte).
