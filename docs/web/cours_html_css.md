@@ -363,4 +363,51 @@ Ainsi, pour mettre **le premier paragraphe en gras** et **souligner le deuxième
 
     Par ailleurs, au niveau du **CSS**, les **classes** seront précédées d'un `.` tandis que les **identifiants** seront précédés d'un `#`.
 
-## Exercice
+### Les balises `<span>` et `<div>`
+
+L'élement HTML `<span>` n'a aucun effet en soi, mais peut être utilisé pour **associer un style** à un **contenu**.
+
+Par exemple :
+
+```html
+<p>Je veux écrire un mot en <span class="bleu">bleu</span></p>
+```
+
+Les balises `<span></span>` n'auront aucun effet en soi, mais si on ajoute dans le *CSS* :
+
+```css
+.bleu {
+    color: blue;
+}
+```
+
+Le **mot** `"bleu"` s'affichera alors avec **en couleur bleue**.  
+Les balises `<span>` n'ont d'intérêt que si on leur associe une **classe** ou un **identifiant**, de manière à pouvoir définir un **style** particulier au **contenu** qui est compris entre la *balise ouvrante* `<span>` et la *balise fermante* `</span>`.
+
+L'élément `<div>` fonctionne avec le même principe, mais permet de **créer des blocs**, là où l'élément `<span>` est utilisé **dans une ligne**.
+
+Ces **blocs** peuvent eux-mêmes contenir d'**autres balises** et du **contenu**, par exemple :
+
+```html
+<div id="section1">
+    <h2>Introduction</h2>
+    <p>Les manchots sont des oiseaux marins fascinants qui habitent principalement dans l'hémisphère sud.</p>
+</div>
+```
+
+Si on souhaite par exemple **créer une bordure noire de 1px** autour de ce **bloc**, et mettre la **couleur de fond** en **gris**, on pourra ajouter ceci au *CSS* :
+
+```css
+#section1 {
+    border: 1px solid black;
+    background-color: gray;
+}
+```
+
+## Exercice de révisions
+
+!!! note "Exercice d'entraînement"
+    Sur [jsfiddle](https://jsfiddle.net){ target="_blank" }, essayez de **reproduire** la **page web suivante** :
+
+    ![](images/01.png)
+    ![](images/02.png)
