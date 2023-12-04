@@ -230,27 +230,13 @@ Prenons l'exemple de **Google** et **Qwant**.
     - D'après la notice d'informations qui s'affiche, pourquoi voyez-vous cette annonce ? Est-ce que seuls les termes recherchés permettent à une annonce de s'afficher ?
 
 !!! note "Question 7"
-    Il est possible de **personnaliser** ou pas les **annonces** affichées. Personne ne devrait accepter cette personnalisation qui fait de vous un objet publicitaire.
-
-    Toujours dans la fenêtre, en dessous, vous pouvez **mettre à jour vos choix** concernant les **annonces** de Google.
-
-    - Quel est le paramétrage pour ces annonces ? À présent rappelez-vous sur quel bouton bleu vous avez cliqué au lancement de Google et expliquer ce paramétrage...
-
-    <figure markdown>
-    <center>
-    ![Curseur du choix de la personnalisation des annonces sponsorisées](images/Personnalisation_Annonces_Google.png){ width="600px" }
-    </center>
-    <ficaption>Curseur du choix de la personnalisation des annonces sponsorisées<br />[Cliquez ici pour voir l'image en taille réelle](images/Personnalisation_Annonces_Google.png){ target="_blank" }</figcaption>
-    </figure>
-
-!!! note "Question 8"
     **Accéder** à la page d'URL [https://about.qwant.com/fr/legal/confidentialite/](https://about.qwant.com/fr/legal/confidentialite/){ target="_blank" } puis au paragraphe `« Donc Qwant n'affiche pas de publicité ciblée ? »`.
 
     Quelle est la politique de **Qwant** en matière d'affichage publicitaire ?
 
 ### III-4 Politique de confidentialité
 
-!!! note "Question 9"
+!!! note "Question 8"
     À l'aide des manipulations précédentes et en parcourant les politiques de confidentialité de [Google](https://policies.google.com/privacy?utm_source=search-privacy-advisor){ target="_blank" } et de [Qwant](https://about.qwant.com/fr/legal/confidentialite/){ target="_blank" }, cochez, sur votre document LibreOffice, le moteur qui répond aux phrases suivantes :
 
     <table style="border-collapse: collapse; width: 100%; border: 1px solid black;"><colgroup><col style="width:224px;width:28.39ch;"><col style="width:224px;width:28.39ch;"><col style="width:224px;width:28.39ch;"></colgroup><tbody style="border-bottom: 1px solid black;"><tr style="background-color: #f2f2f2;"><th scope="col"></th><th scope="col"><p>Google</p></th><th scope="col"><p>Qwant</p></th></tr><tr><td style="border:1px solid black;" style="border:1px solid black;"><p>Quel moteur vous propose des résultats basés sur vos précédentes recherches&nbsp;?</p></td><td style="border:1px solid black;"></td><td style="border:1px solid black;"></td></tr><tr><td style="border:1px solid black;" style="border:1px solid black;"><p>Quel moteur dépose des cookies pour tracer votre activité&nbsp;?</p></td><td style="border:1px solid black;"></td><td style="border:1px solid black;"></td></tr><tr><td style="border:1px solid black;"><p>Quel moteur ne conserve aucune donnée sur votre activité sur le web&nbsp;?</p></td><td style="border:1px solid black;"></td><td style="border:1px solid black;"></td></tr><tr><td style="border:1px solid black;"><p>Quel moteur anonymise vos recherches&nbsp;?</p></td><td style="border:1px solid black;"></td><td style="border:1px solid black;"></td></tr><tr><td style="border:1px solid black;"><p>Quel moteur renverra les mêmes résultats que ce soit vous, vos parents ou votre cousin en Afrique&nbsp;?</p></td><td style="border:1px solid black;"></td><td style="border:1px solid black;"></td></tr><tr><td style="border:1px solid black;"><p>Quel moteur n'utilise pas de cookies publicitaires&nbsp;?</p></td><td style="border:1px solid black;"></td><td style="border:1px solid black;"></td></tr><tr><td style="border:1px solid black;"><p>Quel moteur de recherche est français&nbsp;?</p></td><td style="border:1px solid black;"></td><td style="border:1px solid black;"></td></tr><tr><td style="border:1px solid black;"><p>Quel moteur s'engage à ne vendre aucune donnée de ces utilisateurs&nbsp;?</p></td><td style="border:1px solid black;"></td><td style="border:1px solid black;"></td></tr><tr><td style="border:1px solid black;"><p>Quel moteur utilise le bluetooth, adresse IP, GPS ou encore des points d'accès Wifi pour vous géolocaliser&nbsp;?</p></td><td style="border:1px solid black;"></td><td style="border:1px solid black;"></td></tr><tr><td style="border:1px solid black;"><p>Quel moteur justifie la captation des données personnelles pour améliorer ses services&nbsp;?</p></td><td style="border:1px solid black;"></td><td style="border:1px solid black;"></td></tr><tr><td style="border:1px solid black;"><p>Quel moteur stocke ses données <q class="txt_quote_is "><span class="txt_quote_isp ">«&nbsp;</span>aux quatre coins du monde<span class="txt_quote_iss ">&nbsp;»</span></q>&nbsp;?</p></td><td style="border:1px solid black;"></td><td style="border:1px solid black;"></td></tr></tbody></table>
