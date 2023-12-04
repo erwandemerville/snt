@@ -68,6 +68,13 @@ nav:
   - Autre:
     - autre/index.md
     - « Dessine ton smartphone »: autre/activite_smartphone/index.md
+  - Notes participation:
+    - participation/index.md
+    - 2de 3: participation/2de3.md
+    - 2de 6: participation/2de6.md
+    - 2de 8: participation/2de8.md
+    - 2de 9: participation/2de9.md
+    - 2de 10: participation/2de10.md
   - Rendu des travaux: rendus.md
 
 markdown_extensions:
@@ -78,8 +85,8 @@ markdown_extensions:
       line_spans: __span
       pygments_lang_class: true
   - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - toc:
       title: Sur cette page
       permalink: true
@@ -93,6 +100,7 @@ markdown_extensions:
   - pymdownx.keys
   - pymdownx.mark
   - pymdownx.tilde
+  - pymdownx.progressbar
   - attr_list
   - md_in_html
 plugins:
@@ -100,6 +108,7 @@ plugins:
 
 extra_css:
   - stylesheets/extra.css
+  - stylesheets/progressbar.css
 
 extra_javascript:
   - javascripts/mathjax.js
