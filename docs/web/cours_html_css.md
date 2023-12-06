@@ -363,7 +363,7 @@ Ainsi, pour mettre **le premier paragraphe en gras** et **souligner le deuxième
 
     Par ailleurs, au niveau du **CSS**, les **classes** seront précédées d'un `.` tandis que les **identifiants** seront précédés d'un `#`.
 
-### Les balises `<span>` et `<div>`
+### La balise `<span>`
 
 L'élement HTML `<span>` n'a aucun effet en soi, mais peut être utilisé pour **associer un style** à un **contenu**.
 
@@ -381,12 +381,14 @@ Les balises `<span></span>` n'auront aucun effet en soi, mais si on ajoute dans 
 }
 ```
 
-Le **mot** `"bleu"` s'affichera alors avec **en couleur bleue**.  
+Le **mot** `"bleu"` s'affichera alors maintenant avec **en couleur bleue**.  
 Les balises `<span>` n'ont d'intérêt que si on leur associe une **classe** ou un **identifiant**, de manière à pouvoir définir un **style** particulier au **contenu** qui est compris entre la *balise ouvrante* `<span>` et la *balise fermante* `</span>`.
 
-L'élément `<div>` fonctionne avec le même principe, mais permet de **créer des blocs**, là où l'élément `<span>` est utilisé **dans une ligne**.
+### La balise `<div>`
 
-Ces **blocs** peuvent eux-mêmes contenir d'**autres balises** et du **contenu**, par exemple :
+L'élément `<div>` fonctionne avec le même principe que l'élément `<span>` évoqué précédemment, mais permet de **créer des blocs**, là où l'élément `<span>` est utilisé pour ajouter un style **dans une ligne**.
+
+Ces **blocs** peuvent eux-mêmes contenir d'**autres balises** ainsi que du **texte**, par exemple :
 
 ```html
 <div id="section1">
