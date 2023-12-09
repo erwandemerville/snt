@@ -7,7 +7,7 @@
   font-size: 13px;
 }
 
-.md-typeset .tabnotes table td {
+.md-typeset .tabnotes table tr td:nth-child(2) {
   width: 200px;
 }
 /* ---------------------------------- */
