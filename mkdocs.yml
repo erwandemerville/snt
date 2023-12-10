@@ -68,8 +68,6 @@ nav:
       - Projet - Un site web: web/projet_site_web.md
     - Cours:
       - Cours - HTML et CSS: web/cours_html_css.md
-    - Évaluations:
-      - Interrogation n°1: web/interro_html_css.md
   - Autre:
     - autre/index.md
     - « Dessine ton smartphone »: autre/activite_smartphone/index.md
