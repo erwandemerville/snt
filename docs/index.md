@@ -9,7 +9,7 @@ En cas de questionnements concernant un cours, un exercice, ou quoi que ce soit,
 
 ## Contenu du site
 
-| Liste des contenus                              | Contenu                             |
+| Liste des contenus                              | Description                         |
 | ----------------------------------------------- | ----------------------------------- |
 | [Introduction à l'informatique](intro_info/index.md) | Numération binaire, codage ASCII... |
 | [Activité « Dessine ton smartphone »](autre/activite_smartphone/index.md) | Activité sur vos représentations liées à l'usage du smartphone. |

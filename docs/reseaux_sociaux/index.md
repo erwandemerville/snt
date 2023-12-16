@@ -1,6 +1,6 @@
 # Les réseaux sociaux
 
-| Liste des contenus                              | Contenu                             |
+| Liste des contenus                              | Description                         |
 | ----------------------------------------------- | ----------------------------------- |
 | [Activités d'introduction](introduction.md) | Introduction aux réseaux sociaux. |
 | [Activité - La stratégie des réseaux](dopamine.md) | Activité sur les stratégies des réseaux sociaux. |
