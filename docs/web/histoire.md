@@ -36,7 +36,7 @@ Visionnez la vidéo suivante :
     Comment s'appellent les **outils** que l'on utilise pour **rechercher des pages web** ? Citez **2 outils** que vous connaissez pour effectuer des recherche de pages web.
 
 !!! note "Question 6"
-    Donnez quelques exemples de services d'**internet** pours lequels le **web** est utilisé ?
+    Donnez quelques exemples de services d'**internet** pour lequels le **web** est utilisé ?
 
 !!! note "Question 7"
     Grâce à quoi l'usage du **web** s'est-il **démocratisé** ?

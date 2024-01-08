@@ -15,3 +15,4 @@ En cas de questionnements concernant un cours, un exercice, ou quoi que ce soit,
 | [Activité « Dessine ton smartphone »](autre/activite_smartphone/index.md) | Activité sur vos représentations liées à l'usage du smartphone. |
 | [Les réseaux sociaux](reseaux_sociaux/index.md) | Cours et activités sur les réseaux sociaux. |
 | [Le web](web/index.md) | Le web et son histoire. |
+| [Internet](internet/index.md) | Les principes autour d'internet, réseau informatique mondial. |
