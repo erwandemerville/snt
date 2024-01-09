@@ -243,6 +243,15 @@
     }
     ```
 
+    <form>
+    <input type="radio">
+    <label>A</label>
+    <input type="radio">
+    <label>B</label>
+    <input type="radio">
+    <label>C</label>
+    </form>
+
 !!! note "Question 15"
     Proposez une **propriété CSS**, autre que `color`, et expliquez **à quoi elle sert**.
 
