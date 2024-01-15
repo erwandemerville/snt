@@ -5,7 +5,7 @@
 En **binômes** ou **seuls**, vous allez réaliser une **frise chronologique** retraçant l'**histoire d'internet**.
 
 !!! danger ""
-    ==Quelques élèves seront tirés au sort et viendront présenter leur frise chronologique devant la classe. Cela fera l'objet d'une **note coefficient 1**. ==
+    ==**Quelques élèves seront tirés au sort et viendront présenter leur frise chronologique devant la classe. Cela fera l'objet d'une note coefficient 1**.==
 
 !!! note "À faire - Ouverture de l'application de frises chronologiques"
     Rendez-vous sur la [liste des applications de votre ENT](https://enthdf.fr/welcome){ target="_blank" }.
