@@ -13,7 +13,7 @@
     </form> 
 
 !!! note "Question 2"
-    <p>Comment accède t-on aux données d'une page web ?</p>
+    <p>Comment accède t-on à une page web ?</p>
 
     <form>
     <input type="radio">
