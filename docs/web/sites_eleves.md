@@ -17,6 +17,8 @@
 
 ## 2de 9
 
+Pour voter : [https://framaforms.org/2de-9-votre-site-prefere-1705926369](https://framaforms.org/2de-9-votre-site-prefere-1705926369){ target="_blank" }
+
 | Numéro | Liste des sites web                             |
 | ------ | ----------------------------------------------- |
 |    1   | [PNL](sites_eleves/2de9/PNL/index.html){ target="_blank" } |
