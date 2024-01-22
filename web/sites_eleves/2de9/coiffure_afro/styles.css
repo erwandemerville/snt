@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header, nav, main, footer {
+    margin: 20px;
+}
+
+header {
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+
+section {
+    margin-top: 20px;
+}
+
+.car {
+    margin: 20px;
+}
+
+.car img {
+    max-width: 100%;
+    border: 2px solid #333;
+    border-radius: 5px;
+}
+
+.car p {
+    text-align: center;
+}
+
+footer {
+    margin-top: 20px;
+}
+
+header h1{
+font-size: 100px;
+}
+
+h2{
+	font-size: 50px;
+}
+
+p{
+	font-family: Arial black;
+	font-size: 50px;
+}
+
+#arthur{
+	font-size: 30px;
+}
+
+#R{
+	font-size: 30px;
+}
+
+#urus{
+	font-size:30px;
+}
+
+#num{
+	font-size:20px;
+}
