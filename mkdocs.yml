@@ -73,6 +73,7 @@ nav:
     - internet/index.md
     - Histoire d'internet: internet/histoire.md
     - Supports machines / IP: internet/supports.md
+    - TP Filius: internet/TP_Filius.md
   - Autre:
     - autre/index.md
     - « Dessine ton smartphone »: autre/activite_smartphone/index.md
