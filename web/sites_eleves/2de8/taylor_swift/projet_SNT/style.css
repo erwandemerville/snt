@@ -1,0 +1,81 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+h1 {
+	font-family: 'Apple Chancery', sans-sherif;
+	padding: 10px;
+}
+header {
+    background-color: #F781F3;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+}
+
+footer {
+    background-color: #F781F3;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+#one{
+	color:  #abebc6;
+}
+#two{
+	color:   #f4d03f;
+}
+#three{
+	color:   #884ea0;
+}
+#four{
+	color:  #c0392b;
+}
+#five{
+	color:   #5dade2
+}
+#six{
+	color:   #17202a
+}
+#seven{
+	color:   #ff69b4
+}
+#eight{
+	color:   #ccd1d1
+}
+#nine{
+	color:    #784212
+}
+#ten{
+	color:    #2874a6
+}
