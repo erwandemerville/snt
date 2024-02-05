@@ -25,6 +25,9 @@
 |    4   | [Basket-ball](sites_eleves/2de9/Basket-ball/index.html){ target="_blank" } |
 |    5   | [Coiffure afro](sites_eleves/2de9/coiffure_afro/index.html){ target="_blank" } |
 |    6   | [Location voiture](sites_eleves/2de9/location_voitures/index.html){ target="_blank" }
+|    7   | [Le Grinch](sites_eleves/2de9/Grinch/index.html){ target="_blank" } |
+|    8   | [Le Maroc](sites_eleves/2de9/Maroc/index.html){ target="_blank" } |
+|    9   | [SunnyToys](sites_eleves/2de9/SunnyToys/index.html){ target="_blank" }
 
 ## 2de 8
 
