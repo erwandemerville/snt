@@ -17,3 +17,10 @@
     ^^Complétez l'auto-évaluation^^ :
 
     Enfin, comme indiqué dans le [pad](https://digipad.app/p/587654/f2972b203594e){ target="_blank" }, j'aimerais que **chaque membre du groupe** complète le plus honnêtement possible [ce petit formulaire d'auto-évaluation](https://framaforms.org/auto-evaluation-projet-creer-un-site-web-1702243780){ target="_blank" }. Cela me permettra de connaître l'investissement de chacun au sein du groupe, et je pourrai en tenir compte pour mon évaluation.
+
+!!! warning "Auto-évaluation"
+    ==**Si ce n'est pas encore fait, veuillez remplir l'auto-évaluation** (à remplir par chaque membre du groupe, de la manière la plus honnête possible) :==
+
+    <center>
+    [:material-cursor-default-click: Accéder au formulaire d'auto-évaluation](https://framaforms.org/auto-evaluation-projet-creer-un-site-web-1702243780){ target="_blank" }
+    </center>

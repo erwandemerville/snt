@@ -2,8 +2,6 @@
 
 ## 2de 10
 
-Pour voter : [https://framaforms.org/2de-10-votre-site-prefere-1705926369](https://framaforms.org/2de-10-votre-site-prefere-1705926369){ target="_blank" }
-
 | Numéro | Liste des sites web                             |
 | ------ | ----------------------------------------------- |
 |    1   | [Ligue des champions 2023](sites_eleves/2de10/tirage_ldc/siteldc.html){ target="_blank" } |
