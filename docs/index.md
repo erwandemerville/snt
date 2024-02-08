@@ -16,3 +16,4 @@ En cas de questionnements concernant un cours, un exercice, ou quoi que ce soit,
 | [Les réseaux sociaux](reseaux_sociaux/index.md) | Cours et activités sur les réseaux sociaux. |
 | [Le web](web/index.md) | Le web et son histoire. |
 | [Internet](internet/index.md) | Les principes autour d'internet, réseau informatique mondial. |
+| [Les données structurées](donnees_structurees/index.md) | Structuration des données, fichiers CSV, etc. |

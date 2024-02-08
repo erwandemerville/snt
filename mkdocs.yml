@@ -74,6 +74,10 @@ nav:
     - Histoire d'internet: internet/histoire.md
     - Supports machines / IP: internet/supports.md
     - TP Filius: internet/TP_Filius.md
+  - Données structurées:
+    - donnees_structurees/index.md
+    - Cours: donnees_structurees/cours.md
+    - TP: donnees_structurees/tp_tables.md
   - Autre:
     - autre/index.md
     - « Dessine ton smartphone »: autre/activite_smartphone/index.md
