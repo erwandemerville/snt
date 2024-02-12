@@ -41,6 +41,7 @@
 |    6   | [Le foot](sites_eleves/2de8/le_foot/index.html){ target="_blank" } |
 |    7   | [Site sur la Ligue 1](sites_eleves/2de8/ligue1/Mon%20site1.html){ target="_blank" } |
 |    8   | [Singapour](sites_eleves/2de8/Singapour/Accueil.html){ target="_blank" } |
+|    9   | [La Grèce](sites_eleves/2de8/la_grece/index.html){ target="_blank" } |
 
 ## 2de 3
 

@@ -71,6 +71,7 @@ nav:
       - Cours - HTML et CSS: web/cours_html_css.md
   - Internet:
     - internet/index.md
+    - Cours: internet/cours.md
     - Histoire d'internet: internet/histoire.md
     - Supports machines / IP: internet/supports.md
     - TP Filius: internet/TP_Filius.md
