@@ -1242,6 +1242,39 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="Les protocoles IP et TCP">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#les-adresses-ip" class="md-nav__link">
+    <span class="md-ellipsis">
+      Les adresses IP
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#le-role-des-protocoles-ip-et-tcp" class="md-nav__link">
+    <span class="md-ellipsis">
+      Le rôle des protocoles IP et TCP
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dns-domain-name-system" class="md-nav__link">
+    <span class="md-ellipsis">
+      DNS (Domain Name System)
+    </span>
+  </a>
+  
 </li>
       
     </ul>
@@ -1780,6 +1813,39 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="Les protocoles IP et TCP">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#les-adresses-ip" class="md-nav__link">
+    <span class="md-ellipsis">
+      Les adresses IP
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#le-role-des-protocoles-ip-et-tcp" class="md-nav__link">
+    <span class="md-ellipsis">
+      Le rôle des protocoles IP et TCP
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dns-domain-name-system" class="md-nav__link">
+    <span class="md-ellipsis">
+      DNS (Domain Name System)
+    </span>
+  </a>
+  
 </li>
       
     </ul>
@@ -1800,8 +1866,8 @@
 <div><div class="admonition quote">
 <p class="admonition-title">Version PDF de ce cours</p>
 <ul>
-<li><a href="../documents/resume_cours_trous.pdf">resume_cours_trous.pdf</a> - version du cours à trous,</li>
-<li><a href="../documents/resume_cours.pdf">resume_cours.pdf</a> - version du cours complété.</li>
+<li><a href="../documents/resume_cours_trous.pdf" target="_blank">resume_cours_trous.pdf</a> - version du cours à trous,</li>
+<li><a href="../documents/resume_cours.pdf" target="_blank">resume_cours.pdf</a> - version du cours complété.</li>
 </ul>
 </div>
 <h1 id="cours-internet">Cours - Internet<a class="headerlink" href="#cours-internet" title="Permanent link">¶</a></h1>
@@ -1932,7 +1998,93 @@ On distingue <b>6 sous-réseaux</b> identifiés par les lettres <i>A</i>, <i>B</
 </figure></p>
 </div>
 <h2 id="les-protocoles-ip-et-tcp">Les protocoles IP et TCP<a class="headerlink" href="#les-protocoles-ip-et-tcp" title="Permanent link">¶</a></h2>
-<p>(en construction...)</p></div>
+<h3 id="les-adresses-ip">Les adresses IP<a class="headerlink" href="#les-adresses-ip" title="Permanent link">¶</a></h3>
+<div class="admonition abstract">
+<p class="admonition-title">Qu'est-ce qu'une <strong>adresse IP</strong> ?</p>
+<p>Chaque <strong>machine</strong> connectée à <strong>Internet</strong> est <strong>identifiée sur le réseau</strong> grâce à son <mark><strong>adresse IP</strong></mark> (<em>Internet Protocole</em>). Une <mark><strong>adresse IP</strong></mark> se compose de <strong>quatre nombres</strong> codés sur <strong>8 bits</strong>, et donc compris entre <strong>0</strong> et <strong>255</strong>.</p>
+<p>Si l'on fait le calcul, une <strong>adresse IP</strong> est constituée de <span class="arithmatex">\(4 \times 8 bits = 32 bits\)</span>, ce qui fait un total de <span class="arithmatex">\(2^32\)</span> possibilités, soit <mark><strong>4 294 967 296</strong></mark> <strong>adresses IP</strong> différentes possibles.</p>
+<p><figure markdown="span">
+<img alt="Exemple d'adresse IP" src="../images/Adresse_Ipv4.svg" width="400">
+<figcaption>Exemple d'adresse IP (source : <a href="https://fr.wikipedia.org/wiki/Adresse_IP" target="_blank">Wikipédia</a>)</figcaption>
+</figure></p>
+</div>
+<div class="admonition abstract">
+<p class="admonition-title">IPv4 vs. IPv6</p>
+<p>Dans le cadre de ce cours, on se limitera au <strong>protocole IPv4</strong> (<em>Internet Protocol version 4</em>), qui est la <strong>première version</strong> d'<mark><strong>Internet Protocol (<em>IP</em>)</strong></mark> à avoir été largement déployée, mais qui reste encore aujourd'hui <strong>la base de la majorité des communications</strong> sur <strong>Internet</strong>.</p>
+<p>Les <strong>adresses IPv4</strong> sont des <strong>adresses</strong> sur <strong>32 bits</strong> constituées de <strong>4 nombres</strong> de <code>0</code> à <code>255</code>, comme par exemple <code>192.168.1.25</code> ou <code>255.255.255.25</code>. Il y a donc <span class="arithmatex">\(2^32\)</span> <strong>adresses IP possibles</strong> (environ <strong>4,3 milliards</strong>). Cela paraît beaucoup, mais étant donné la quantité de plus en plus importante d'appareils en tous genres connectés à internet à travers le monde, le <strong>nombre d'adresses IP utilisables</strong> devient <strong>insuffisant</strong>.</p>
+<p>Pour palier à la <strong>limitation</strong> des <strong>adresses IPv4</strong>, une évolution du <strong>protocole IP</strong>, appelée <strong>IPv6</strong>, a vu le jour. Une <strong>adresse IPv6</strong> contient <strong>128 bits</strong>, contre <strong>32 bits pour IPv4</strong>, ce qui fait un total de <span class="arithmatex">\(2^128\)</span>, soit <strong>plus de 340 sextillions d'adresses IP différentes</strong>, ce qui est <strong>énorme</strong>. Avec ce protocole, le problème de limitation du nombre d'adresses IP est donc définitivement réglé.</p>
+<p><figure markdown="span">
+<img alt="IPv4 vs. IPv6" src="../images/IPv4-vs-IPv6-FR.webp">
+<figcaption>IPv4 vs. IPv6 (source : <a href="https://www.avast.com/fr-fr/c-ipv4-vs-ipv6-addresses" target="_blank">Avast</a>)</figcaption>
+</figure></p>
+</div>
+<div class="admonition question">
+<p class="admonition-title">Voir mon adresse IP</p>
+<p>Prenons l'exemple du <strong>réseau de votre maison</strong>. Chez vous, lorsque vous utilisez un <strong>ordinateur</strong> ou tout autre appareil connecté à une <strong>box Internet</strong>, vous possédez en réalité <strong>deux adresses IP</strong> :</p>
+<ul>
+<li>
+<p>une <mark><strong>adresse IP locale</strong></mark> : c'est l'<strong>adresse IP</strong> de votre <strong>machine</strong> sur le <strong>réseau local</strong> de <strong>chez</strong> vous. Si vos <em>parents</em>, vos <em>frères</em>, vos <em>sœurs</em>, etc, sont connectés avec leur <em>ordinateur</em>, leur <em>tablette</em>, leur <em>smartphone</em> ou encore leur <em>TV</em> à une <strong>même box Internet</strong> (à l'aide d'une liaison <strong>Wi-Fi</strong> par exemple), ils possèdent chacun une <strong>adresse IP locale</strong>, qui permet d'<strong>identifier leur appareil</strong> sur <strong>votre réseau</strong>.<br><br>
+Vous pouvez <strong>voir cette adresse IP</strong>, par exemple sur <strong>Windows</strong> en ouvrant un <strong>invite de commande</strong> et en saisissant la <strong>commande</strong> <code>ipconfig</code> :<br><br>
+<img alt="Capture ipconfig" src="../images/capture_ipconfig.png"><br><br>
+On peut voir dans les <strong>informations de la carte réseau Wi-Fi</strong> que l'<strong>adresse IPv4</strong> sur le <strong>réseau local</strong> est <code>192.168.1.120</code>.<br>
+La <strong>carte réseau</strong> dispose également d'une <strong>adresse IPv6</strong>. Ainsi, selon les besoins, l'une ou l'autre version du <strong>protocole IP</strong>, <strong>IPv4</strong> et <strong>IPv6</strong>, peut être utilisée.<br><br>
+L'<mark><strong>adresse de la "passerelle par défaut"</strong></mark> correspond à l'<strong>adresse IP du routeur qui vous connecte à Internet</strong> (c'est-à-dire au <strong>réseau mondial</strong>). Il s'agit généralement de votre <strong>box Internet</strong>. Souvent, et c'est le cas <strong>ici</strong>, cette adresse en <strong>IPv4</strong> est <code>192.168.1.1</code>.<br>
+Si vous saisissez l'<strong>adresse de la passerelle</strong> dans la <strong>barre d'adresse</strong> de votre <strong>navigateur web</strong>, vous accéderez à l'<strong>interface de votre box Internet</strong>, vous permettant de la configurer.<br><br>
+<em>Note</em> : La plupart des <strong>ordinateurs</strong> disposent d'une <strong>carte réseau Wi-Fi</strong> et d'une <strong>carte réseau Ethernet</strong> (permettant de relier l'<strong>ordinateur</strong> à un <strong>réseau</strong> avec un câble <em>RJ45</em>, aussi appelé <em>câble Ethernet</em>). Les <strong>ordinateurs du lycée</strong> par exemple sont reliés au <strong>réseau</strong> avec un <strong>câble Ethernet</strong>.<br>
+Si votre <strong>ordinateur</strong> est connecté à <strong>deux réseaux différents</strong> avec <strong>deux interfaces différentes</strong> (par exemple s'il est connecté à <strong>un réseau en Wi-Fi</strong> et à <strong>un autre réseau en Ethernet</strong>), chaque <strong>interface réseau</strong> aura sa <strong>propre adresse IP sur le réseau</strong>.</p>
+</li>
+<li>
+<p>une <mark><strong>adresse IP sur le réseau mondial (Internet)</strong></mark> : toutes les <strong>machines</strong> connectées à une <strong>même box Internet</strong> possèdent une <strong>même adresse IP sur Internet</strong>, il s'agit en effet de l'<strong>adresse IP de la box Internet</strong>. Cette <strong>adresse IP</strong> est <mark><strong>publique</strong></mark>, et peut être récupérée, utilisée et stockée par tous les <strong>services</strong> que vous utilisez sur <strong>Internet</strong>.
+De nombreux <strong>services</strong> comme <a href="https://www.whatismyip.com/" target="_blank">WhatIsMyIP</a> vous permettent de <strong>voir cette adresse IP publique</strong> :</p>
+</li>
+</ul>
+<p></p><center>
+<img alt="IP publique" src="../images/IP_publique.png" width="500">
+</center>
+</div>
+<h3 id="le-role-des-protocoles-ip-et-tcp">Le rôle des protocoles IP et TCP<a class="headerlink" href="#le-role-des-protocoles-ip-et-tcp" title="Permanent link">¶</a></h3>
+<div class="admonition abstract">
+<p class="admonition-title">L'essentiel</p>
+<p>Les <strong>échanges de données</strong> peuvent s'effectuer de manière <strong>fiable</strong> grâce à l'<strong>utilisation de <mark>protocoles de communication</mark></strong>. Ces <strong>protocoles</strong> consistent en des <mark><strong>règles d'adressage, de transport et de contrôle d'intégrité des paquets</strong></mark>.</p>
+<p>Chaque <mark><strong>paquet</strong></mark> circulant sur <strong>Internet</strong> est enrichi d'<strong>en-têtes</strong>, notamment les <mark><strong>en-têtes IP</strong> et <strong>TCP</strong></mark>, qui <strong>renferment</strong> des <strong>informations additionnelles</strong> correspondant à ces <strong>protocoles de communication</strong> :</p>
+<ul>
+<li>le <mark><strong>protocole IP</strong></mark> ajoute un <mark><strong>en-tête</strong></mark> contenant les <mark><strong>adresse IP des ordinateurs émetteurs et récepteurs du paquet</strong></mark>. Il gère le <strong>bon adressage des données</strong>.</li>
+<li>le <mark><strong>protocole TCP</strong></mark> ajoute un <mark><strong>en-tête</strong></mark> qui permet, entre autres, de <strong>numéroter les paquets</strong> de manière à pouvoir les <strong>ré-assembler dans le bon ordre</strong> une fois <strong>reçus</strong> par le <strong>destinataire</strong>.<br>
+Ce protocole s'assure par ailleurs que <strong>tous les paquets soient bien reçus</strong>, en utilisant un système d'<strong>accusés de réception</strong>. Pour <strong>chaque paquet émis</strong>, un <strong>accusé de réception</strong> doit être <strong>reçu en retour</strong>. Ainsi, si un accusé de reception attendu n'est pas reçu, le <strong>paquet concerné</strong> est <strong>ré-émis</strong>.</li>
+</ul>
+<p><figure markdown="span">
+<img alt="Protocoles TCP et IP" src="../images/protocoles_TCP_IP.png" width="400">
+<figcaption>Protocoles TCP et IP (source : Delagrave SNT 2de 2023)</figcaption>
+</figure></p>
+</div>
+<h2 id="dns-domain-name-system">DNS (Domain Name System)<a class="headerlink" href="#dns-domain-name-system" title="Permanent link">¶</a></h2>
+<div class="admonition abstract">
+<p class="admonition-title">L'essentiel</p>
+<p>Comme nous l'avons vu précédemment, les <strong>machines</strong>, appelées <mark><strong>serveurs</strong></mark>, qui <strong>hébergent</strong> les <strong>pages web</strong> que nous visitons chaque jour, possèdent une <strong>adresse IP</strong>.</p>
+<p>Ainsi, pour <strong>accéder à une page web</strong>, on devrait normalement saisir l'<strong>adresse IP du serveur</strong> dans la <strong>barre d'adresse</strong> de notre <strong>navigateur web</strong>.<br>
+Par exemple, si vous <strong>saisissez l'adresse</strong> <code>173.194.213.94</code> dans la <strong>barre d'adresse</strong> de votre <strong>navigateur</strong> (<em>Firefox</em>, <em>Chrome</em>, <em>Edge</em>, etc), vous devriez accéder au <a href="https://google.fr/" target="_blank">site de Google</a> français.</p>
+<p>Toutefois, généralement, lorsque l'on souhaite accéder à un <strong>site web</strong>, on saisit plutôt une <strong>adresse</strong> du type <code>www.google.fr</code> ou même juste <code>google.fr</code>.</p>
+<p>Des <mark><strong>adresses symboliques</strong></mark>, constituées de <strong>courts textes plus mémorables</strong> pour l'être humain, sont <strong>associées aux adresses IP</strong>. La <strong>mise en correspondance</strong> entre une <strong>adresse IP</strong> et une <strong>adresse symbolique</strong> est gérée par un <mark><strong>annuaire DNS (Domain Name System)</strong></mark>.</p>
+<p>Le <mark><strong>DNS</strong></mark> est organisé en <mark><strong>domaines</strong></mark> et en <strong><mark>sous-domaines**</mark>, chacun correspondant à des </strong>ensembles d'adresses<strong> gérées en commun.<br>
+Chaque </strong>séparation de niveau<strong> d'un </strong>domaine<strong> est </strong>matérialisée par un point**. Par exemple, dans <code>wikipedia.org</code> :</p>
+<ul>
+<li>le <strong>domaine</strong> de <strong>plus haut-niveau</strong> est <em>fr.wikipedia.<mark>org</mark></em>.</li>
+<li>le <strong>domaine</strong> de <strong>niveau inférieur</strong> est <em>fr.<mark>wikipedia</mark>.org</em>. ; on dit que <code>wikipedia</code> est un <strong>sous-domaine</strong> du <strong>domaine</strong> <code>org</code>.</li>
+<li>le <strong>domaine</strong> de <strong>niveau encore inférieur</strong> est <em><mark>fr</mark>.wikipedia.org</em>. ; on dit que <code>fr</code> est un <strong>sous-domaine</strong> de <code>wikipedia</code>.</li>
+</ul>
+<p><figure markdown="span">
+<img alt="Organisation hiérarchique de l'annuaire DNS" src="../images/organisation_dns.png" width="500">
+<figcaption>Organisation hiérarchique de l'annuaire DNS (source : Delagrave SNT 2de 2023)</figcaption>
+</figure></p>
+</div>
+<div class="admonition abstract">
+<p class="admonition-title">Répartition de l'annuaire DNS</p>
+<p>Étant donné que le <strong>nombre d'adresses</strong> sur <strong>Internet</strong> est <strong>colossal</strong>, l'<strong>annuaire DNS</strong> est <mark><strong>distribué sur plusieurs machines</strong></mark>. Ces machines <strong>interagissent entre elles</strong> en <strong>lançant des requêtes</strong> et en y <strong>répondant</strong> pour déterminer l'<strong>adresse IP de la machine</strong> hébergeant la <strong>page Web recherchée</strong>.</p>
+<p><figure markdown="span">
+<img alt="Fonctionnement des serveurs de noms de domaine" src="../images/serveurs_noms_de_domaine.png">
+<figcaption>Fonctionnement des serveurs de noms de domaine (source : Delagrave SNT 2de 2023)</figcaption>
+</figure></p>
+</div></div>
 
 
 
