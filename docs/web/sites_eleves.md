@@ -34,7 +34,7 @@
 | Numéro | Liste des sites web                             |
 | ------ | ----------------------------------------------- |
 |    1   | [Taylor Swift](sites_eleves/2de8/taylor_swift/index.html){ target="_blank" } |
-|    2   | [Site streaming sport](sites_eleves/2de8/site_streaming_sport/Index.HTML){ target="_blank" } |
+|    2   | [Site streaming sport](sites_eleves/2de8/site_streaming_sport/index.html){ target="_blank" } |
 |    3   | [Nains de jardin](sites_eleves/2de8/nains_de_jardin/index.html){ target="_blank" } |
 |    4   | [Plats traditionnels français](sites_eleves/2de8/plats_traditionnels_francais/index.html){ target="_blank" } |
 |    5   | [Paire de chaussures tendances](sites_eleves/2de8/paires_chaussures_tendances/index.html){ target="_blank" } |
