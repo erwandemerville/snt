@@ -78,7 +78,8 @@ nav:
   - Données structurées:
     - donnees_structurees/index.md
     - Cours: donnees_structurees/cours.md
-    - TP: donnees_structurees/tp_tables.md
+    - TP Python: donnees_structurees/tp_tables.md
+    - TD - Données structurées: https://opale-donnees.erwandemerville.fr/
   - Autre:
     - autre/index.md
     - « Dessine ton smartphone »: autre/activite_smartphone/index.md
@@ -121,6 +122,7 @@ markdown_extensions:
 plugins:
   - search
   - mkdocs-video
+  - open-in-new-tab
 
 extra_css:
   - stylesheets/extra.css
