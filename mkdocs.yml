@@ -80,7 +80,7 @@ nav:
     - Cours: donnees_structurees/cours.md
     - TP Python: donnees_structurees/tp_tables.md
     - TD - Données structurées: https://opale-donnees.erwandemerville.fr/
-    - TP - Tableur Excel: http://sciences-ingenieur.genevoix-signoret-vinci.fr/SNT/3-donnees/co/00_Seance_2.html
+    - TP - Tableur Excel: donnees_structurees/tp_tableur.md
   - Autre:
     - autre/index.md
     - « Dessine ton smartphone »: autre/activite_smartphone/index.md
