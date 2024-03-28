@@ -9,9 +9,13 @@ Pour commencer, ==visionnez la **vidéo d'introduction** suivante==.
 ## Activité - Système embarqué à base de microcontrôleur
 
 <center>
-[:material-cursor-default-click: Télécharger l'activité au format ODT](src/activite_microcontroleur/01_microcontroleur.odt){ style="font-size:1.5em" target="_blank" }
+[:material-file-word: Télécharger l'activité au format ODT](src/activite_microcontroleur/activite_microcontroleur.odt){ style="font-size:1.5em" target="_blank" }
 </center>
 
 <center>
-[:material-cursor-default-click: Fiche détaillant le microcontrôleur Micro:bit](src/activite_microcontroleur/109_Carte_MicroBit.pdf){ style="font-size:1.5em" target="_blank" }
+[:material-file-pdf-box: Télécharger l'activité au format PDF](src/activite_microcontroleur/activite_microcontroleur.pdf){ style="font-size:1.5em" target="_blank" }
+</center>
+
+<center>
+[:material-file-document: Fiche détaillant le microcontrôleur Micro:bit](src/activite_microcontroleur/109_Carte_MicroBit.pdf){ style="font-size:1.5em" target="_blank" }
 </center> 
