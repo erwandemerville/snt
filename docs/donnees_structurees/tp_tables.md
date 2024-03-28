@@ -14,7 +14,7 @@
 
         - **déplacez** (ou copiez/collez) le **notebook** `TP_Titanic.ipynb` dans votre **répertoire de travail**.  
         <u>Rappel</u> : après téléchargement, votre fichier se trouve **sur votre bureau**,
-        - [cliquez ici](src/jp.bat){ target="_blank" } pour télécharger le fichier [jp.bat](src/jp.bat){ target="_blank" }, et placez-le **au même endroit** que votre **notebook** (dans votre répertoire de travail).
+        - [cliquez ici](src/jp.bat){ target="_blank" } pour télécharger le fichier [jp.bat](src/jp.bat){ target="_blank" }, et placez-le dans votre **répertoire de travail**.
         - **double-cliquez** sur le fichier `jp.bat` pour l'ouvrir : *Jupyter* devrait automatiquement se lancer dans votre **navigateur**.
         - Ouvrez `TP_Titanic.ipynb` depuis *Jupyter*.
 
@@ -44,7 +44,7 @@ Si vous avez terminé le TP précédent, voici un autre **TP** pour vous entraî
 
         - **déplacez** (ou copiez/collez) le **notebook** `TP_traitement_donnees.ipynb` dans votre **répertoire de travail**.  
         <u>Rappel</u> : après téléchargement, votre fichier se trouve **sur votre bureau**,
-        - [cliquez ici](src/jp.bat){ target="_blank" } pour télécharger le fichier `jp.bat`, et placez-le **au même endroit** que votre **notebook** (dans votre répertoire de travail).
+        - [cliquez ici](src/jp.bat){ target="_blank" } pour télécharger le fichier `jp.bat`, et placez-le dans votre **répertoire de travail**.
         - **double-cliquez** sur le fichier `jp.bat` pour l'ouvrir : *Jupyter* devrait automatiquement se lancer dans votre **navigateur**.
         - Ouvrez `TP_traitement_donnees.ipynb` depuis *Jupyter*.
 

@@ -122,7 +122,9 @@ markdown_extensions:
 
 plugins:
   - search
-  - mkdocs-video
+  - mkdocs-video:
+      is_video: True
+      video_autoplay: False
   - open-in-new-tab
 
 extra_css:
