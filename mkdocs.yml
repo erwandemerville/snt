@@ -81,6 +81,12 @@ nav:
     - TP Python: donnees_structurees/tp_tables.md
     - TD - Données structurées: https://opale-donnees.erwandemerville.fr/
     - TP - Tableur Excel: donnees_structurees/tp_tableur.md
+  - Informatique embarquée:
+    - info_embarquee/index.md
+    - Activité - Microcontrôleur: info_embarquee/microcontroleur.md
+  - Python:
+    - python/index.md
+    - TP-cours 1/4: python/src/python_affectation_entrees_sorties.odt
   - Autre:
     - autre/index.md
     - « Dessine ton smartphone »: autre/activite_smartphone/index.md
