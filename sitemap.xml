@@ -41,6 +41,16 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://snt.erwandemerville.fr/info_embarquee/</loc>
+         <lastmod>2024-03-28</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://snt.erwandemerville.fr/info_embarquee/microcontroleur/</loc>
+         <lastmod>2024-03-28</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://snt.erwandemerville.fr/internet/</loc>
          <lastmod>2024-03-28</lastmod>
          <changefreq>daily</changefreq>
@@ -107,6 +117,11 @@
     </url>
     <url>
          <loc>https://snt.erwandemerville.fr/participation/2de9/</loc>
+         <lastmod>2024-03-28</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://snt.erwandemerville.fr/python/</loc>
          <lastmod>2024-03-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
