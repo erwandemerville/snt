@@ -8,14 +8,25 @@ Pour commencer, ==visionnez la **vidéo d'introduction** suivante==.
 
 ## Activité - Système embarqué à base de microcontrôleur
 
+### Partie 1
+
 <center>
-[:material-file-word: Télécharger l'activité au format ODT](src/activite_microcontroleur/activite_microcontroleur.odt){ style="font-size:1.5em" target="_blank" }
+[:material-file-word: Télécharger l'activité au format ODT](src/activite_microcontroleur/activite_microcontroleur_partie1.odt){ style="font-size:1.5em" target="_blank" }
 </center>
 
 <center>
-[:material-file-pdf-box: Télécharger l'activité au format PDF](src/activite_microcontroleur/activite_microcontroleur.pdf){ style="font-size:1.5em" target="_blank" }
+[:material-file-pdf-box: Télécharger l'activité au format PDF](src/activite_microcontroleur/activite_microcontroleur_partie1.pdf){ style="font-size:1.5em" target="_blank" }
 </center>
 
+!!! tip "Correction de la partie 1"
+    Voici la correction de l'activité (questions autour du principe et du fonctionnement des systèmes embarqués et microcontrôleurs).
+
+    <center>
+    [:material-file-pdf-box: Télécharger le corrigé au format `PDF`](src/activite_microcontroleur/activite_microcontroleur_corr_partie1.pdf){ style="font-size:1.5em" target="_blank" }
+    </center> 
+
+### Partie 2
+
 <center>
-[:material-file-document: Fiche détaillant le microcontrôleur Micro:bit](src/activite_microcontroleur/109_Carte_MicroBit.pdf){ style="font-size:1.5em" target="_blank" }
+[:material-notebook: TP - Carte micro:bit](https://capytale2.ac-paris.fr/web/c/7023-3449421){ style="font-size:1.5em" target="_blank" }
 </center> 

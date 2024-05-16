@@ -84,6 +84,9 @@ nav:
   - Informatique embarquée:
     - info_embarquee/index.md
     - Activité - Microcontrôleur: info_embarquee/microcontroleur.md
+  - Localisation, cartographie et mobilité:
+    - localisation/index.md
+    - Cours: localisation/cours.md
   - Python:
     - python/index.md
     - TP-cours 1/4: python/src/python_affectation_entrees_sorties.odt
