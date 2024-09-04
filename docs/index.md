@@ -19,3 +19,4 @@ En cas de questionnements concernant un cours, un exercice, ou quoi que ce soit,
 | [Les données structurées](donnees_structurees/index.md) | Structuration des données, fichiers CSV, etc. |
 | [L'informatique embarquée](info_embarquee/index.md) | Les systèmes embarqués, microcontrôleurs, objets connectés... |
 | [Localisation, cartographie et mobilité](localisation/index.md) | Cours et exercices autour de des systèmes de géolocalisation et de cartographie. |
+| [:material-cloud-upload: Rendus des travaux](rendus.md) | Pour voir comment rendre vos travaux. |

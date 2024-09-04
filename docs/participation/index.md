@@ -7,4 +7,4 @@
     Chaque participation en classe permettra d'**augmenter cette note**.  
     À l'inverse, les bavardages, travaux non rendus, etc, pourront faire **baisser cette note**.
 
-[2de 3](2de3.md){ .md-button } [2de 6](2de6.md){ .md-button } [2de 8](2de8.md){ .md-button } [2de 9](2de9.md){ .md-button } [2de 10](2de10.md){ .md-button }
+[2de 9](2de9.md){ .md-button } [2de 10](2de10.md){ .md-button }

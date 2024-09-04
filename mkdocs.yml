@@ -93,13 +93,6 @@ nav:
   - Autre:
     - autre/index.md
     - « Dessine ton smartphone »: autre/activite_smartphone/index.md
-  - Notes participation:
-    - participation/index.md
-    - 2de 3: participation/2de3.md
-    - 2de 6: participation/2de6.md
-    - 2de 8: participation/2de8.md
-    - 2de 9: participation/2de9.md
-    - 2de 10: participation/2de10.md
   - Rendu des travaux: rendus.md
 
 markdown_extensions:
