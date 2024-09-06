@@ -52,6 +52,14 @@ Les cercles sont appelés des **sommets** et les segments de droites des **arêt
           2. Déterminer la **distance** entre le sommet **C** et **B** et la **distance** entre le sommet **B** et **E**.
           3. Déterminer **l’écartement** de **D** ainsi que **l’écartement** de **E**.
 
+??? tip "Réponse exercice 1"
+    1. Chaîne de **4 arêtes** : *B-A-D-F-E*, ou encore *B-A-C-E-F*...  
+    Chaîne de **5 arêtes** : *F-E-C-A-B-D*, ou encore *B-D-F-E-C-A*...
+
+    2. La **distance** entre **C** et **B** est de **2 arêtes** (c'est le plus petit nombre d'arêtes qui les sépare), et la **distance** entre **B** et **E** est également de **2 arêtes**.
+   
+    3. L'**écartement** de **D** est de **1** (car sa distance avec tous les autres sommets est de **1**), et l'écartement de **E** est de **2**.
+
 !!! note "Exercice 2"
     Construire un **graphe** d’un **réseau social** à partir des informations suivantes :
     
@@ -64,11 +72,47 @@ Les cercles sont appelés des **sommets** et les segments de droites des **arêt
 
     (Vous pouvez utiliser des **lettres** de **A** à **F** si vous préférez.)
 
+??? tip "Réponse exercice 2"
+    Voici le graphe obtenu (on peut le représenter différemment, tant qu'il contient les mêmes sommets et les mêmes arêtes) :
+
+    ![Graphe de l'exercice 2](images/exo2_graphe.png){ width="300" }
+
+    Ce graphe contient :
+
+    - **6 sommets**
+    - **8 arêtes**
+    - **Centres** du graphe : 'Albert', 'Bryan', 'Edouard', 'Charlotte', 'Flavien' et  'Daniel' sont **tous des centres**, car ils ont **tous le même écartement** (qui est de *2*).
+    - **Diamètre** du graphe : **2** (car la **distance maximale** entre deux **sommets** est de **2**)
+
 !!! note "Exercice 3"
     Déterminer **le** (ou **les**) **centre(s)** du **graphe ci-dessous**.  
     En déduire son **rayon** et son **diamètre**.
 
     ![Modélisation d'un graphe](images/exercice3_graphe.png)
+
+??? tip "Réponse exercice 3"
+    <u>**Centres du graphe**</u>
+
+    Pour déterminer le **centre du graphe**, regardons d'abord l'**écartement de chaque sommet** :
+
+    - **A** a un écartement de *3*,
+    - **B** a un écartement de *3*,
+    - **C** a un écartement de *2*,
+    - **D** a un écartement de *2*,
+    - **E** a un écartement de *3*,
+    - **F** a un écartement de *2*,
+    - **G** a un écartement de *3*.
+
+    Les **centres du graphe** sont les **sommets d'écartement minimal**. Ici, les **trois sommets** ayant l'**écartement le plus petit** (qui est de *2*) sont : *C*, *D* et **F**.
+
+    <u>**Rayon**</u> :
+
+    Le **rayon** est l'**écartement d'un centre du graphe**.  
+    Les **centres** de ce graphe ont pour écartement **2**, donc le **rayon** est de **2**.
+
+    <u>**Diamètre**</u> :
+
+    Le **diamètre** est la **distance maximale** entre **deux sommets** du graphe. Ici, les sommets les plus éloignés entre eux ont une **distance** de **3**, donc le diamètre est de **3**.
 
 ---
 
@@ -108,6 +152,22 @@ Un **tableau d'adjacence** est un **tableau à double entrée** où chaque case 
 
     c. Déterminer le **diamètre** et **le(s) centre(s)** du **graphe**.
 
+??? tip "Réponse exercice 4"
+    a. Il y a **8 arêtes** et **7 sommets** dans ce graphe.
+
+    b. Voici le **tableau d'adjacence** obtenu :
+    
+    | <u>Adjacence</u> | Anna | Charles | Elliot | Louise | Mathilde | Marc | Tatiana |
+    | ---------------- | ---- | ------- | ------ | ------ | -------- | ---- | ------- |
+    | **Anna**         |   0  |    1    |    0   |   0    |     0    |  0   |    0    |
+    | **Charles**      |   1  |    0    |    0   |   0    |     1    |  0   |    0    |
+    | **Elliot**       |   0  |    0    |    0   |   1    |     1    |  1   |    1    |
+    | **Louise**       |   0  |    0    |    1   |   0    |     0    |  0   |    0    |
+    | **Mathilde**     |   0  |    1    |    1   |   0    |     0    |  0   |    1    |
+    | **Marc**         |   0  |    0    |    1   |   0    |     0    |  0   |    1    |
+    | **Tatiana**      |   0  |    0    |    1   |   0    |     1    |  1   |    0    |
+
+    c. La **distance maximale** entre **2 sommets** est de **4 arêtes** : Donc le **diamètre** est de **4**.
 ---
 
 Visionnez les **12 premières minutes** de la vidéo suivante :
@@ -128,6 +188,43 @@ Visionnez les **12 premières minutes** de la vidéo suivante :
         2. Quelle est la **justification** proposée par **Barabasi** d'une telle organisation ?
     8. Donner les **caractéristiques** identifiés par l'auteur pour le réseau social formé des **amateurs de sciences** sur **Twitter** (la valeur du **degré de séparation**, quelques **sous-communautés** et des **hubs**).
     9. D'après vous, quels peuvent être les **conséquences** de ces **regroupements** sur les réseaux sociaux ?
+
+??? tip "Réponse exercice 5"
+    1. Le **premier modèle théorique** introduit par *Paul Erdős* pour simuler un réseau social est un modèle de **graphes aléatoires**. Ce modèle suppose que chaque **paire d'individus** dans un réseau social a une **probabilité fixe et indépendante** de former une connexion.  
+    La **première propriété* mise en évidence est celle des **6 degrés de séparation** : il s'agit de l'idée selon laquelle **chaque individu sur le globe** est relié à **tout autre individu** par une chaîne de relations individuelles comprenant **au plus cinq autres maillons**.
+
+    2. L'expérience du "petit monde" de Stanley Milgram a été menée en *1967*. Dans cette expérience, Milgram a demandé à des participants de *Omaha* au *Nebraska* d'envoyer des lettres à des personnes situées à *Boston*, en utilisant uniquement des **connaissances personnelles** et des **contacts intermédiaires**. L'objectif était de voir **combien d'étapes intermédiaires** étaient nécessaires pour que la lettre atteigne la personne cible.
+
+    3. Les **critiques majeures** de cette étude sont les suivantes :
+
+          1. Le nombre de lettres qui ont effectivement atteint la cible était assez faible, remettant en question la validité de l'expérience.
+
+          2. Les expériences conduites sur de **larges populations** plutôt que sur des groupes restreints et habitués à collaborer ont apporté un taux de succès si faible que les résultats n'ont pas été publiés.
+
+    4. *Duncan Watts* a étudié le réseau social des **acteurs hollywoodiens**. Il a découvert que la longueur moyenne du chemin entre deux acteurs était beaucoup plus courte que prévu, d'environ **3,6 personnes** (donc **3,6 arêtes**), montrant ainsi la notion de "petit monde" dans ce réseau.
+
+    5. L'utilisation des plateformes de **réseaux sociaux** a réduit le **nombre de degrés de séparation**. Elle serait d'environ **4 intermédiaires**, voire **3** si les individus résident dans le même pays.
+
+    6. La **seconde propriété** des réseaux sociaux identifiée par *Duncan Watts* est la présence de **regroupements d'individus d'une même communauté**. Il existe beaucoup de liens au sein d'une même communauté, mais beaucoup moins entre les différentes communautés.
+   
+    7. 
+          1. On peut citer comme exemples d'autres réseaux :
+                - le réseau de la **musique** : une personne faisant partie d'une communauté de **jazz** par exemple connaît toutes les autres personnes de sa commuanuté, mais peut également connaître celles de la communauté du **rock** par exemple, et ainsi faire le lien entre plusieurs communautés (ce qui en ferait un **hub**).
+                - les **réseaux de transport aérien**, où certains aéroports majeurs servent de **hubs** reliant différentes régions du monde.
+                - les **réseaux de citation académique**, avec des articles influents servant de hubs reliant différentes sous-disciplines.
+          2. La justification d'une telle organisation par Barbasi est qu'un grand nombre de personnes possède peu d'amis mais q'un nombre plus réduit de personnes possède beaucoup d'amis.
+
+    8. Selon *Albert-László Barabási*, le réseau social formé par les amateurs de sciences sur Twitter a les caractéristiques suivantes :
+
+          1. La valeur du **degré de séparation** est généralement courte (**3,5 degrés** entre **chaque individu** en moyenne), ce qui signifie que les utilisateurs sont relativement proches les uns des autres en termes de connexions.
+          2. Il existe plusieurs **sous-communautés** d'amateurs de sciences sur Twitter, chacune ayant ses propres centres d'intérêt et discussions : les sceptiques, les chercheurs, les institutions culturelles scientifiques...
+          3. Des **hubs** influents existent, comme des scientifiques bien connus ou des personnalités de la science, qui jouent un rôle clé dans la diffusion d'informations au sein du réseau.
+
+    9.  Les **regroupements** au sein des **réseaux sociaux** peuvent avoir plusieurs conséquences :
+
+           - Ils favorisent la diffusion rapide d'informations au sein des sous-communautés.
+           - Ils peuvent renforcer l'**homogénéité des opinions et des croyances** au sein de ces sous-communautés, ce qui peut conduire à des **bulles d'information**.
+           - Ils peuvent contribuer à l'*echo chamber* en limitant l'exposition à des **perspectives différentes**, ce qui peut être préjudiciable pour la **prise de décision éclairée**.
 
 ---
 
