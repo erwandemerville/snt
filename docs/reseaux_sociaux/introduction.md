@@ -56,7 +56,7 @@ Voici un petit QCM d'introduction pour tester vos connaissances préalables.
 
           1. avoir peu d'amis.
           2. les effacer au bout d'une heure.
-          3. régler les paramètres de condidentialité.
+          3. régler les paramètres de confidentialité.
 
     6. **Pour choisir un avatar** :
 
