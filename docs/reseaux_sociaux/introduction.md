@@ -20,7 +20,7 @@ Les réseaux sociaux, c'est **2,8 milliards d'utilisateurs actifs mensuels** dan
 </figure>
 
 !!! question "Questions préliminaires"
-    À votre avis, quels types de données sont échangées sur les réseaus sociaux ?  
+    À votre avis, quels types de données sont échangées sur les réseaux sociaux ?  
     Pourquoi ces réseaux sont-ils qualifiés de "sociaux" ?
 
 ## Un petit QCM
