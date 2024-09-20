@@ -2,7 +2,7 @@
     - [Pixees](https://pixees.fr/informatiquelycee/n_site/snt_rs_graphe.html){ target="_blank" }
     - [Académie de Nantes - Modéliser un réseau social](https://www.pedagogie.ac-nantes.fr/enseignements-informatiques/enseignement/snt/modeliser-un-reseau-social-simple-1286909.kjsp?RH=1552662845945){ target="_blank" }
     - [Académie de Nantes - Aspects économiques](https://www.pedagogie.ac-nantes.fr/enseignements-informatiques/enseignement/snt/reseaux-sociaux-aspects-economiques-et-controverses-1294359.kjsp){ target="_blank" }
-    - [moussatat.github.io](https://moussatat.github.io/snt/reseauxsociauxB){ target="_blank" }
+    - [moussatat.github.io](https://moussatat.github.io/snt/ReseauxSociauxB/){ target="_blank" }
 
 # Activité - Modéliser un réseau social
 

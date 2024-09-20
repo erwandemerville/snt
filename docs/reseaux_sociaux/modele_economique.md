@@ -4,6 +4,10 @@
 
 # Modèle économique des réseaux sociaux
 
+!!! info "À faire"
+    Pour répondre aux questions suivantes, rendez-vous sur l'application **Éléa**.  
+    Dans la partie "Les réseaux sociaux", ouvrez le **test** nommé "Activité - Modèle économique des réseaux sociaux". Cette activité fera l'objet d'une note avec un petit coefficient.
+
 **Visionnez** cette petite **vidéo** sur le fonctionnement économique des réseaux sociaux :
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/MXwKr5wGFwU?si=gH9gL02tp2GxX-Pv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
