@@ -9,7 +9,7 @@
 ## Exercices
 
 !!! info "Activité notée"
-    Cette activité sera **notée** sur **10 points**. Une autre activité sera réalisée plus tard pour obtenir une note sur **20 points**. Répondez aux questions ci-dessous **sur une feuille** que vous me rendrez. N'oubliez pas de mettre votre nom, votre prénom et votre classe !
+    Cette activité sera **notée** sur **10 points**. Répondez aux questions ci-dessous **sur une feuille** que vous me rendrez. N'oubliez pas de mettre votre nom, votre prénom et votre classe !
 
 Voici un graphe illustrant un réseau social ayant 6 abonnés (A, B, C, D, E et F) tel que :
 
@@ -70,8 +70,6 @@ Les cercles sont appelés des **sommets** et les segments de droites des **arêt
 
     ![Modélisation d'un graphe](images/exercice3_graphe.png)
 
----
-
 Un **tableau d'adjacence** est un **tableau à double entrée** où chaque case contient **1** si les sommets sont **liés par une arête**, et **0** sinon.
 
 <u>**Exemple**</u> :
@@ -108,7 +106,11 @@ Un **tableau d'adjacence** est un **tableau à double entrée** où chaque case 
 
     c. Déterminer le **diamètre** et **le(s) centre(s)** du **graphe**.
 
----
+## Vidéo - Comment sommes nous connectés ?
+
+!!! info "À faire"
+    Pour répondre aux questions suivantes, rendez-vous sur l'application **Éléa**.  
+    Dans la partie "Les réseaux sociaux", ouvrez le **test** nommé "Vidéo - Comment sommes nous connectés". Ce questionnaire sera évalué sur **10 points**.
 
 Visionnez les **12 premières minutes** de la vidéo suivante :
 
