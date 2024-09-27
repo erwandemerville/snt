@@ -59,6 +59,12 @@ nav:
     - Activité - Modèle économique des réseaux: reseaux_sociaux/modele_economique.md
     - Activité - Vie privée et cyberharcèlement: reseaux_sociaux/cyberharcelement.md
     - Cours: reseaux_sociaux/cours.md
+  - Le web:
+    - web/index.md
+    - Activités et projet:
+      - Activité - Le web et son histoire: web/histoire.md
+    - Cours:
+      - Cours - HTML et CSS: web/cours_html_css.md
   - Rendu des travaux: rendus.md
 
 markdown_extensions:
