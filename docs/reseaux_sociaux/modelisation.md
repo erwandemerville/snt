@@ -52,6 +52,14 @@ Les cercles sont appelés des **sommets** et les segments de droites des **arêt
           2. Déterminer la **distance** entre le sommet **C** et **B** et la **distance** entre le sommet **B** et **E**.
           3. Déterminer **l’écartement** de **D** ainsi que **l’écartement** de **E**.
 
+??? tip "Réponse exercice 1"
+    1. Chaîne de **4 arêtes** : *B-A-D-F-E*, ou encore *B-A-C-E-F*...  
+    Chaîne de **5 arêtes** : *F-E-C-A-B-D*, ou encore *B-D-F-E-C-A*...
+
+    2. La **distance** entre **C** et **B** est de **2 arêtes** (c'est le plus petit nombre d'arêtes qui les sépare), et la **distance** entre **B** et **E** est également de **2 arêtes**.
+   
+    3. L'**écartement** de **D** est de **1** (car sa distance avec tous les autres sommets est de **1**), et l'écartement de **E** est de **2**.
+
 !!! note "Exercice 2"
     Construire un **graphe** d’un **réseau social** à partir des informations suivantes :
     
@@ -64,11 +72,47 @@ Les cercles sont appelés des **sommets** et les segments de droites des **arêt
 
     (Vous pouvez utiliser des **lettres** de **A** à **F** si vous préférez.)
 
+??? tip "Réponse exercice 2"
+    Voici le graphe obtenu (on peut le représenter différemment, tant qu'il contient les mêmes sommets et les mêmes arêtes) :
+
+    ![Graphe de l'exercice 2](images/exo2_graphe.png){ width="300" }
+
+    Ce graphe contient :
+
+    - **6 sommets**
+    - **8 arêtes**
+    - **Centres** du graphe : 'Albert', 'Bryan', 'Edouard', 'Charlotte', 'Flavien' et  'Daniel' sont **tous des centres**, car ils ont **tous le même écartement** (qui est de *2*).
+    - **Diamètre** du graphe : **2** (car la **distance maximale** entre deux **sommets** est de **2**)
+
 !!! note "Exercice 3"
     Déterminer **le** (ou **les**) **centre(s)** du **graphe ci-dessous**.  
     En déduire son **rayon** et son **diamètre**.
 
     ![Modélisation d'un graphe](images/exercice3_graphe.png)
+
+??? tip "Réponse exercice 3"
+    <u>**Centres du graphe**</u>
+
+    Pour déterminer le **centre du graphe**, regardons d'abord l'**écartement de chaque sommet** :
+
+    - **A** a un écartement de *3*,
+    - **B** a un écartement de *3*,
+    - **C** a un écartement de *2*,
+    - **D** a un écartement de *2*,
+    - **E** a un écartement de *3*,
+    - **F** a un écartement de *2*,
+    - **G** a un écartement de *3*.
+
+    Les **centres du graphe** sont les **sommets d'écartement minimal**. Ici, les **trois sommets** ayant l'**écartement le plus petit** (qui est de *2*) sont : *C*, *D* et **F**.
+
+    <u>**Rayon**</u> :
+
+    Le **rayon** est l'**écartement d'un centre du graphe**.  
+    Les **centres** de ce graphe ont pour écartement **2**, donc le **rayon** est de **2**.
+
+    <u>**Diamètre**</u> :
+
+    Le **diamètre** est la **distance maximale** entre **deux sommets** du graphe. Ici, les sommets les plus éloignés entre eux ont une **distance** de **3**, donc le diamètre est de **3**.
 
 Un **tableau d'adjacence** est un **tableau à double entrée** où chaque case contient **1** si les sommets sont **liés par une arête**, et **0** sinon.
 
@@ -105,6 +149,23 @@ Un **tableau d'adjacence** est un **tableau à double entrée** où chaque case 
     | **Tatiana**      |      |         |        |        |          |      |         |
 
     c. Déterminer le **diamètre** et **le(s) centre(s)** du **graphe**.
+
+??? tip "Réponse exercice 4"
+    a. Il y a **8 arêtes** et **7 sommets** dans ce graphe.
+
+    b. Voici le **tableau d'adjacence** obtenu :
+    
+    | <u>Adjacence</u> | Anna | Charles | Elliot | Louise | Mathilde | Marc | Tatiana |
+    | ---------------- | ---- | ------- | ------ | ------ | -------- | ---- | ------- |
+    | **Anna**         |   0  |    1    |    0   |   0    |     0    |  0   |    0    |
+    | **Charles**      |   1  |    0    |    0   |   0    |     1    |  0   |    0    |
+    | **Elliot**       |   0  |    0    |    0   |   1    |     1    |  1   |    1    |
+    | **Louise**       |   0  |    0    |    1   |   0    |     0    |  0   |    0    |
+    | **Mathilde**     |   0  |    1    |    1   |   0    |     0    |  0   |    1    |
+    | **Marc**         |   0  |    0    |    1   |   0    |     0    |  0   |    1    |
+    | **Tatiana**      |   0  |    0    |    1   |   0    |     1    |  1   |    0    |
+
+    c. La **distance maximale** entre **2 sommets** est de **4 arêtes** : Donc le **diamètre** est de **4**.
 
 ## Vidéo - Comment sommes nous connectés ?
 
