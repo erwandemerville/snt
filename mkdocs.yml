@@ -65,6 +65,10 @@ nav:
       - Activité - Le web et son histoire: web/histoire.md
     - Cours:
       - Cours - HTML et CSS: web/cours_html_css.md
+  - Initiation Python:
+    - initiation_python/index.md
+    - Py-rates: https://py-rates.org/
+    - Documents: initiation_python/documents.md
   - Rendu des travaux: rendus.md
 
 markdown_extensions:

@@ -14,3 +14,4 @@ En cas de questionnements concernant un cours, un exercice, ou quoi que ce soit,
 | [Introduction à l'informatique](intro_info/index.md) | Numération binaire, codage ASCII... |
 | [Les réseaux sociaux](reseaux_sociaux/index.md) | Cours et activités sur les réseaux sociaux. |
 | [Le web](web/index.md) | Le web et son histoire. |
+| [Initiation à Python](initiation_python/index.md) | Initiation au langage de programmation Python. |
