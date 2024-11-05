@@ -63,6 +63,7 @@ nav:
     - web/index.md
     - Activités et projet:
       - Activité - Le web et son histoire: web/histoire.md
+      - Activités - HTML et CSS: web/decouverte_web.md
     - Cours:
       - Cours - HTML et CSS: web/cours_html_css.md
   - Initiation Python:
