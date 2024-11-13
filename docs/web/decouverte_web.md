@@ -30,4 +30,4 @@ Pour apprendre plus en détails les **bases** du **langage de description HTML**
 [:material-cursor-default-click: Télécharger le document élève](documents/doc_web_eleve.odt){ target="_blank" }
 </center>
 
-Vous travaillerez dans un premier temps avec le site [jdfiddle.net](https://jsfiddle.net/){ target="_blank" }, un éditeur de HTML/CSS en ligne permettant d'appréhender facilement ces langages.
+Vous travaillerez dans un premier temps avec le site [codepen.io](https://codepen.io/pen){ target="_blank" }, un éditeur de HTML/CSS en ligne permettant d'appréhender facilement ces langages.
