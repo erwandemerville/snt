@@ -89,5 +89,7 @@ Visionnez la vidéo suivante :
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/xo7iR2ipY1Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-!!! note "À faire"
-    Complétez la **frise chronologique** sur l'**histoire sur web** en indiquant les **dates et évènements clés**.
+Voici également un [document PDF](documents/dates.pdf) contenant un tableau regroupant différents évènements autour de l'histoire du web.
+
+!!! tip "Frise chronologique"
+    Vous trouverez une **frise chronologique** complète sur l'application "Frise chronologique" de votre *ENT*.
