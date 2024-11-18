@@ -61,11 +61,10 @@ nav:
     - Cours: reseaux_sociaux/cours.md
   - Le web:
     - web/index.md
-    - Activités et projet:
-      - Activité - Le web et son histoire: web/histoire.md
-      - Activités - HTML et CSS: web/decouverte_web.md
-    - Cours:
-      - Cours - HTML et CSS: web/cours_html_css.md
+    - Activité - Le web et son histoire: web/histoire.md
+    - Activités - HTML et CSS: web/decouverte_web.md
+    - Activité - Sécurité et vie privée: web/securite.md
+    - Cours - HTML et CSS: web/cours_html_css.md
   - Initiation Python:
     - initiation_python/index.md
     - Py-rates: https://py-rates.org/

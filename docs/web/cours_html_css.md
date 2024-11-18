@@ -27,43 +27,16 @@ Pour résumer, il est **<u>essentiel</u>** de comprendre le **principe** de ==**
 - le **==HTML==** est le **langage de description** (et de *balisage*) permettant de gérer la **structure** et le **contenu d'une page web**,
 - le **==CSS==** permet de **mise en forme** du **contenu HTML** en décrivant l'**apparence de chaque élément**.
 
-## La structure d'une page web
-
-La **structure d'une page HTML** est généralement la suivante :
-
-```html
-<!DOCTYPE html>
-<html lang="fr">
-    <head>
-        <meta charset="utf-8" />
-        <title>Le titre de la page</title>
-    </head>
-
-    <body>
-     ICI LE CONTENU DE LA PAGE
-    </body>
-</html>
-```
+## Le contenu d'une page web
 
 !!! success ""
     **HTML** est un **langage de balisage**. On rencontre **deux types de balises** :
 
-    - Les **balises** constituées d'une balise **ouvrante** et d'une balise **fermante** comme `<html></html>` ou `<body></body>`. Entre la **balise ouvrante** et la **balise fermante**, on met du **contenu** qui peut comprendre d'**autres balises** ou du **texte**.
-    - Les **balises auto-fermantes**, comme la balise `<meta />`. Une telle balise est **à la fois ouvrante et fermante**, elle ne contient pas de contenu. Toutefois, les **balises auto-fermantes** contiennent toujours des **<u>attributs</u>**. Par exemple, la balise `<meta charset="utf-8" />` contient l'attribut `charset`, qui permet d'indiquer l'**encodage des caractères** de la page (ici, on indique que la norme d'encodage `utf-8` est utilisée).
-
-Si l'on reprend la structure ci-dessus, voici une petite explication des **balises** :
-
-- L'élément `<html>` représente la **racine du document HTML**, et englobent toutes les autres balises. L'attribut `lang="fr"` permet d'indiquer que la **langue de la page** est le *français*.
-- L'élément `<head>` indique des **informations générales** (métadonnées) sur le **document**, incluant son **titre** et des **liens** ou des **définitions vers des scripts** et **feuilles de style**.
-- L'élément `<title>` indique le **titre de la page** (affiché à côté de l'îcone de la page).
-- L'élément `<body>` contient **tout le contenu de la page**. Dans la suite du cours, on s'intéressera plus en détail à ce contenu.
-
-## Le contenu d'une page web
+    - Les **balises** constituées d'une balise **ouvrante** et d'une balise **fermante** comme `<h1></h1>` ou `<p></p>`. Entre la **balise ouvrante** et la **balise fermante**, on met du **contenu** qui peut comprendre d'**autres balises** ou du **texte**.
+    - Les **balises auto-fermantes**, comme la balise `<br />`. Une telle balise est **à la fois ouvrante et fermante**, elle ne contient pas de contenu. Toutefois, les **balises auto-fermantes** peuvent contenir des **<u>attributs</u>**. Par exemple, la balise `<img src="..." />` contient l'attribut `src`, qui permet d'**indiquer le lien de l'image** à intégrer.
 
 !!! tip ""
-    N'hésitez pas à **copier** / **coller** le **code** proposé dans cette section sur [jsfiddle](https://jsfiddle.net/){ target="_blank" } pour en observer le résultat.
-
-À l'intérieur de la **balise ouvrante** `<body>` et de la **balise fermante** `</body>`, on met **tout le contenu de la page**.
+    N'hésitez pas à **copier** / **coller** le **code** proposé dans cette section sur [codepen](https://codepen.io/pen){ target="_blank" } pour en observer le résultat.
 
 ### La balise `<h1>`
 
@@ -406,10 +379,35 @@ Si on souhaite par exemple **créer une bordure noire de 1px** autour de ce **bl
 }
 ```
 
+## La structure d'une page web
+
+La **structure d'une page HTML** est généralement la suivante :
+
+```html
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8" />
+        <title>Le titre de la page</title>
+    </head>
+
+    <body>
+     ICI LE CONTENU DE LA PAGE
+    </body>
+</html>
+```
+
+Si l'on reprend la structure ci-dessus, voici une petite explication des **balises** :
+
+- L'élément `<html>` représente la **racine du document HTML**, et englobent toutes les autres balises. L'attribut `lang="fr"` permet d'indiquer que la **langue de la page** est le *français*.
+- L'élément `<head>` indique des **informations générales** (métadonnées) sur le **document**, incluant son **titre** et des **liens** ou des **définitions vers des scripts** et **feuilles de style**.
+- L'élément `<title>` indique le **titre de la page** (affiché à côté de l'îcone de la page).
+- L'élément `<body>` contient **tout le contenu de la page**.
+
 ## Exercice de révisions
 
 !!! note "Exercice d'entraînement"
-    Sur [jsfiddle](https://jsfiddle.net){ target="_blank" }, essayez de **reproduire** la **page web suivante** :
+    Sur [codepen](https://codepen.io/pen){ target="_blank" }, essayez de **reproduire** la **page web suivante** :
 
     ![](images/01.png)
     ![](images/02.png)
