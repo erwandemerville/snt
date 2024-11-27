@@ -1,0 +1,19 @@
+.md-typeset .admonition, .md-typeset .tip, .md-typeset .note, .md-typeset .info, .md-typeset .question, .md-typeset .warning {
+  font-size: 14px;
+}
+
+/* Tableaux de notes de participation */
+.md-typeset .tabnotes table {
+  font-size: 13px;
+}
+
+.md-typeset .tabnotes table tr td:nth-child(2) {
+  width: 200px;
+}
+/* ---------------------------------- */
+
+[data-md-color-scheme="my_theme"] {
+  --md-primary-fg-color:        rgb(198, 109, 42);
+  --md-primary-fg-color--light: rgb(198, 109, 42);
+  --md-primary-fg-color--dark:  rgb(198, 109, 42);
+}
