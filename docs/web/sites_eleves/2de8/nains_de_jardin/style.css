@@ -1,0 +1,68 @@
+/*Style pour le site*/
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #BCE1BD;
+}
+
+/*Style pourdu bandau du haut*/
+header {
+    background-color: #70A96B;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+/*Style du lien vers l'autre page*/
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/*Style pour les sections*/
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #E2F7E3;
+}
+
+/*Style pour les images de nains*/
+.img_nain {
+    display: block; /*Permet de centrer l'image*/
+    width: 30%;
+    margin: auto;
+}
+
+h2 { 
+    text-align: center 
+}
+/*Style pour le bandau du bas*/
+footer {
+    background-color: #70A96B;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+div{
+	width:49%;
+	display: inline-block;
+	text-align: center;
+}

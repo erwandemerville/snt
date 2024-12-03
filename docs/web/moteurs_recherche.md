@@ -3,13 +3,6 @@
 
     - [http://portail.lyc-la-martiniere-diderot.ac-lyon.fr/srv20/co/AA2_-_Moteur_de_recherche.html](http://portail.lyc-la-martiniere-diderot.ac-lyon.fr/srv20/co/AA2_-_Moteur_de_recherche.html){ target="_blank" }
 
-!!! warning "IMPORTANT"
-    ==Pour **toutes les secondes** à l'**exception** de la **seconde 9** :  
-    [Cliquez ici pour accéder à l'ancienne version de cette activité](moteurs_recherche_old.md).==
-
-    En effet, j'ai sur cette nouvelle version supprimé une question qui posait problème.  
-    Pour éviter tout décalage entre la numérotation des questions présentes sur ce site et sur votre document réponse, utilisez la version de cette activité sur laquelle vous aviez commencé votre travail.
-
 # Activité - Les moteurs de recherche
 
 ## Introduction

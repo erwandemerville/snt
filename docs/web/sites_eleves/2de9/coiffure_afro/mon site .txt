@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <title>Titre de votre site</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css" type="text/css"/>   
+    </head>
+    <body>
+        <!-- À COMPLÉTER -->    
+    </body>
+</html>
+
+ <head> <idée de coiffure afro>idée de coiffure afro</coiffure de coiffure afro>
+   
+   
