@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <title>Titre de votre site</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style2.css" type="text/css"/>   
+    </head>
+    <body>
+        <!-- À COMPLÉTER -->    
+		<header>
+    <h1>La célèbre pirate Soizick et son équipage</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="Equipage.html">L'équipage</a></li>
+        </ul>
+    </nav>
+</header>
+<section>
+<img src="pirate1.png" width="260"/>
+<img src="pirate2.png" width="260"/>
+<img src="pirate3.png" width="260"/>
+<img src="pirate4.png" width="260"/>
+</section>
+
+    </body>
+</html>

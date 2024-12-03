@@ -1,0 +1,31 @@
+<!DOCTYPE html> 
+<html lang="fr"> 
+    <head>
+        <title>CPA architecture</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css" type="text/css"/>   
+    </head>
+    <body>
+	<header>
+    <h1>CPA architecture p2</h1> 
+	<img src="logo3.png" width="200px"/> 
+    <nav>
+        <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="CPAarchitecture.html">Projets</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section>
+<h2>équipe</h2>
+<p>Decouvrez nos derniers projets <br />
+<img src="i.webp" alt="représente"/>
+</section>
+
+<footer>
+    <p>Projet en cours de conception : belle et grande maison située au coeur de Lille de 3 étages</p>
+</footer>
+        <!-- À COMPLÉTER -->    
+    </body>
+</html>
