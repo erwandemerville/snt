@@ -409,8 +409,7 @@ Si l'on reprend la structure ci-dessus, voici une petite explication des **balis
 !!! note "Exercice d'entraînement"
     Sur [codepen](https://codepen.io/pen){ target="_blank" }, essayez de **reproduire** la **page web suivante** :
 
-    ![](images/01.png)
-    ![](images/02.png)
+    ![](images/capture_page.png)
 
 !!! tip "Partie HTML corrigée"
     Cliquez sur le lien ci-dessous pour accéder à un codepen contenant le code HTML complet :

@@ -70,10 +70,18 @@ nav:
       - Sites web d'élèves: web/sites_eleves.md
     - Cours:
       - Cours - HTML et CSS: web/cours_html_css.md
+  - Données structurées:
+    - donnees_structurees/index.md
+    - Cours: donnees_structurees/cours.md
+    - TP Python: donnees_structurees/tp_tables.md
+    - TD - Données structurées: https://opale-donnees.erwandemerville.fr/
+    - TP - Tableur Excel: donnees_structurees/tp_tableur.md
   - Initiation Python:
     - initiation_python/index.md
     - Py-rates: https://py-rates.org/
     - Documents: initiation_python/documents.md
+    - Notebooks: initiation_python/notebooks.md
+  - Codecombat: https://codecombat.com/students?_cc=ShelfMouthMap
   - Rendu des travaux: rendus.md
 
 markdown_extensions:

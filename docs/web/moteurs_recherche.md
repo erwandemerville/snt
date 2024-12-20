@@ -53,58 +53,13 @@
 **Visionnez la vidéo**, et **répondez** à la **question suivante** :
 
 !!! note "Question 1"
-    Compléter les 3 cases du tableau suivant qui décrit le fonctionnement général d'un moteur de recherche ? Ne pas oublier le terme anglais sur le ligne 1 du tableau.
+    Dans les 3 phrases ci-dessous, compléter avec les mots *darkweb*, *indexées*, *crawlers*, *deepweb*.
 
-    <table style="border-collapse: collapse; width: 100%; border: 1px solid black;">
-        <colgroup>
-            <col style="width:224px;width:28.39ch;">
-            <col style="width:224px;width:28.39ch;">
-            <col style="width:224px;width:28.39ch;">
-        </colgroup>
-        <tbody>
-            <tr style="background-color: #f2f2f2; border-bottom: 1px solid black;">
-                <th scope="col" style="border: 1px solid black;">
-                    <p>Tâches</p>
-                </th>
-                <th scope="col" style="border: 1px solid black;">
-                    <p>Explication</p>
-                </th>
-                <th scope="col" style="border: 1px solid black;">
-                    <p>Terme anglais</p>
-                </th>
-            </tr>
-            <tr>
-                <td style="border:1px solid black;" style="border: 1px solid black;">(à compléter)</td>
-                <td style="border:1px solid black;" style="border: 1px solid black;">
-                    <p>Des robots explorent le web en suivant les liens entre pages</p>
-                </td>
-                <td style="border:1px solid black;" style="border: 1px solid black;">(à compléter)</td>
-            </tr>
-            <tr>
-                <td style="border:1px solid black;" style="border: 1px solid black;">(à compléter)</td>
-                <td style="border:1px solid black;" style="border: 1px solid black;">
-                    <p>Analyse des pages en ajoutant des mots-clés et en stockant ces données sur des serveurs</p>
-                </td>
-                <td style="border:1px solid black;" rowspan="6" style="border: 1px solid black;"><p>X</p></td>
-            </tr>
-            <tr>
-                <td style="border:1px solid black;" style="border: 1px solid black;" rowspan="5"><p>Analyse et renvoi des résultats à l'internaute</p></td>
-                <td style="border:1px solid black;"><p>L'internaute tape sa requête dans le moteur de recherche</p></td>
-            </tr>
-            <tr>
-                <td style="border:1px solid black;"><p>La requête est envoyée au serveur de stockage</p></td>
-            </tr>
-            <tr>
-                <td style="border:1px solid black;"><p>Les mots-clés sont comparés aux listes établies</p></td>
-            </tr>
-            <tr>
-                <td style="border:1px solid black;"><p>La pertinence de la page est analysée selon des algorithmes</p></td>
-            </tr>
-            <tr>
-                <td style="border:1px solid black;"><p>Les pages sont proposées à l'internaute, triées par qualité et pertinence</p></td>
-            </tr>
-        </tbody>
-    </table>
+    1. Des robots appelés ....................... parcourent le web en suivant les liens entre pages pour découvrir et collecter des données sur de nouvelles pages ou pour actualiser les informations existantes.
+
+    2. Les données collectées sont analysées, les pages sont traitées pour extraire des mots-clés pertinents, et ces informations sont ....................... dans une base de données optimisée pour permettre une recherche rapide et efficace.
+
+    3. Des millions de pages de sont pas prises en compte dans l'indexation, c'est ce que l'on appelle le ....................... .
 
 ## II - Utiliser les moteurs de recherche dans le navigateur Firefox
 
@@ -132,7 +87,7 @@ Voyons cela dans le détail.
     <figcaption>Menu gauche dans les préférences de Firefox</figcaption>
     </figure>
 
-    Vous constaterez qu'il n'y a qu'**un seul moteur de recherche** (Google) présent sur votre machine. Nous allons donc voir, dans la prochaine manipulation, comment **ajouter de nouveaux moteurs de recherche**.
+    Vous constaterez alors la liste des moteurs de recherche présents sur votre machine. Nous allons donc voir, dans la prochaine manipulation, comment **ajouter de nouveaux moteurs de recherche**.
 
 ### II-2 Ajouter un moteur de recherche dans un navigateur web
 
@@ -140,7 +95,7 @@ Voyons cela dans le détail.
 
     Dans tous les **navigateurs**, il est aisé d'**ajouter un moteur à cette liste**. On peut utiliser **3 moyens** :
 
-    1. Lancer le site [Qwant Maps](https://www.qwant.com/maps/){ target="_blank" }, et **cliquer sur le champ de la barre de recherche** (Cf. image ci-dessous) puis *Ajouter ce moteur de recherche* ; constater par la suite la bonne réussite de l'opération en retrouvant ce moteur dans la liste proposée par Firefox. On peut retrouver cette icone d'ajout de moteur à d'autres endroits...
+    1. Lancer le site [Ecosia](https://www.ecosia.fr/){ target="_blank" }, et **cliquer sur le champ de la barre de recherche** (Cf. image ci-dessous) puis *Ajouter ce moteur de recherche* ; constater par la suite la bonne réussite de l'opération en retrouvant ce moteur dans la liste proposée par Firefox. On peut retrouver cette icone d'ajout de moteur à d'autres endroits...
     <figure markdown>
     <center>
     ![Ajout Quant Maps](images/ajout_qwant_maps.png){ width="300px" }
@@ -166,11 +121,12 @@ Voyons cela dans le détail.
 
     1. Réaliser une recherche du *Lycée Jean Perrin* dans **Qwant Maps**.
 
-!!! success "À montrer au professeur"
-    Après avoir réalisé les manipulations, appelez le professeur et :
+!!! success "À faire"
+    Retournez dans les **paramètres** de **Mozilla Firefox**, puis dans l'onglet **Recherche**, puis déroulez de nouveau le **menu déroulant** de la section **Moteur de recherche par défaut**.
 
-    - **montrez** la **liste des moteurs de recherche de votre navigateur**,
-    - faites une **recherche** dans *Qwant Maps* (de ce que vous voulez) en utilisant la méthode utilisée précédemment.
+    Faites une **capture d'écran** des moteurs de recherche présents dans le menu déroulant.
+
+    Insérez cette **capture d'écran** dans le document réponse (vous pouvez faire un simple copier/coller de votre image.)
 
 ## III - Requêtes et résultats dans les moteurs de recherche
 
