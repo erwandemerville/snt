@@ -1,4 +1,4 @@
-!!! quote "Sources"
+??? quote "Sources"
     Ce cours ainsi que les images utilisées sont basés sur les ressources suivantes :
 
     - *SNT Delagrave 2de* - 2023
