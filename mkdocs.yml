@@ -76,6 +76,9 @@ nav:
     - TP Python: donnees_structurees/tp_tables.md
     - TD - Données structurées: https://opale-donnees.erwandemerville.fr/
     - TP - Tableur Excel: donnees_structurees/tp_tableur.md
+  - Localisation, cartographie et mobilité:
+    - localisation/index.md
+    - Cours: localisation/cours.md
   - Initiation Python:
     - initiation_python/index.md
     - Py-rates: https://py-rates.org/
