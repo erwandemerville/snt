@@ -9,7 +9,7 @@
 Pour chaque bloc "À faire" qui suit, effectuer les opérations indiquées.
 
 !!! note "À faire 1"
-    1. Une fois que vous avez **téléchargé votre fichier**, rendez-vous sur votre **bureau** (dans le gestionnaire de fichiers), puis **ouvrez le fichier** `Exemple_table.csv` avec le logiciel **LibreOffice Calc** (++"clic droit"++, ++"ouvrir avec"++, ++"LibreOffice"++).
+    1. Une fois que vous avez **téléchargé votre fichier**, rendez-vous sur votre **dossier de téléchargements** (via le gestionnaire de fichiers), puis **ouvrez le fichier** `Exemple_table.csv` avec le logiciel **LibreOffice Calc** (++"clic droit"++, ++"ouvrir avec"++, ++"LibreOffice"++).
     2. Assurez-vous que le **séparateur** `virgule` soit bien **coché**.
     3. Afin que les données correspondant au **descripteur** `"Date de naissance"` soient gérées en tant que **date**, cliquer sur la **colonne** et sélectionner `"Date (JMA)"`.
 
@@ -107,8 +107,8 @@ Pour chaque bloc "À faire" qui suit, effectuer les opérations indiquées.
 
     ---
 
-    **Compter le nombre de personnes** dont le **prénom contient la lettre "c"** ("*c*"), **en utilisant** la **fonction** `NB.SI`. On exclut la **1ère ligne de la plage** (`B2:B6`).  
-    On utilisera le **critère** "c".
+    **Compter le nombre de personnes** dont le **prénom contient la lettre "c"**, **en utilisant** la **fonction** `NB.SI`. On exclut la **1ère ligne de la plage** (`B2:B6`).  
+    On utilisera le **critère** `"*c*"`.
 
     <center>
     ![Calcul 4](images/Calcul_4.jpg){ width="500" }
@@ -196,6 +196,9 @@ Téléchargez le **document-réponse** (vous y écrirez les réponses aux questi
 
 !!! note "Question 2"
     Quelle est la **différence** entre les deux fichiers ?
+
+Ouvrir maintenant `Les_longs_metrages_Disney.csv` dans ==**LibreOffice Calc**==.  
+Au lancement, assurez-vous que la **virgule** soit bien sélectionnée comme séparateur.
 
 !!! note "Question 3"
     **Trier** les **longs métrages** selon leur **titre** par **ordre croissant**.
