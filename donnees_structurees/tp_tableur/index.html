@@ -14,7 +14,7 @@
         <link rel="prev" href="../tp_tables/">
       
       
-        <link rel="next" href="../../initiation_python/">
+        <link rel="next" href="../../localisation/">
       
       
       <link rel="icon" href="../../assets/images/favicon.png">
@@ -304,6 +304,26 @@
     
   
   Données structurées
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../localisation/" class="md-tabs__link">
+          
+  
+    
+  
+  Localisation, cartographie et mobilité
 
         </a>
       </li>
@@ -1324,10 +1344,6 @@
       
         
       
-        
-      
-        
-      
     
     
       
@@ -1343,11 +1359,11 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../initiation_python/" class="md-nav__link ">
+            <a href="../../localisation/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
-    Initiation Python
+    Localisation, cartographie et mobilité
   </span>
   
 
@@ -1362,6 +1378,94 @@
         
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            Localisation, cartographie et mobilité
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../localisation/cours/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Cours
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../initiation_python/" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    Initiation Python
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_7" id="__nav_7_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
             <span class="md-nav__icon md-icon"></span>
             Initiation Python
           </label>
@@ -1558,7 +1662,7 @@
 <div class="admonition note">
 <p class="admonition-title">À faire 1</p>
 <ol>
-<li>Une fois que vous avez <strong>téléchargé votre fichier</strong>, rendez-vous sur votre <strong>bureau</strong> (dans le gestionnaire de fichiers), puis <strong>ouvrez le fichier</strong> <code>Exemple_table.csv</code> avec le logiciel <strong>LibreOffice Calc</strong> (<span class="keys"><kbd>clic droit</kbd></span>, <span class="keys"><kbd>ouvrir avec</kbd></span>, <span class="keys"><kbd>LibreOffice</kbd></span>).</li>
+<li>Une fois que vous avez <strong>téléchargé votre fichier</strong>, rendez-vous sur votre <strong>dossier de téléchargements</strong> (via le gestionnaire de fichiers), puis <strong>ouvrez le fichier</strong> <code>Exemple_table.csv</code> avec le logiciel <strong>LibreOffice Calc</strong> (<span class="keys"><kbd>clic droit</kbd></span>, <span class="keys"><kbd>ouvrir avec</kbd></span>, <span class="keys"><kbd>LibreOffice</kbd></span>).</li>
 <li>Assurez-vous que le <strong>séparateur</strong> <code>virgule</code> soit bien <strong>coché</strong>.</li>
 <li>Afin que les données correspondant au <strong>descripteur</strong> <code>"Date de naissance"</code> soient gérées en tant que <strong>date</strong>, cliquer sur la <strong>colonne</strong> et sélectionner <code>"Date (JMA)"</code>.</li>
 </ol>
@@ -1632,8 +1736,8 @@ Dans le <strong>menu déroulant</strong> du "Prénom", <strong>cliquer</strong> 
 <p><strong>Cliquer sur "OK"</strong>, la cellule <strong>F1</strong> devrait maintenant afficher <strong>6</strong>.<br>
 Cela correspond bien au <strong>total de la ligne des descripteurs</strong> et des <strong>5 objets</strong>.</p>
 <hr>
-<p><strong>Compter le nombre de personnes</strong> dont le <strong>prénom contient la lettre "c"</strong> ("<em>c</em>"), <strong>en utilisant</strong> la <strong>fonction</strong> <code>NB.SI</code>. On exclut la <strong>1ère ligne de la plage</strong> (<code>B2:B6</code>).<br>
-On utilisera le <strong>critère</strong> "c".</p>
+<p><strong>Compter le nombre de personnes</strong> dont le <strong>prénom contient la lettre "c"</strong>, <strong>en utilisant</strong> la <strong>fonction</strong> <code>NB.SI</code>. On exclut la <strong>1ère ligne de la plage</strong> (<code>B2:B6</code>).<br>
+On utilisera le <strong>critère</strong> <code>"*c*"</code>.</p>
 <p></p><center>
 <img alt="Calcul 4" src="../images/Calcul_4.jpg" width="500">
 </center>
@@ -1700,6 +1804,8 @@ Pour commencer, <strong>calculer</strong> l'<strong>âge de la 1ère personne</s
 <p class="admonition-title">Question 2</p>
 <p>Quelle est la <strong>différence</strong> entre les deux fichiers ?</p>
 </div>
+<p>Ouvrir maintenant <code>Les_longs_metrages_Disney.csv</code> dans <mark><strong>LibreOffice Calc</strong></mark>.<br>
+Au lancement, assurez-vous que la <strong>virgule</strong> soit bien sélectionnée comme séparateur.</p>
 <div class="admonition note">
 <p class="admonition-title">Question 3</p>
 <p><strong>Trier</strong> les <strong>longs métrages</strong> selon leur <strong>titre</strong> par <strong>ordre croissant</strong>.</p>
