@@ -15,5 +15,5 @@ En cas de questionnements concernant un cours, un exercice, ou quoi que ce soit,
 | [Les réseaux sociaux](reseaux_sociaux/index.md) | Cours et activités sur les réseaux sociaux. |
 | [Le web](web/index.md) | Le web et son histoire. |
 | [Les données structurées](donnees_structurees/index.md) | Structuration des données, fichiers CSV, etc. |
-| [Les données structurées](donnees_structurees/index.md) | Structuration des données, fichiers CSV, etc. |
+| [Localisation, cartographie et mobilité](localisation/index.md) | Cours et exercices autour de des systèmes de géolocalisation et de cartographie. |
 | [Initiation à Python](initiation_python/index.md) | Initiation au langage de programmation Python. |

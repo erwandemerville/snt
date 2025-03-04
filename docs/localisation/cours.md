@@ -2,7 +2,7 @@
 
 ## Cartographie
 
-Voir l'[activité sur Capytale](https://capytale2.ac-paris.fr/web/c/146c-3579090).
+Voir l'[activité sur Capytale](https://capytale2.ac-paris.fr/web/c/6811-5808309).
 
 ## Géolocalisation
 
