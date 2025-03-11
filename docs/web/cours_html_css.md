@@ -411,8 +411,8 @@ Si l'on reprend la structure ci-dessus, voici une petite explication des **balis
 
     ![](images/capture_page.png)
 
-!!! tip "Partie HTML corrigée"
-    Cliquez sur le lien ci-dessous pour accéder à un codepen contenant le code HTML complet :
+!!! tip "Correction"
+    Cliquez sur le lien ci-dessous pour accéder à un codepen contenant le **code complet corrigé** :
 
     <center style="font-size:1.3em">
     [Cliquez ici pour accéder au codepen](https://codepen.io/erwandemerville/pen/JoPoZyp)
