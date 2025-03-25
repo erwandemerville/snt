@@ -5,6 +5,14 @@
     - [TD/TP Opale Jean Prouvé](https://opale-donnees.erwandemerville.fr/)
     - [monlyceenumerique.fr](http://www.monlyceenumerique.fr/snt_seconde/donnees_structurees_traitement/donnees_structurees.php)
 
+!!! info "Résumé papier de ce cours"
+    Vous pouvez ici télécharger la version **PDF** du résumé papier qui vous a été donné en classe :
+
+    - [Cours papier avec trous à compléter](src/cours_papier/cours_papier_trous.pdf)
+    - [Cours papier complété](src/cours_papier/cours_papier.pdf)
+
+    *À noter* : Il s'agit ici d'un **résumé** du cours, mais je vous invite vivement à lire également le cours complet ci-dessous.
+
 # Cours - Les données structurées
 
 ## Les données
@@ -29,7 +37,7 @@
 
 !!! info "*Vidéo* : Big data et utilisation des données"
     <center>
-    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/5otaBKsz7k4?si=9gPzPnQFpNV6qopc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <iframe title="Big data : données, données, donnez-moi ! - #DATAGUEULE 15" width="560" height="315" src="https://peertube.datagueule.tv/videos/embed/etMw3qxMsdZHcvhFzekvie" frameborder="0" allowfullscreen="" sandbox="allow-same-origin allow-scripts allow-popups allow-forms"></iframe>
     </center>
 
 !!! abstract "Qu'est-ce qu'une **métadonnée** ?"
