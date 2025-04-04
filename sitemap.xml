@@ -16,6 +16,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://snt.erwandemerville.fr/codecombat/</loc>
+         <lastmod>2025-04-04</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://snt.erwandemerville.fr/donnees_structurees/</loc>
          <lastmod>2025-04-04</lastmod>
          <changefreq>daily</changefreq>
