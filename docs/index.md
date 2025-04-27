@@ -2,10 +2,10 @@
 
 Bienvenue, ici vous retrouverez tous les cours, exercices, activités et évaluations réalisés dans le cadre de la **SNT** (seconde).
 
-En cas de questionnements concernant un cours, un exercice, ou quoi que ce soit, n'hésitez pas à me contacter **via la messagerie de l'[ENT](https://enthdf.fr/){ target="_blank" }**.
+En cas de questionnements concernant un cours, un exercice, ou quoi que ce soit, n'hésitez pas à me contacter **via la messagerie de l'[ENT](https://enthdf.fr/)**.
 
 !!! success "Programme officiel"
-    * [Programme de SNT](bo/BO_SNT.pdf){ target="_blank" }
+    * [Programme de SNT](bo/BO_SNT.pdf)
 
 ## Contenu du site
 
