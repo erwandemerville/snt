@@ -79,6 +79,8 @@ nav:
   - Localisation, cartographie et mobilité:
     - localisation/index.md
     - Cours: localisation/cours.md
+    - Activité - Plateformes carto.: localisation/src/activite3_plateformes.pdf
+    - Activité - Trame NMEA: localisation/src/activite4_NMEA.pdf
   - Initiation Python:
     - initiation_python/index.md
     - Py-rates: https://py-rates.org/
