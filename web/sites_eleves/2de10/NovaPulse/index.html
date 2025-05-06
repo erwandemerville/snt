@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nova Pulse - Boutique de Jeux</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0; /* Arrière-plan gris pour la page d'accueil */
+            color: #000000; /* Texte en noir */
+            text-align: center;
+        }
+        header {
+            background: #000000; /* Header en noir */
+            padding: 20px;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        header h1 {
+            font-family: 'Verdana', sans-serif;
+            font-size: 32px;
+            color: #8a2be2; /* Logo en bleu violet */
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            gap: 20px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 18px;
+            transition: color 0.3s ease;
+        }
+        nav ul li a:hover {
+            color: #8a2be2; /* Couleur bleu violet au survol */
+        }
+        .content-section {
+            display: none;
+            padding: 50px;
+            font-size: 20px;
+            background-color: #ffffff; /* Arrière-plan blanc pour toutes les sections sauf l'accueil */
+            position: relative;
+        }
+        #accueil {
+            background-color: #f0f0f0; /* Arrière-plan gris pour la page d'accueil */
+        }
+        .active {
+            display: block;
+        }
+        .carousel-container {
+            position: relative;
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            border-radius: 10px;
+        }
+        .carousel {
+            display: flex;
+            transition: transform 0.5s ease-in-out;
+        }
+        .carousel-item {
+            min-width: 100%;
+            background: #e0e0e0; /* Fond gris clair pour les éléments du carousel */
+            padding: 50px;
+            border-radius: 10px;
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+            color: #000000; /* Texte en noir */
+        }
+        .prev, .next {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            background: rgba(0, 0, 0, 0.5); /* Boutons semi-transparents */
+            color: white;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+            border-radius: 50%;
+            transition: background 0.3s ease;
+        }
+        .prev:hover, .next:hover {
+            background: rgba(0, 0, 0, 0.8); /* Boutons plus foncés au survol */
+        }
+        .prev { left: 10px; }
+        .next { right: 10px; }
+        .form-container {
+            background: #e0e0e0; /* Fond gris clair pour les formulaires */
+            padding: 20px;
+            border-radius: 10px;
+            max-width: 400px;
+            margin: 50px auto;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .form-container input {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            background: #ffffff; /* Fond blanc pour les champs de formulaire */
+            color: #000000; /* Texte en noir */
+        }
+        .form-container button {
+            width: 100%;
+            padding: 10px;
+            background: #8a2be2; /* Bouton bleu violet */
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+        .form-container button:hover {
+            background: #7b1fa2; /* Bouton bleu violet plus foncé au survol */
+        }
+        .game-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+        .game-card {
+            background: #e0e0e0; /* Fond gris clair pour les cartes de jeux */
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .game-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        }
+        .game-card img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+        .game-card h3 {
+            margin: 10px 0;
+            color: #8a2be2; /* Titre des jeux en bleu violet */
+        }
+        .game-card p {
+            color: #333333; /* Texte en gris foncé */
+        }
+        footer {
+            background: #000000; /* Footer en noir */
+            padding: 20px;
+            color: white;
+            text-align: center;
+            box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+            position: relative;
+        }
+        .copyright {
+            margin-top: 10px;
+            font-size: 18px;
+            color: #ccc; /* Texte gris clair */
+        }
+        .login-link {
+            color: #1e90ff; /* Lien en bleu */
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+        .login-link:hover {
+            color: #00bfff; /* Lien bleu plus clair au survol */
+        }
+        .welcome-section {
+            text-align: center;
+            padding: 100px 20px;
+        }
+        .welcome-section h1 {
+            font-size: 72px; /* Titre en gros */
+            font-weight: bold;
+            color: #8a2be2; /* Titre en bleu violet */
+            margin-bottom: 20px;
+        }
+        .welcome-section .slogan {
+            font-size: 24px;
+            color: #333333; /* Texte en gris foncé */
+            margin-bottom: 40px;
+        }
+        .welcome-section .slogan p {
+            margin: 10px 0;
+        }
+        .explore-message {
+            font-size: 20px;
+            color: #8a2be2; /* Message en bleu violet */
+            margin-top: 20px;
+            cursor: pointer;
+            text-decoration: underline;
+        }
+        .section-footer {
+            position: absolute;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 18px;
+            color: #555555; /* Texte gris */
+        }
+        .register-link {
+            text-align: right;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Nova Pulse</h1>
+        <nav>
+            <ul>
+                <li><a href="#accueil" class="nav-link">Accueil</a></li>
+                <li><a href="#jeux" class="nav-link">Jeux</a></li>
+                <li><a href="#actus" class="nav-link">Actus</a></li>
+                <li><a href="#connexion" class="nav-link">Connexion</a></li>
+                <li><a href="#inscription" class="nav-link">S'inscrire</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="accueil" class="content-section active">
+        <div class="welcome-section">
+            <h1>Nova Pulse</h1>
+            <div class="slogan">
+                <p>Découvrez des jeux époustouflants,</p>
+                <p>avec des graphismes à couper le souffle</p>
+                <p>et une immersion sans précédent.</p>
+            </div>
+            <div class="explore-message">Explorer le site</div>
+        </div>
+    </section>
+    
+    <section id="jeux" class="content-section">
+        <h2>Nos Sélections</h2>
+        <p>Plongez dans notre sélection des jeux incontournables !</p>
+        <div class="game-grid">
+            <div class="game-card">
+                <img src="https://via.placeholder.com/200" alt="The Witcher 3">
+                <h3>The Witcher 3</h3>
+                <p>Un RPG épique avec un monde ouvert immersif.</p>
+            </div>
+            <div class="game-card">
+                <img src="https://via.placeholder.com/200" alt="Cyberpunk 2077">
+                <h3>Cyberpunk 2077</h3>
+                <p>Plongez dans un futur dystopique et dangereux.</p>
+            </div>
+            <div class="game-card">
+                <img src="https://via.placeholder.com/200" alt="Elden Ring">
+                <h3>Elden Ring</h3>
+                <p>Un monde fantastique créé par FromSoftware.</p>
+            </div>
+            <div class="game-card">
+                <img src="https://via.placeholder.com/200" alt="Red Dead Redemption 2">
+                <h3>Red Dead Redemption 2</h3>
+                <p>Une aventure western en monde ouvert.</p>
+            </div>
+            <div class="game-card">
+                <img src="https://via.placeholder.com/200" alt="Assassin's Creed Valhalla">
+                <h3>Assassin's Creed Valhalla</h3>
+                <p>Explorez l'ère des Vikings.</p>
+            </div>
+        </div>
+    </section>
+    
+    <section id="actus" class="content-section">
+        <h2>Dernières Actualités</h2>
+        <p>Restez informé des nouveautés gaming et des avis des joueurs !</p>
+        <div>
+            <p><strong>Breaking News :</strong> Un nouveau RPG révolutionnaire fait sensation.</p>
+            <p><strong>Top Avis :</strong> "Un jeu incroyable, une immersion totale !" - Joueur X</p>
+            <p><strong>Sorties Attenues :</strong> Découvrez les jeux les plus anticipés de l'année.</p>
+        </div>
+        <div class="section-footer">2025 Nova Pulse</div>
+    </section>
+    
+    <section id="connexion" class="content-section">
+        <h2>Connexion</h2>
+        <div class="form-container">
+            <input type="text" placeholder="Nom d'utilisateur">
+            <input type="password" placeholder="Mot de passe">
+            <button>Se connecter</button>
+            <p>Pas encore de compte ? <a href="#inscription" class="login-link">S'inscrire</a></p>
+        </div>
+        <div class="section-footer">2025 Nova Pulse</div>
+    </section>
+    
+    <section id="inscription" class="content-section">
+        <h2>S'inscrire</h2>
+        <div class="form-container">
+            <input type="text" placeholder="Nom d'utilisateur">
+            <input type="email" placeholder="Email">
+            <input type="password" placeholder="Mot de passe">
+            <button>S'inscrire</button>
+            <div class="register-link">
+                <p>Déjà un compte ? <a href="#connexion" class="login-link">Se connecter</a></p>
+            </div>
+        </div>
+        <div class="section-footer">2025 Nova Pulse</div>
+    </section>
+    
+    <footer>
+        <p>Nova Pulse - Tous droits réservés</p>
+        <div class="copyright">&copy; <span>2025</span></div>
+    </footer>
+    
+    <script>
+        // Gestion des clics sur les liens de navigation
+        document.querySelectorAll('.nav-link').forEach(link => {
+            link.addEventListener('click', function(event) {
+                event.preventDefault();
+                document.querySelectorAll('.content-section').forEach(section => {
+                    section.classList.remove('active');
+                });
+                document.querySelector(this.getAttribute('href')).classList.add('active');
+            });
+        });
+
+        // Redirection entre "S'inscrire" et "Se connecter"
+        document.querySelectorAll('.login-link').forEach(link => {
+            link.addEventListener('click', function(event) {
+                event.preventDefault();
+                document.querySelectorAll('.content-section').forEach(section => {
+                    section.classList.remove('active');
+                });
+                document.querySelector(this.getAttribute('href')).classList.add('active');
+            });
+        });
+
+        // Redirection de "Explorer le site" vers la section "Jeux"
+        document.querySelector('.explore-message').addEventListener('click', function(event) {
+            event.preventDefault();
+            document.querySelectorAll('.content-section').forEach(section => {
+                section.classList.remove('active');
+            });
+            document.querySelector('#jeux').classList.add('active');
+        });
+
+        // Fonctionnalité du carousel
+        const carousel = document.querySelector('.carousel');
+        const prev = document.querySelector('.prev');
+        const next = document.querySelector('.next');
+        let index = 0;
+
+        function updateCarousel() {
+            const total = document.querySelectorAll('.carousel-item').length;
+            index = (index + total) % total;
+            carousel.style.transform = `translateX(${-index * 100}%)`;
+        }
+
+        prev.addEventListener('click', () => {
+            index--;
+            updateCarousel();
+        });
+
+        next.addEventListener('click', () => {
+            index++;
+            updateCarousel();
+        });
+
+        setInterval(() => {
+            index++;
+            updateCarousel();
+        }, 3000);
+    </script>
+</body>
+</html>
+
+
+
+
+
+
+
