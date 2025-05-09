@@ -1,0 +1,92 @@
+body {
+    font-family: 'Shantell Sans', cursvive e;
+    margin: 0;
+    padding: 0;
+    background-image:linear-gradient(150deg,#500060,#030000);
+}
+
+header {
+    background-color:black;
+    color: purple;
+    padding: 50px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 70px;
+}
+
+nav a {
+    text-decoration: underline;
+    color: purple;
+    font-weight: bold;
+}
+
+section.atl {
+    max-width: 800px;
+    margin: 80px auto;
+    padding: 70px;
+    background-image: linear-gradient(170deg,#480056,#f0a2ff);
+}
+
+section.abl {
+    max-width: 800px;
+    margin: 80px auto;
+    padding: 70px;
+    background-image: linear-gradient(170deg,#f0adfd,#d8ff00);
+}
+
+section.anl {
+    max-width: 800px;
+    margin: 80px auto;
+    padding: 70px;
+    background-image: linear-gradient(170deg,#adc817,#831a0c);   
+   
+}
+
+
+footer {
+    background-color:black ;
+    color:  purple;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+
+section.album {
+	max-width: 800px;
+    margin: 80px auto;
+	padding: 70px;
+	background-color: orange;
+}
+
+.album-grid {
+	display:grid;
+	min-height:200vh;
+}
+
+
+.album-grid1 {
+	background-image: url(https://s2.qwant.com/thumbr/474x474/5/4/2e8c6e519e3374e0909e264b4ade0a7e79ee146acadeeabec4255541ff9e48/th.jpg?u=https%3A%2F%2Ftse.mm.bing.net%2Fth%3Fid%3DOIP.mQENcwd-nAUQX-438ilFowHaHa%26pid%3DApi&q=0&b=1&p=0&a=0);
+	background-repeat: no-repeat;
+}
+
+.album-grid2 {
+	background-image: url(https://s1.qwant.com/thumbr/474x474/a/9/79711bfc46e43611ad9eae57062b4206a89c0d54645c9b61c809400672f20b/th.jpg?u=https%3A%2F%2Ftse.mm.bing.net%2Fth%3Fid%3DOIP.tyYjrGA3SD61WH2iPDfO2gHaHa%26pid%3DApi&q=0&b=1&p=0&a=0);
+	background-repeat: no-repeat;
+}
+
+.album-grid3 {
+	background-image: url(https://s2.qwant.com/thumbr/474x474/d/a/dbe4fafc2095285dfd95991fec04a86fff4d78edc733900c41ea1ff358d1e7/th.jpg?u=https%3A%2F%2Ftse.mm.bing.net%2Fth%3Fid%3DOIP.LjtvvFzA1foRv1o6hqDKzwHaHa%26pid%3DApi&q=0&b=1&p=0&a=0);
+	background-repeat: no-repeat;
+}
