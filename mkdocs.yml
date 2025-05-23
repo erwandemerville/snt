@@ -81,6 +81,8 @@ nav:
     - Cours: localisation/cours.md
     - Activité - Plateformes carto.: localisation/src/activite3_plateformes.pdf
     - Activité - Trame NMEA: localisation/src/activite4_NMEA.pdf
+  - Photographie:
+    - photographie/index.md
   - Initiation Python:
     - initiation_python/index.md
     - Py-rates: https://py-rates.org/

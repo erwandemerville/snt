@@ -1,0 +1,48 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+	background-image:url(https://preview.redd.it/free-geometry-dash-wallpaper-v0-bc9107n96qeb1.png?width=4048&format=png&auto=webp&s=223163e5513bd80ee58737e3007d31270ffc1c5d)
+}
+
+header {
+    background-color: #0071bc;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #0071bc;
+}
+
+footer {
+    background-color: #333;
+    color: #0071bc;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}

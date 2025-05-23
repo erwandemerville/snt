@@ -1,0 +1,102 @@
+/* Style général */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #111;
+    color: white;
+
+
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: black;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a.active {
+    color: red;
+    font-weight: bold;
+}
+
+/* Bannière */
+.banner {
+    background: url('https://staticg.sportskeeda.com/newsletter/football-landing-card.jpg') center/cover no-repeat;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+/* Matchs */
+.match-list {
+    padding: 20px;
+    text-align: center;
+}
+
+.match {
+    background: #222;
+    padding: 15px;
+    margin: 10px auto;
+    width: 80%;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+
+.team-logo {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.team {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.vs {
+    font-size: 20px;
+    color: red;
+}
+
+.date {
+    font-size: 14px;
+    color: gray;
+    position: absolute;
+    right: 10px;
+    bottom: 5px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background: black;
+}
+

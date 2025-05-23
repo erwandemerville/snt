@@ -1,0 +1,231 @@
+/* Reset de marges et padding par défaut */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Bannière du haut */
+.top-banner {
+    background-color: #111;
+    color: white;
+    padding: 10px 0;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center; /* Centre le texte */
+    position: fixed; /* Fixe la bannière en haut */
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* Assure qu'elle reste au-dessus du contenu */
+}
+/* Style général de la page */
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    background-color: #000; /* Fond noir pour la page */
+}
+
+/* Style du titre du site (Logo LMS) */
+.site-title {
+    font-family: 'Playfair Display', serif; /* Police Luxueuse */
+    font-size: 5em;
+    text-align: center;
+    color: #fff;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+
+.slogan {
+    font-family: 'Great Vibes', cursive; /* Changer la police en "Great Vibes" */
+    font-size: 2.5em; /* Taille ajustée */
+    text-align: center;
+    color: #fff;
+    margin-top: 0; /* Rapprocher le slogan du logo */
+}
+
+/* Section des images */
+.image-gallery {
+    display: flex;
+    justify-content: space-between; /* Espace entre les images */
+    gap: 20px;
+    padding: 50px;
+    position: relative;
+}
+
+/* Image avec texte superposé */
+.image-item {
+    position: relative;
+    width: 33.33%; /* Chaque image occupe un tiers de l'espace */
+    overflow: hidden;
+}
+
+.image-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Texte superposé sur toutes les images */
+.image-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 3em;
+    text-align: center;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+/* Texte spécifique pour la bannière (c'est-à-dire le texte de la collection) */
+.new {
+    font-family: 'Times New Roman', Times, serif; /* Changer la police pour le texte "New" */
+}
+
+.winter-collection {
+    font-family: 'Playfair Display', serif;
+}
+
+/* Changer la police pour le titre de la bannière sur l'image du milieu */
+.image-item:nth-child(2) .image-text {
+    font-family: 'Times New Roman', Times, serif; /* Applique "Times New Roman" au texte de la bannière */
+}
+
+/* Section Shop Categories */
+.shop-categories {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.shop-categories h2 {
+    font-size: 2.5em;
+    text-transform: uppercase;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 30px;
+}
+
+.categories-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.category-item {
+    width: 22%; /* Chaque élément prend environ 1/4 de l'espace */
+    text-align: center;
+    position: relative;
+}
+
+.category-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.category-item img:hover {
+    transform: scale(1.05);
+}
+
+.category-item p {
+    margin-top: 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+    font-family: 'Playfair Display', serif;
+}
+/* SHOP THE FAVES */
+/* Section "Shop the Faves" */
+.shop-faves {
+    background-color: #111;
+    padding: 15px 0;
+    margin-top: 50px;
+    font-size: 18px;
+    font-weight: bold;
+    border-top: 2px solid white;
+
+}
+
+.shop-faves h2 {
+    font-size: 2.5em;
+    text-transform: uppercase;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.faves-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.faves-item {
+    width: 45%;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.faves-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.faves-item img:hover {
+    transform: scale(1.05);
+}
+/* Section À PROPOS DE NOUS */
+.about-us {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 10%;
+    background-color: #111; /* Fond noir */
+    color: white;
+    gap: 50px;
+}
+
+.about-image {
+    flex: 1;
+}
+
+.about-image img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.about-text {
+    max-width: 500px;
+}
+
+.about-us h2 {
+    font-size: 2.8em;
+    text-transform: uppercase;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 20px;
+}
+
+.about-us p {
+    font-size: 1.2em;
+    line-height: 1.8;
+    color: #ccc;
+    margin-bottom: 20px;
+}
+footer {
+    background-color: #111; /* Couleur de fond */
+    color: white; /* Couleur du texte */
+    text-align: center; /* Centrer le texte */
+    padding: 10px 0; /* Espace autour du texte */
+    position: fixed; /* Fixe le footer en bas */
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    font-size: 14px;
+}
+
+   
