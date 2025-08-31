@@ -4,7 +4,7 @@ hide:
   - toc
 ---
 
-# Énigme - Localisation
+# Énigme - Localisation ([recharger page](enigme_localisation.md))
 
 !!! abstract "Objectif"
     **==<u>Objectif</u>==** : identifier la **ville**, le **lieu exact** et l'**altitude** qui correspondent aux **coordonnées GPS** suivantes.
@@ -64,23 +64,23 @@ table tr { font-size: 1.2em; }
   <div>
     <label>Adresse :</label>
     <input class="addr" type="text" id="addressInput" placeholder="Ex: 10 rue de Rivoli, Paris"/>
-    <button class="md-button" onclick="addressToCoords()">Convertir en coordonnées</button>
+    <button class="md-button" onclick="addressToCoords()">Convertir en coordonnées GPS</button>
   </div>
 
   <div>
   <label>Latitude :</label>
-  <input type="number" id="latDeg" placeholder="48"> °
-  <input type="number" id="latMin" placeholder="51"> '
-  <input type="number" id="latSec" placeholder="29"> "
+  <input type="number" id="latDeg"> °
+  <input type="number" id="latMin"> '
+  <input type="number" id="latSec"> "
   <select id="latDir">
     <option value="N">N</option>
     <option value="S">S</option>
   </select>
   &nbsp;
   <label>Longitude :</label>
-  <input type="number" id="lonDeg" placeholder="2"> °
-  <input type="number" id="lonMin" placeholder="21"> '
-  <input type="number" id="lonSec" placeholder="12"> "
+  <input type="number" id="lonDeg"> °
+  <input type="number" id="lonMin"> '
+  <input type="number" id="lonSec"> "
   <select id="lonDir">
     <option value="E">E</option>
     <option value="W">W</option>
