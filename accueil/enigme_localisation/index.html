@@ -78,7 +78,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#enigme-localisation" class="md-skip">
+        <a href="#enigme-localisation-recharger-page" class="md-skip">
           Skip to content
         </a>
       
@@ -1789,7 +1789,7 @@
                   
 
 
-<div><h1 id="enigme-localisation">Énigme - Localisation<a class="headerlink" href="#enigme-localisation" title="Permanent link">¶</a></h1>
+<div><h1 id="enigme-localisation-recharger-page">Énigme - Localisation (<a href="./">recharger page</a>)<a class="headerlink" href="#enigme-localisation-recharger-page" title="Permanent link">¶</a></h1>
 <div class="admonition abstract">
 <p class="admonition-title">Objectif</p>
 <p><strong><mark><u>Objectif</u></mark></strong> : identifier la <strong>ville</strong>, le <strong>lieu exact</strong> et l'<strong>altitude</strong> qui correspondent aux <strong>coordonnées GPS</strong> suivantes.</p>
@@ -1848,23 +1848,23 @@ table tr { font-size: 1.2em; }
   <div>
     <label>Adresse :</label>
     <input class="addr" type="text" id="addressInput" placeholder="Ex: 10 rue de Rivoli, Paris">
-    <button class="md-button" onclick="addressToCoords()">Convertir en coordonnées</button>
+    <button class="md-button" onclick="addressToCoords()">Convertir en coordonnées GPS</button>
   </div>
 
   <div>
   <label>Latitude :</label>
-  <input type="number" id="latDeg" placeholder="48"> °
-  <input type="number" id="latMin" placeholder="51"> '
-  <input type="number" id="latSec" placeholder="29"> "
+  <input type="number" id="latDeg"> °
+  <input type="number" id="latMin"> '
+  <input type="number" id="latSec"> "
   <select id="latDir">
     <option value="N">N</option>
     <option value="S">S</option>
   </select>
    
   <label>Longitude :</label>
-  <input type="number" id="lonDeg" placeholder="2"> °
-  <input type="number" id="lonMin" placeholder="21"> '
-  <input type="number" id="lonSec" placeholder="12"> "
+  <input type="number" id="lonDeg"> °
+  <input type="number" id="lonMin"> '
+  <input type="number" id="lonSec"> "
   <select id="lonDir">
     <option value="E">E</option>
     <option value="W">W</option>
