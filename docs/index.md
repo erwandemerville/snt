@@ -11,6 +11,7 @@ En cas de questionnements concernant un cours, un exercice, ou quoi que ce soit,
 
 | Liste des contenus                              | Description                         |
 | ----------------------------------------------- | ----------------------------------- |
+| [Accueil des 2ndes - Rentrée 2025](accueil/index.md) | Ressources pour l'accueil des 2ndes de 2025. |
 | [Introduction à l'informatique](intro_info/index.md) | Numération binaire, codage ASCII... |
 | [Les réseaux sociaux](reseaux_sociaux/index.md) | Cours et activités sur les réseaux sociaux. |
 | [Le web](web/index.md) | Le web et son histoire. |

@@ -47,6 +47,9 @@ copyright: Copyright &copy; 2023 - Erwan Demerville
 nav:
   - Accueil:
     - index.md
+  - Rentrée 2025:
+    - accueil/index.md
+    - Énigme localisation: accueil/enigme_localisation.md
   - Introduction à l'informatique:
     - intro_info/index.md
     - Numération binaire: intro_info/numeration_binaire.md
