@@ -1886,12 +1886,12 @@ table tr { font-size: 1.2em; }
     attribution: '© OpenStreetMap'
   }).addTo(map);
 
-  // Initialiser latitude et longitude au format décimal
-  let lat = 0;
-  let lon = 0;
+  // Initialiser latitude et longitude (contiendra des décimaux)
+  let lat = null;
+  let lon = null;
 
-  // Booléen indiquant si l'altitude est déjà affichée
-  let altAff = false;
+  // Booléen indiquant si l'altitude peut être affichée
+  let AffAlt = false;  // au départ, on ne peut pas l'afficher
 
   // Conversion décimal → DMS
   function toDMS(dec, type) {
@@ -1907,7 +1907,7 @@ table tr { font-size: 1.2em; }
 
   // Adresse → Coordonnées
   function addressToCoords() {
-    altAff = false;  // indiquer que l'altitude n'est pas affichée
+    AffAlt = true;  // indiquer que l'altitude peut être affichée
     let address = document.getElementById("addressInput").value;
     fetch(`https://nominatim.openstreetmap.org/search?format=json&q=${encodeURIComponent(address)}`)
       .then(res => res.json())
@@ -1947,7 +1947,7 @@ table tr { font-size: 1.2em; }
 
   // Récupérer les valeurs saisies en DMS et faire un reverse geocoding
   function dmsToAddress() {
-    altAff = false;  // indiquer que l'altitude n'est pas affichée
+    AffAlt = true;  // indiquer que l'altitude peut être affichée
 
     lat = fromDMS(
       parseFloat(document.getElementById("latDeg").value || 0),
@@ -2006,8 +2006,9 @@ table tr { font-size: 1.2em; }
 
   // Bouton "Obtenir altitude"
   function getAltitude() {
-    if (!altAff && (lat != 0 || lon != 0)) {
-      altAff = true;
+    let introuvable = document.getElementById("result").innerText == "Adresse introuvable";
+    if (AffAlt && !introuvable) {
+      AffAlt = false;
       fetch(`https://api.open-elevation.com/api/v1/lookup?locations=${lat},${lon}`)
         .then(res => res.json())
         .then(data => {
