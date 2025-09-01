@@ -35,7 +35,7 @@ hide:
     Votre réponse : <input class="rep" type="text" />
     3. Précisez l’**altitude** de ce lieu.  
     Votre réponse : <input class="rep" type="text" />
-    4. Donner la **latitude** et la **longitude** en **décimal** de la ***tour Eiffel***.  
+    4. Donner les **coordonnées GPS** en **décimal** de l'**adresse** `Tour Eiffel, Paris`.  
     Votre réponse : <input class="repl" type="text" placeholder="latitude" /> <input class="repl" type="text" placeholder="longitude" />
 
     ==**Pour réaliser cela, vous utiliserez le bloc [Conversion Adresse ↔ Coordonnées GPS](#conversion) ci-dessous.**==  
@@ -97,12 +97,17 @@ table tr { font-size: 1.2em; }
 
 <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
 <script>
-  let map = L.map('map').setView([48.8566, 2.3522], 13); // Paris par défaut
+  let map = L.map('map').setView([48.8566, 2.3522], 6); // Paris par défaut
   L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '© OpenStreetMap'
   }).addTo(map);
 
-  let marker = L.marker([48.8566, 2.3522]).addTo(map);
+  // Initialiser latitude et longitude (contiendra des décimaux)
+  let lat = null;
+  let lon = null;
+
+  // Booléen indiquant si l'altitude peut être affichée
+  let AffAlt = false;  // au départ, on ne peut pas l'afficher
 
   // Conversion décimal → DMS
   function toDMS(dec, type) {
@@ -118,14 +123,15 @@ table tr { font-size: 1.2em; }
 
   // Adresse → Coordonnées
   function addressToCoords() {
+    AffAlt = true;  // indiquer que l'altitude peut être affichée
     let address = document.getElementById("addressInput").value;
     fetch(`https://nominatim.openstreetmap.org/search?format=json&q=${encodeURIComponent(address)}`)
       .then(res => res.json())
       .then(data => {
         if (data.length > 0) {
-          let lat = parseFloat(data[0].lat);
-          let lon = parseFloat(data[0].lon);
-          marker.setLatLng([lat, lon]);
+          lat = parseFloat(data[0].lat);
+          lon = parseFloat(data[0].lon);
+          let marker = L.marker([lat, lon]).addTo(map);
           map.setView([lat, lon], 15);
           // Afficher les résultats
           document.getElementById("result").style.border = "1px solid rgb(30, 142, 207)";
@@ -157,14 +163,16 @@ table tr { font-size: 1.2em; }
 
   // Récupérer les valeurs saisies en DMS et faire un reverse geocoding
   function dmsToAddress() {
-    let lat = fromDMS(
+    AffAlt = true;  // indiquer que l'altitude peut être affichée
+
+    lat = fromDMS(
       parseFloat(document.getElementById("latDeg").value || 0),
       parseFloat(document.getElementById("latMin").value || 0),
       parseFloat(document.getElementById("latSec").value || 0),
       document.getElementById("latDir").value
     );
 
-    let lon = fromDMS(
+    lon = fromDMS(
       parseFloat(document.getElementById("lonDeg").value || 0),
       parseFloat(document.getElementById("lonMin").value || 0),
       parseFloat(document.getElementById("lonSec").value || 0),
@@ -175,7 +183,7 @@ table tr { font-size: 1.2em; }
           .then(res => res.json())
           .then(data => {
             if (data && data.display_name) {
-              marker.setLatLng([lat, lon]);
+              let marker = L.marker([lat, lon]).addTo(map);
               map.setView([lat, lon], 15);
               // Afficher les résultats
               document.getElementById("result").style.border = "1px solid rgb(30, 142, 207)";
@@ -214,32 +222,22 @@ table tr { font-size: 1.2em; }
 
   // Bouton "Obtenir altitude"
   function getAltitude() {
-    let lat = fromDMS(
-      parseFloat(document.getElementById("latDeg").value || 0),
-      parseFloat(document.getElementById("latMin").value || 0),
-      parseFloat(document.getElementById("latSec").value || 0),
-      document.getElementById("latDir").value
-    );
-
-    let lon = fromDMS(
-      parseFloat(document.getElementById("lonDeg").value || 0),
-      parseFloat(document.getElementById("lonMin").value || 0),
-      parseFloat(document.getElementById("lonSec").value || 0),
-      document.getElementById("lonDir").value
-    );
-
-    fetch(`https://api.open-elevation.com/api/v1/lookup?locations=${lat},${lon}`)
-      .then(res => res.json())
-      .then(data => {
-        if (data && data.results && data.results.length > 0) {
-          let alt = data.results[0].elevation + " m";
-          document.getElementById("result").innerHTML += `<br /><b>Altitude</b> : ${alt}`;
-        } else {
-          document.getElementById("result").innerHTML += `<br /><b>Altitude</b> : Non disponible`;
-        }
-      })
-      .catch(() => {
-        document.getElementById("result").innerHTML += `<br /><b>Altitude</b> : Erreur lors de la récupération`;
-      });
+    let introuvable = document.getElementById("result").innerText == "Adresse introuvable";
+    if (AffAlt && !introuvable) {
+      AffAlt = false;
+      fetch(`https://api.open-elevation.com/api/v1/lookup?locations=${lat},${lon}`)
+        .then(res => res.json())
+        .then(data => {
+          if (data && data.results && data.results.length > 0) {
+            let alt = data.results[0].elevation + " m";
+            document.getElementById("result").innerHTML += `<br /><b>Altitude</b> : ${alt}`;
+          } else {
+            document.getElementById("result").innerHTML += `<br /><b>Altitude</b> : Non disponible`;
+          }
+        })
+        .catch(() => {
+          document.getElementById("result").innerHTML += `<br /><b>Altitude</b> : Erreur lors de la récupération`;
+        });
+    }
   }
 </script>
