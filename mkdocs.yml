@@ -84,7 +84,7 @@ nav:
     - Cours: localisation/cours.md
     - Activité - Plateformes carto.: localisation/src/activite3_plateformes.pdf
     - Activité - Trame NMEA: localisation/src/activite4_NMEA.pdf
-    - Conversion GPS: localisation/convertgps.md
+    - Convertisseur GPS: localisation/convertgps.md
   - Photographie:
     - photographie/index.md
   - Initiation Python:
