@@ -99,15 +99,28 @@ table tr { font-size: 1.2em; }
 <script>
   let map = L.map('map').setView([48.8566, 2.3522], 6); // Paris par défaut
   L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    attribution: '© OpenStreetMap'
+    attribution: '© OpenStreetMap contributors'
   }).addTo(map);
 
   // Initialiser latitude et longitude (contiendra des décimaux)
-  let lat = null;
-  let lon = null;
+  let lat;
+  let lon;
+
+  // Initialiser le marqueur
+  let marker;
 
   // Booléen indiquant si l'altitude peut être affichée
   let AffAlt = false;  // au départ, on ne peut pas l'afficher
+
+  // Ajouter un marqueur
+  function addMarker() {
+    if (marker !== undefined) {
+      marker.setLatLng([lat, lon]);  // Modifier la position du marqueur
+    }
+    else {
+      marker = L.marker([lat, lon]).addTo(map);  // Créer le marqueur
+    }
+  }
 
   // Conversion décimal → DMS
   function toDMS(dec, type) {
@@ -131,7 +144,7 @@ table tr { font-size: 1.2em; }
         if (data.length > 0) {
           lat = parseFloat(data[0].lat);
           lon = parseFloat(data[0].lon);
-          let marker = L.marker([lat, lon]).addTo(map);
+          addMarker()
           map.setView([lat, lon], 15);
           // Afficher les résultats
           document.getElementById("result").style.border = "1px solid rgb(30, 142, 207)";
@@ -183,7 +196,7 @@ table tr { font-size: 1.2em; }
           .then(res => res.json())
           .then(data => {
             if (data && data.display_name) {
-              let marker = L.marker([lat, lon]).addTo(map);
+              addMarker()
               map.setView([lat, lon], 15);
               // Afficher les résultats
               document.getElementById("result").style.border = "1px solid rgb(30, 142, 207)";
@@ -222,7 +235,7 @@ table tr { font-size: 1.2em; }
 
   // Bouton "Obtenir altitude"
   function getAltitude() {
-    let introuvable = document.getElementById("result").innerText == "Adresse introuvable";
+    let introuvable = document.getElementById("result").innerText === "Adresse introuvable";
     if (AffAlt && !introuvable) {
       AffAlt = false;
       fetch(`https://api.open-elevation.com/api/v1/lookup?locations=${lat},${lon}`)
