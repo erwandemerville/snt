@@ -1958,21 +1958,6 @@
 </li>
 </ol>
 </div>
-<details class="tip">
-<summary>Réponse exercice 1</summary>
-<ol>
-<li>
-<p>Chaîne de <strong>4 arêtes</strong> : <em>B-A-D-F-E</em>, ou encore <em>B-A-C-E-F</em>...<br>
-Chaîne de <strong>5 arêtes</strong> : <em>F-E-C-A-B-D</em>, ou encore <em>B-D-F-E-C-A</em>...</p>
-</li>
-<li>
-<p>La <strong>distance</strong> entre <strong>C</strong> et <strong>B</strong> est de <strong>2 arêtes</strong> (c'est le plus petit nombre d'arêtes qui les sépare), et la <strong>distance</strong> entre <strong>B</strong> et <strong>E</strong> est également de <strong>2 arêtes</strong>.</p>
-</li>
-<li>
-<p>L'<strong>écartement</strong> de <strong>D</strong> est de <strong>1</strong> (car sa distance avec tous les autres sommets est de <strong>1</strong>), et l'écartement de <strong>E</strong> est de <strong>2</strong>.</p>
-</li>
-</ol>
-</details>
 <div class="admonition note">
 <p class="admonition-title">Exercice 2</p>
 <p>Construire un <strong>graphe</strong> d’un <strong>réseau social</strong> à partir des informations suivantes :</p>
@@ -1986,44 +1971,12 @@ Chaîne de <strong>5 arêtes</strong> : <em>F-E-C-A-B-D</em>, ou encore <em>B-D-
 </ul>
 <p>(Vous pouvez utiliser des <strong>lettres</strong> de <strong>A</strong> à <strong>F</strong> si vous préférez.)</p>
 </div>
-<details class="tip">
-<summary>Réponse exercice 2</summary>
-<p>Voici le graphe obtenu (on peut le représenter différemment, tant qu'il contient les mêmes sommets et les mêmes arêtes) :</p>
-<p><img alt="Graphe de l'exercice 2" src="../images/exo2_graphe.png" width="300"></p>
-<p>Ce graphe contient :</p>
-<ul>
-<li><strong>6 sommets</strong></li>
-<li><strong>8 arêtes</strong></li>
-<li><strong>Centres</strong> du graphe : 'Albert', 'Bryan', 'Edouard', 'Charlotte', 'Flavien' et  'Daniel' sont <strong>tous des centres</strong>, car ils ont <strong>tous le même écartement</strong> (qui est de <em>2</em>).</li>
-<li><strong>Diamètre</strong> du graphe : <strong>2</strong> (car la <strong>distance maximale</strong> entre deux <strong>sommets</strong> est de <strong>2</strong>)</li>
-</ul>
-</details>
 <div class="admonition note">
 <p class="admonition-title">Exercice 3</p>
 <p>Déterminer <strong>le</strong> (ou <strong>les</strong>) <strong>centre(s)</strong> du <strong>graphe ci-dessous</strong>.<br>
 En déduire son <strong>rayon</strong> et son <strong>diamètre</strong>.</p>
 <p><img alt="Modélisation d'un graphe" src="../images/exercice3_graphe.png"></p>
 </div>
-<details class="tip">
-<summary>Réponse exercice 3</summary>
-<p><u><strong>Centres du graphe</strong></u></p>
-<p>Pour déterminer le <strong>centre du graphe</strong>, regardons d'abord l'<strong>écartement de chaque sommet</strong> :</p>
-<ul>
-<li><strong>A</strong> a un écartement de <em>3</em>,</li>
-<li><strong>B</strong> a un écartement de <em>3</em>,</li>
-<li><strong>C</strong> a un écartement de <em>2</em>,</li>
-<li><strong>D</strong> a un écartement de <em>2</em>,</li>
-<li><strong>E</strong> a un écartement de <em>3</em>,</li>
-<li><strong>F</strong> a un écartement de <em>2</em>,</li>
-<li><strong>G</strong> a un écartement de <em>3</em>.</li>
-</ul>
-<p>Les <strong>centres du graphe</strong> sont les <strong>sommets d'écartement minimal</strong>. Ici, les <strong>trois sommets</strong> ayant l'<strong>écartement le plus petit</strong> (qui est de <em>2</em>) sont : <em>C</em>, <em>D</em> et <strong>F</strong>.</p>
-<p><u><strong>Rayon</strong></u> :</p>
-<p>Le <strong>rayon</strong> est l'<strong>écartement d'un centre du graphe</strong>.<br>
-Les <strong>centres</strong> de ce graphe ont pour écartement <strong>2</strong>, donc le <strong>rayon</strong> est de <strong>2</strong>.</p>
-<p><u><strong>Diamètre</strong></u> :</p>
-<p>Le <strong>diamètre</strong> est la <strong>distance maximale</strong> entre <strong>deux sommets</strong> du graphe. Ici, les sommets les plus éloignés entre eux ont une <strong>distance</strong> de <strong>3</strong>, donc le diamètre est de <strong>3</strong>.</p>
-</details>
 <p>Un <strong>tableau d'adjacence</strong> est un <strong>tableau à double entrée</strong> où chaque case contient <strong>1</strong> si les sommets sont <strong>liés par une arête</strong>, et <strong>0</strong> sinon.</p>
 <p><u><strong>Exemple</strong></u> :</p>
 <figure>
@@ -2177,98 +2130,6 @@ b. Complétez le tableau d'adjacence de ce graphe :</p>
 </table>
 <p>c. Déterminer le <strong>diamètre</strong> et <strong>le(s) centre(s)</strong> du <strong>graphe</strong>.</p>
 </div>
-<details class="tip">
-<summary>Réponse exercice 4</summary>
-<p>a. Il y a <strong>8 arêtes</strong> et <strong>7 sommets</strong> dans ce graphe.</p>
-<p>b. Voici le <strong>tableau d'adjacence</strong> obtenu :</p>
-<table>
-<thead>
-<tr>
-<th><u>Adjacence</u></th>
-<th>Anna</th>
-<th>Charles</th>
-<th>Elliot</th>
-<th>Louise</th>
-<th>Mathilde</th>
-<th>Marc</th>
-<th>Tatiana</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>Anna</strong></td>
-<td>0</td>
-<td>1</td>
-<td>0</td>
-<td>0</td>
-<td>0</td>
-<td>0</td>
-<td>0</td>
-</tr>
-<tr>
-<td><strong>Charles</strong></td>
-<td>1</td>
-<td>0</td>
-<td>0</td>
-<td>0</td>
-<td>1</td>
-<td>0</td>
-<td>0</td>
-</tr>
-<tr>
-<td><strong>Elliot</strong></td>
-<td>0</td>
-<td>0</td>
-<td>0</td>
-<td>1</td>
-<td>1</td>
-<td>1</td>
-<td>1</td>
-</tr>
-<tr>
-<td><strong>Louise</strong></td>
-<td>0</td>
-<td>0</td>
-<td>1</td>
-<td>0</td>
-<td>0</td>
-<td>0</td>
-<td>0</td>
-</tr>
-<tr>
-<td><strong>Mathilde</strong></td>
-<td>0</td>
-<td>1</td>
-<td>1</td>
-<td>0</td>
-<td>0</td>
-<td>0</td>
-<td>1</td>
-</tr>
-<tr>
-<td><strong>Marc</strong></td>
-<td>0</td>
-<td>0</td>
-<td>1</td>
-<td>0</td>
-<td>0</td>
-<td>0</td>
-<td>1</td>
-</tr>
-<tr>
-<td><strong>Tatiana</strong></td>
-<td>0</td>
-<td>0</td>
-<td>1</td>
-<td>0</td>
-<td>1</td>
-<td>1</td>
-<td>0</td>
-</tr>
-</tbody>
-</table>
-<p>c. La <strong>distance maximale</strong> entre <strong>2 sommets</strong> est de <strong>4 arêtes</strong> : Donc le <strong>diamètre</strong> est de <strong>4</strong>.</p>
-</details>
 <h2 id="video-comment-sommes-nous-connectes">Vidéo - Comment sommes nous connectés ?<a class="headerlink" href="#video-comment-sommes-nous-connectes" title="Permanent link">¶</a></h2>
 <div class="admonition info">
 <p class="admonition-title">À faire</p>
