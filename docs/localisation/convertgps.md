@@ -4,9 +4,9 @@ hide:
   - toc
 ---
 
-# Convertisseur Adresse ↔ Coordonnées GPS
+# Convertisseur adresse ↔ coordonnées GPS
 
-Utilisez cet outil pour trouver des **coordonnées GPS** à partir d'une **addresse** ou inversement, pour **localiser un lieu** ou encore pour **déterminer une altitude**.
+Utilisez cet outil pour trouver des **coordonnées GPS** à partir d'une **adresse** ou inversement, pour **localiser un lieu** ou encore pour **déterminer une altitude**.
 
 <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css"/>
 <style>
