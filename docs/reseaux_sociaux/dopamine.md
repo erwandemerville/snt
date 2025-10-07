@@ -3,19 +3,16 @@
 Voici quelques vidéos de l'émission *Dopamine* proposée par la chaîne de télévision **Arte**.
 
 !!! note "Travail à faire"
-    Selon le **réseau social** qui vous a été affecté (voir le *pdf* des répartitions sur Pronote pour les *2nde9* et *2nde 10 groupe 2*), visionnez la vidéo appropriée ci-dessous et rédigez un **paragraphe détaillé** sur les **fonctionnalités** du réseau ainsi que les **stratégies utilisées** pour pousser les utilisateurs à ne pas en décrocher.
-    
-    Pour réaliser votre travail, vous avez **deux solutions**.  
-    Sur l'application **Éléa**, rendez-vous dans la section "Rendus des travaux", puis cliquez sur "Devoir - Stratégies des réseaux sociaux", puis sur "Ajouter un travail" :
-    
-    - vous pouvez directement **rédiger votre paragraphe** dans la partie **Texte en ligne**,
-    - ou vous pouvez rédiger votre paragraphe dans un document à part (par exemple un document *Word*) et déposer votre fichier dans **Remises de fichiers**.
+    Selon le **réseau social** qui vous a été affecté (voir le ==***pdf* des répartitions**== sur ***Pronote***), **visionnez la vidéo** appropriée ci-dessous et **rédigez** :
 
-    Ensuite, cliquez sur "Enregistrer" pour sauvegarder votre travail (vous pourrez toujours le modifier après enregistrement si besoin).
+    - un **paragraphe détaillé** sur les **fonctionnalités** du réseau social,
+    - un **paragraphe détaillé** sur les **stratégies utilisées** pour maintenir l'attention et l'engagement des utilisateurs.
+    
+    Vous réaliserez ce travail **sur feuille**, il fera l'objet d'une note.
 
 ## Facebook
 
-Cliquez sur ++"Regarder sur YouTube"++.
+Cliquez sur ++"Regarder sur YouTube"++ pour accéder à la vidéo.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Tyli4ALfbl8?si=bul98KycMlTymiUH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 

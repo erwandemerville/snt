@@ -1,2 +1,33 @@
 intro_info:
-  binaire: false
+  binaire: true
+
+reseaux_sociaux:
+  modelisation:
+    exo1: false
+    exo2: false
+    exo3: false
+    exo4: false
+    exo5: false
+  modele_economique:
+    exo1: false
+    exo2: false
+    exo3: false
+    exo4: false
+    exo5: false
+    exo6: false
+    exo7: false
+    exo8: false
+    exo9: false
+    exo10: false
+  cyberharcelement:
+    exo1: false
+    exo2: false
+    exo3: false
+    exo4: false
+    exo5: false
+    exo6: false
+    exo7: false
+    exo8: false
+    exo9: false
+    exo10: false
+    exo11: false
