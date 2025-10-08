@@ -31,3 +31,6 @@ reseaux_sociaux:
     exo9: false
     exo10: false
     exo11: false
+
+initiation_python:
+  toc: false  # afficher ou masquer une partie de la liste des contenus

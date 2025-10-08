@@ -11,9 +11,6 @@
 
 ## Exercices
 
-!!! info "Activité notée"
-    Cette activité sera **notée** sur **10 points**. Répondez aux questions ci-dessous **sur une feuille** que vous me rendrez. N'oubliez pas de mettre votre nom, votre prénom et votre classe !
-
 Voici un graphe illustrant un réseau social ayant 6 abonnés (A, B, C, D, E et F) tel que :
 
 - A est ami avec B, C et D
@@ -180,10 +177,6 @@ Un **tableau d'adjacence** est un **tableau à double entrée** où chaque case 
 
 ## Vidéo - Comment sommes nous connectés ?
 
-!!! info "À faire"
-    Pour répondre aux questions suivantes, rendez-vous sur l'application **Éléa**.  
-    Dans la partie "Les réseaux sociaux", ouvrez le **test** nommé "Vidéo - Comment sommes nous connectés". Ce questionnaire sera évalué sur **10 points**.
-
 Visionnez les **12 premières minutes** de la vidéo suivante :
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/UX7YQ6m2r_o?si=guf7l6LRxA4yEOqH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -245,8 +238,6 @@ Visionnez les **12 premières minutes** de la vidéo suivante :
 ---
 
 ## Aller plus loin avec Python
-
-(Cette partie ne compte pas dans les exercices notés.)
 
 !!! success "À télécharger"
     Télécharger le fichier suivant : [graphe.py](src/graphes.py){ target="_blank" }
