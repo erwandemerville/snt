@@ -3,10 +3,10 @@ intro_info:
 
 reseaux_sociaux:
   modelisation:
-    exo1: false
-    exo2: false
-    exo3: false
-    exo4: false
+    exo1: true
+    exo2: true
+    exo3: true
+    exo4: true
     exo5: false
   modele_economique:
     exo1: false

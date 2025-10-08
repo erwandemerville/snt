@@ -5,14 +5,14 @@
 # Modèle économique des réseaux sociaux
 
 !!! info "À faire"
-    Pour répondre aux questions suivantes, rendez-vous sur l'application **Éléa**.  
-    Dans la partie "Les réseaux sociaux", ouvrez le **test** nommé "Activité - Modèle économique des réseaux sociaux". Cette activité fera l'objet d'une note avec un petit coefficient.
+    Répondre aux questions suivantes **sur une feuille** que vous rendrez en classe.  
+    Le travail fera l'objet d'une note.
 
-**Visionnez** cette petite **vidéo** sur le fonctionnement économique des réseaux sociaux :
+**Visionner** cette petite **vidéo** sur le fonctionnement économique des réseaux sociaux :
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/MXwKr5wGFwU?si=gH9gL02tp2GxX-Pv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-En vous basant sur la vidéo, répondez aux deux questions qui suivent.
+En vous basant sur la vidéo, répondre aux *deux questions* qui suivent.
 
 !!! note "Question 1"
     Expliquer le proverbe suivant : « Si c'est gratuit, c'est que vous êtes le produit ». 
@@ -39,7 +39,7 @@ En vous basant sur la vidéo, répondez aux deux questions qui suivent.
 
 ---
 
-Lisez [ce document](pdf/interfaces_politiques_confidentialite.pdf){ target="_blank" } présentant les **interfaces** et des extraits des **politiques de confidentialité** de quelques réseaux sociaux, puis **répondez** aux deux questions suivantes.
+Lire [ce document](pdf/interfaces_politiques_confidentialite.pdf){ target="_blank" } présentant les **interfaces** et des extraits des **politiques de confidentialité** de quelques réseaux sociaux, puis **répondre** aux *deux questions* suivantes.
 
 !!! note "Question 3"
     Quelles sont les **informations obligatoire** demandées lors de l'inscription aux réseaux sociaux ?
@@ -66,7 +66,7 @@ Lisez [ce document](pdf/interfaces_politiques_confidentialite.pdf){ target="_bla
 
 ---
 
-Voici [un document](pdf/ressource_modele_economique.pdf){ target="_blank" } présentant plusieurs **ressources** sur le modèle économique des réseaux sociaux. **Répondez** aux questions suivantes.
+Voici [un document](pdf/ressource_modele_economique.pdf){ target="_blank" } présentant plusieurs **ressources** sur le modèle économique des réseaux sociaux. **Répondre** aux *cinq questions* suivantes.
 
 !!! note "Question 5"
     Quelles sont les **sources de revenus** des différents réseaux sociaux ? (Doc. 2 et 3)
@@ -115,7 +115,7 @@ Voici [un document](pdf/ressource_modele_economique.pdf){ target="_blank" } pré
 ---
 
 !!! note "Question 10"
-    Renseignez-vous sur l'[entreprise Acxiom](https://fr.wikipedia.org/wiki/Acxiom){ target="_blank" }. En quoi consiste l'activité de cette entreprise ?
+    Se renseigner sur l'[entreprise Acxiom](https://fr.wikipedia.org/wiki/Acxiom){ target="_blank" }. En quoi consiste l'activité de cette entreprise ?
 
 {% if exercices.reseaux_sociaux.modele_economique.exo10 %}
 ??? tip "Solution question 10"
