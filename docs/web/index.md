@@ -5,6 +5,13 @@
 | Liste des contenus                              | Description                         |
 | ----------------------------------------------- | ----------------------------------- |
 | [Activité - Le web et son histoire](histoire.md) | Histoire et principe du web. |
+| [:fontawesome-solid-file-pdf: Activité - Fonctionnement du web](documents/Web_Activite2.pdf) | Activité sur le fonctionnement du web. |
+| [:fontawesome-solid-file-pdf: Activité - Moteurs de recherche](documents/Web_Activite4.pdf) | Activité sur les moteurs de recherche. |
+
+### Activités sur ordinateur
+
+| Liste des contenus                              | Description                         |
+| ----------------------------------------------- | ----------------------------------- |
 | [:simple-html5: Activités - Les langages HTML et CSS](decouverte_web.md) | Découverte des langages de description *HTML* et *CSS*. |
 | [Sécurité et vie privée sur le web](securite.md) | Activité autour de la securité et de la question de la vie privée sur le web. |
 | [Activité - Les moteurs de recherche](moteurs_recherche.md) | Activité sur les moteurs de recherche. |
@@ -16,9 +23,3 @@
 | Liste des contenus                              | Description                         |
 | ----------------------------------------------- | ----------------------------------- |
 | [Cours - Les langages HTML et CSS](cours_html_css.md) | Résumé des notions de base sur le HTML et le CSS. |
-
-### Interrogation
-
-| Liste des contenus                              | Description                         |
-| ----------------------------------------------- | ----------------------------------- |
-| [Interro - HTML et CSS](interro_html_css.md) | Interrogation sur les langages HTML et le CSS. |

@@ -66,6 +66,8 @@ nav:
     - web/index.md
     - Activités et projet:
       - Activité - Le web et son histoire: web/histoire.md
+      - Activité - Fonctionnement du web: web/documents/Web_Activite2.pdf
+      - Activité - Moteurs de recherche: web/documents/Web_Activite4.pdf
       - Activités - HTML et CSS: web/decouverte_web.md
       - Activité - Sécurité et vie privée: web/securite.md
       - Activité - Moteurs de recherche: web/moteurs_recherche.md
@@ -73,6 +75,10 @@ nav:
       - Sites web d'élèves: web/sites_eleves.md
     - Cours:
       - Cours - HTML et CSS: web/cours_html_css.md
+  - Internet:
+    - internet/index.md
+    - Activité - Les réseaux informatiques: internet/docs/Activite1_Internet.pdf
+    - Activité - L'annuaire d'Internet: internet/docs/Activite4_internet_annuaire.pdf
   - Données structurées:
     - donnees_structurees/index.md
     - Cours: donnees_structurees/cours.md

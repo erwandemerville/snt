@@ -31,6 +31,16 @@ reseaux_sociaux:
     exo9: false
     exo10: false
     exo11: false
+web:
+  histoire:
+    exo1: false
+    exo2: false
+    exo3: false
+    exo4: false
+    exo5: false
+    exo6: false
+    exo7: false
+    exo8: false
 
 initiation_python:
   toc: false  # afficher ou masquer une partie de la liste des contenus

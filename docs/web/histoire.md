@@ -23,45 +23,59 @@ Visionnez la vidéo suivante :
 !!! note "Question 1"
     Définissez ce qu'est **internet**, et quels sont ses **usages**.
 
+{% if exercices.web.histoire.exo1 %}
 !!! tip "Réponse 1"
     **Internet** est un **réseau mondial de communication** qui relie des **millions d'ordinateurs et de réseaux**. Il permet le transfert d'informations sous forme de données, telles que des textes, des images, des vidéos, etc.  
     ==Il faut bien faire la distinction entre **internet**, qui est le **réseau mondial d'ordinateurs connectés**, et le **web** qui est **un des services d'internet**.==
+{% endif %}
 
 !!! note "Question 2"
     Définissez ce qu'est le **web**, et comment **y accède t-on** ?
 
+{% if exercices.web.histoire.exo3 %}
 !!! tip "Réponse 2"
     Le **web** est **un des services d'internet** qui permet aux utilisateurs de consulter des documents multimédias reliés par des liens hypertextes. On y accède à l'aide d'un **navigateur web**, tel que *Chrome*, *Firefox*, ou *Safari*, en saisissant une **adresse web** (*URL*) dans la barre d'adresse.
+{% endif %}
 
 !!! note "Question 3"
     Expliquez le **processus** permettant d'accéder aux données du **web**.
 
+{% if exercices.web.histoire.exo3 %}
 !!! tip "Réponse 3"
     Ce **processus** implique un **client** (le navigateur web) et un **serveur web**. Le **serveur web** est une machine puissante qui stocke et renvoie les **données du site web** au **client**, qui interprète et affiche alors ces données.
+{% endif %}
 
 !!! note "Question 4"
     **Qui** a créé la **première page web**, et **en quelle année** ?
 
+{% if exercices.web.histoire.exo4 %}
 !!! tip "Réponse 4"
     **Tim Berners-Lee** a créé la **première page web** en **1990**.
+{% endif %}
 
 !!! note "Question 5"
     Comment s'appellent les **outils** que l'on utilise pour **rechercher des pages web** ? Citez **2 outils** que vous connaissez pour effectuer des recherche de pages web.
 
+{% if exercices.web.histoire.exo5 %}
 !!! tip "Réponse 5"
     Les outils utilisés pour rechercher des pages web sont les **moteurs de recherche**. Deux exemples sont **Google** et **Bing**.
+{% endif %}
 
 !!! note "Question 6"
     Donnez quelques exemples de services d'**internet** pour lequels le **web** est utilisé ?
 
+{% if exercices.web.histoire.exo6 %}
 !!! tip "Réponse 6"
     Quelques exemples de services d'internet pour lesquels le **web est utilisé** incluent les **réseaux sociaux** tels que **Facebook** et **Twitter**, les **services de messagerie** comme **Gmail**, le **commerce en ligne** avec des sites comme **Amazon**, les **plateformes de streaming** comme **YouTube** et **Netflix**, et les **moteurs de recherche** comme **Google**.
+{% endif %}
 
 !!! note "Question 7"
     Grâce à quoi l'usage du **web** s'est-il **démocratisé** ?
 
+{% if exercices.web.histoire.exo7 %}
 !!! tip "Réponse 7"
     L'usage du web s'est démocratisé grâce à la facilité d'utilisation des navigateurs web, à l'accessibilité croissante à Internet, et à la popularité des services en ligne. L'émergence de technologies conviviales a également contribué à rendre le web plus accessible.
+{% endif %}
 
 !!! note "Question 8"
     Visionnez [cette vidéo](https://www.youtube-nocookie.com/embed/65YpLW7ME64){ target="_blank" } et répondez aux questions suivantes :
@@ -71,11 +85,13 @@ Visionnez la vidéo suivante :
     - De quoi **GAFAM** est-il l'acronyme ? Donner la signification de chacune de ses lettres, vous pouvez consulter [cette page Wikipédia](https://fr.wikipedia.org/wiki/GAFAM){ target="_blank" } pour vous aider.
     - Donnez des exemples de **problèmes** et **problématiques** liés à **internet** (voir la vidéo à partir de *1:20*).
 
+{% if exercices.web.histoire.exo8 %}
 !!! tip "Réponse 8"
     - Le web a été rendu public en **1993**.
     - L'internet mobile grand public a commencé à prendre de l'ampleur au **début des années 2000**
     - **GAFAM** est l'acronyme regroupant **cinq grandes entreprises technologiques américaines** : **Google**, **Apple**, **Facebook**, **Amazon**, **Microsoft**.
     - Certains problèmes et problématiques liés à internet incluent la **sécurité des données**, la **confidentialité en ligne**, la **désinformation**, la **dépendance aux médias sociaux**, la **cybersécurité**, le **piratage informatique**, la **neutralité du net**, et les **questions éthiques** liées à l'**utilisation des données personnelles**.
+{% endif %}
 
 !!! tip "Différence entre **page web** et **serveur web**"
     Il faut bien faire la différence entre un **site web** et un **serveur web** :
@@ -89,7 +105,5 @@ Visionnez la vidéo suivante :
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/xo7iR2ipY1Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-Voici également un [document PDF](documents/dates.pdf) contenant un tableau regroupant différents évènements autour de l'histoire du web.
-
-!!! tip "Frise chronologique"
-    Vous trouverez une **frise chronologique** complète sur l'application "Frise chronologique" de votre *ENT*.
+!!! note "Exercice - Tableau des évènements"
+    Voici un [document PDF](documents/dates_trous.pdf) contenant un tableau regroupant différents évènements autour de l'histoire du web. **Complétez les trous** de ce tableau.
