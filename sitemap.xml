@@ -71,6 +71,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://snt.erwandemerville.fr/internet/activite_reseaux/</loc>
+         <lastmod>2025-12-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://snt.erwandemerville.fr/internet/dns/</loc>
          <lastmod>2025-12-06</lastmod>
          <changefreq>daily</changefreq>
